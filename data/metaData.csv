@@ -1,0 +1,16 @@
+Attribute (column header),Description of attribute
+ID,Manusript identifier
+Title,Title of published manuscript
+Authors,Authors of manuscript
+Source Title,Journal manuscript is published year
+Publication Year,Year that the manuscript was published
+Volume,Journal volume of manuscript
+Issue,Journal issue of manuscript
+Beginning Page,First page in journal that the manuscript is published
+Ending Page,Last page in journal that the manuscript is published
+DOI,Digital objective identifier associated with manuscript
+Total Citations,Total number of citations associated with publication as of October 2018
+exclude,Whether the paper was excluded from the database
+reason.simplified,"A simplified reason why the study may have been excluded, such as missing chlorophyll data or lake was manipulated"
+contacted,Whether the author was contacted to provide the data
+data,Yes/No if the data was included in the database. 

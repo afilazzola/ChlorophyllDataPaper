@@ -1,0 +1,348 @@
+---
+title:
+author: "Alessandro filazzola"
+date: "2018"
+output:
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+<br>  
+
+### A global database for chlorophyll and water chemistry in freshwater lakes 
+
+[Alessandro Filazzola](http://www.filazzola.info/), Carolyn Ewins, Octavia Mahdiyan, Arnab Shuvo, Tanzil Sadid, Luke Moslenko, & [Sapna Sharma](https://sharmalab.wordpress.com/)
+
+Part of the York University [Aquatic Research Group](http://www.yorkaquaticresearch.ca/)
+
+![](./lake.jpg)
+<br> 
+
+### Abstract
+
+Measures of chlorophyll represent the primary productivity in freshwater lakes that is often used by managers as proxy for water quality. However, the abundance of chlorophyll in lakes is dependent on many interacting factors such as spatial heterogeneity (within and among lakes), climate, and anthropogenic disturbance. Aquatic research examining water chemistry frequently include measures of chlorophyll values and this data is readily available in published manuscripts or online repositories. Thus, there is an opportunity to synthesize a global database on the water chemistry of lakes with focus on chlorophyll. The purpose of this project is to generate a database of freshwater lakes across the globe and through time. We intend to conduct a systematic review examining over 4000 published manuscripts that examined lake chlorophyll and supplement this data with online repositories such as KnB, Dryad, and Pangaea. Using the geospatial coordinates of the lakes we can relate measures of chlorophyll to climate patterns, anthropogenic disturbances, and other changes over time. This database will be used by researchers to improve our understanding of how chlorophyll responds to global change and assist aquatic managers responsible for maintaining water quality in lakes. 
+
+### Literature Review - 1. Search
+
+A systematic literature search was conducted using Web of Science for all articles between 2000 and 2018. This time frame was chosen because it captures the majority of the literature that measured chlorophyll values. Papers were excluded that were not primary articles and were not relevant (e.g. virology, sociology, physics, etc)
+
+Data was be extracted from papers or supplemental materials. Authors will be contacted for their available data if not available online. Additional datasets will be obtained used online repostiories (e.g. Dryad, KnB, Github) and more general searches online. 
+
+`chlorophyll`
+**AND** 
+`lake*`
+
+These terms have returned 4131 results (as of Sept 2018) 
+
+### 
+
+
+
+
+### Spatial Analyses of Chl
+```{r}
+## Calculate summaries for lakes
+lakes <- chl %>% group_by(DataType, LakeName, Lat, Lon, Elevation) %>% summarize(chl=mean(ChlValues, na.rm=T),d.mean=mean(Depth.mean, na.rm=T),d.max=mean(Depth.max, na.rm=T),ph=mean(pH,na.rm=T)) 
+
+## categorize the lake level of chl
+lakes.troph <- lakes %>% mutate(Chl.ug = chl*1000) %>%   mutate(trophic=cut(Chl.ug, breaks=c(-Inf, 7, 9, 26, 75, Inf),                                        labels=c("Oligotrophic","Oligo-mesotrophic","Mesotrophic","Eutrophic","Hyper-eutrophic")))
+                                        
+
+## plot out global distribution of lake chl
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
+mp <- ggplot() +   mapWorld
+
+mp <- mp+ geom_point(data=lakes.troph , aes(x=Lon, y=Lat, color=trophic), size=2, alpha=0.3) + scale_color_brewer() +
+    theme(legend.position="right", text = element_text(size=10))
+mp
+                                    
+```                                                                                 
+                                                
+
+### Summary statistics of dataset
+```{r warning=FALSE, message=FALSE}
+## Unique Lake IDs
+data[,"uniquelake"] <- paste0(data$Lat, data$Lon, sep=";")
+data2 <-data 
+data2 <- data2[!duplicated(data2$uniquelake),]
+
+## number of unique lakes
+nrow(data2)
+
+## Number of Countries surveyed
+library(maps)
+data[,"CountryOfficial"] <- map.where(database="world", data$Lon, data$Lat)
+## separate subcountry identifiers
+country <- gsub("?:.*", "", data$CountryOfficial)
+length(unique(country))
+
+## How many lakes are in Canada, and the USA? 
+length(unique(data[data$CountryOfficial=="Canada","uniquelake"])) ## Canada
+length(unique(data[data$CountryOfficial=="USA","uniquelake"])) ## USA
+
+
+## How many are modelled vs. how many are surveyed? 
+datatest <- data %>% group_by(DataType, LakeName) %>% summarize(length(LakeName))
+summary(datatest$DataType)
+
+## How many lakes are sampled over multiple years (>5)? 
+freq.study <- data %>% group_by(StudyID, LakeName) %>% summarize(years=length(unique(Year))) %>%  data.frame(.)
+freq.5 <- subset(freq.study, years>4)
+length(unique(freq.5$LakeName))
+
+## What other variables are available in the data?
+
+
+##  How many continents, countries, and lakes are there data for?
+length(unique(data$LakeCountry)) ## unique Countries
+length(unique(data$LakeName)) ## unique lakes
+
+data[,"mincountry"] <- country
+test <- data %>% filter(mincountry == "Canada") %>% summarize(n=length(unique(uniquelake)))
+
+```
+
+### Summary datasets
+```{r}
+data <- read.csv("data//master.database.csv")
+data[,"uniquelake"] <- paste0(data$Lat, data$Lon, sep=";")
+
+
+studies <- data %>% filter(!is.na(ChlValues   ) & ChlValues    != "") %>% summarize( studies=length(unique(StudyID)),lakes=length(unique(uniquelake)), years=length(unique(Year)))
+studies
+
+## add water quality database
+waterqual[,"uniquelake"] <- paste0(waterqual$Lat, waterqual$Lon, sep=";")
+test <- waterqual[!duplicated(waterqual$uniquelake),]
+
+chl.lakes <- c(data$uniquelake, waterqual$uniquelake)
+
+
+```
+
+### USA Water Quality Database
+```{r}
+waterqual <- read.csv("data//waterquality.database.csv")
+
+waterqual[,"uniquelake"] <- paste0(waterqual$Lat, waterqual$Lon, sep=";")
+test <- waterqual[!duplicated(waterqual$uniquelake),]
+
+mp1 <- mp+ geom_point(data=test , aes(x=Lon, y=Lat), size=1, alpha=0.8) + scale_color_manual(values=c("#E69F00", "#56B4E9")) +  
+  scale_x_continuous(breaks=seq(-180,180,60)) + 
+    theme(legend.position="bottom", text = element_text(size=20)) + xlab("Longitude") + ylab("Latitude")+ ylab("Latitude")+ guides(colour = guide_legend(override.aes = list(size=5)))
+mp1
+
+
+data <- read.csv("data//master.database.csv")
+data <- data %>% filter(ChlMeasure == "Avg" | ChlMeasure =="median")
+
+## include map with other data
+gps.lakes <- rbind(data[,c("Lon","Lat","DataType")],waterqual[,c("Lon","Lat","DataType")])
+
+
+require(ggmap)
+###  Start with base map of world
+mp <- NULL
+mapWorld <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
+mp <- ggplot() +   mapWorld
+
+
+## plot points on top
+mp1 <- mp+ geom_point(data=gps.lakes , aes(x=Lon, y=Lat, color=DataType), size=1, alpha=0.8) + scale_color_manual(values=c("#E69F00", "#56B4E9")) +  
+  scale_x_continuous(breaks=seq(-180,180,60)) + 
+    theme(legend.position="bottom", text = element_text(size=20)) + xlab("Longitude") + ylab("Latitude")+ ylab("Latitude")+ guides(colour = guide_legend(override.aes = list(size=5)))
+mp1
+
+
+## separation of data types
+gps.lakes[,"uniquelake"] <- paste0(gps.lakes$Lon,gps.lakes$Lat)
+data.type <- unique( gps.lakes[ , c("DataType","uniquelake")] )
+summary(data.type$DataType)
+
+```
+
+### Trends in Lake Shapes
+```{r}
+data2 <- data
+data2 <- data2[!duplicated(data2)]
+
+
+volz <- data2 %>%  summarize(vol = mean(LakeVolume, na.rm=T))
+volz
+
+## convert units of Surface area
+data2[data2$SurfaceArea.units=="km3","SurfaceArea.units"] <- "km2"
+
+data2[data2$SurfaceArea.units=="km2","SurfaceArea.value"] <- data2[data2$SurfaceArea.units=="km2","SurfaceArea.value"] *100
+data2[data2$SurfaceArea.units=="km2","SurfaceArea.units"] <- "ha"
+data2[data2$SurfaceArea.units=="m2","SurfaceArea.value"] <- data2[data2$SurfaceArea.units=="m2","SurfaceArea.value"] / 10000
+data2[data2$SurfaceArea.units=="m2","SurfaceArea.units"] <- "ha"
+
+area <- data2 %>%  summarize(area = mean(SurfaceArea.value, na.rm=T))
+area
+
+## mean depth, max depth, and pH
+mean(data2$Depth.max, na.rm=T)
+mean(data2$Depth.mean, na.rm=T)
+mean(data2$pH, na.rm=T)
+```
+
+
+### Get Climate Data
+```{r}
+## Asign spatial points dataframe
+library(raster)
+library(rgdal) ## optional
+
+## Chlorophyll Data
+chlall 
+
+## Create spatial points dataframe
+gps <- chlall ## assign data to separate dataframe
+coordinates(gps) <- ~Lon+Lat ## define lat and lon
+crs.world <-CRS("+proj=longlat +datum=WGS84") ## define CRS
+proj4string(gps) <- crs.world ## assign CRS to coordinates
+
+## Load Raster data
+## download from https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.02/cruts.1811131722.v4.02/
+
+
+
+occurdat<-list.files("E:\\worldclim2\\prec",pattern=".tif$",full=T)
+
+## precip
+prec.all <- stack()
+for(i in 1:length(occurdat)){
+  temp <- raster(occurdat[i])
+  prec.all <- stack(prec.all, temp)
+}  
+
+## Parallize mean calculation across months
+ncores <- 4 # define the number of cores you want to use
+beginCluster(ncores)
+prec.vals <- extract(prec.all, gps)
+endCluster()
+
+climate <- data.frame(prec.vals)
+
+
+## temp
+occurdat<-list.files("E:\\worldclim2\\temp",pattern=".tif$",full=T)
+
+temp.all <- stack()
+for(i in 1:length(occurdat)){
+  temp <- raster(occurdat[i])
+  temp.all <- stack(temp.all, temp)
+}  
+
+
+## Parallize mean calculation across months
+ncores <- 4 # define the number of cores you want to use
+beginCluster(ncores)
+temp.vals <- extract(temp.all, gps)
+endCluster()
+
+climate <- cbind(climate, data.frame(temp.vals))
+
+
+## solar rad
+occurdat<-list.files("E:\\worldclim2\\srad",pattern=".tif$",full=T)
+
+srad.all <- stack()
+for(i in 1:length(occurdat)){
+  temp <- raster(occurdat[i])
+  srad.all <- stack(srad.all, temp)
+}  
+
+## Parallize mean calculation across months
+ncores <- 4 # define the number of cores you want to use
+beginCluster(ncores)
+srad.vals <- extract(srad.all, gps)
+endCluster()
+
+climate <- cbind(climate, data.frame(srad.vals))
+
+
+chlall[,"prec"] <- prec.vals
+chlall[,"temp"] <- temp.vals
+chlall[,"lake"] <- paste0(chlall$Lat,chlall$Lon)
+
+## identify tropic zone
+chlall[,"tropics"] <- ifelse(chlall$Lat > 66.5, "Arctic/Antarctic",
+                             ifelse(chlall$Lat > 35, "Temperate", 
+                             ifelse(chlall$Lat > 23.5, "Subtropics",
+                             ifelse(chlall$Lat > -23.5, "Tropics",
+                             ifelse(chlall$Lat > -35, "Subtropics",
+                             ifelse(chlall$Lat > -66.5, "Temperate","Arctic/Antarctic"))))))
+                             
+## combine with phsohprous and nitrogen data
+chlall[,"uniquesiteyear"] <- paste0(chlall$Year, chlall$Lat, chlall$Lon)
+newdata[,"uniquesiteyear"] <- paste0(newdata$Year, newdata$Lat, newdata$Lon)
+data.simple <- newdata[,c("uniquesiteyear","TN.value","TP.value")]
+
+chl.chem <- merge(cbind(chlall,climate), ## combine all the climate data
+                  data.simple, by=c("uniquesiteyear"), all.x = T) ## combine all the chem data
+
+write.csv(chl.chem[1:50000,], "chl.climate.chem1.csv", row.names = F)
+write.csv(chl.chem[50001:100000,], "chl.climate.chem2.csv", row.names = F)
+write.csv(chl.chem[100001:nrow(chl.chem),], "chl.climate.chem3.csv", row.names = F)
+
+
+chl.avg <- chlall %>% group_by(lake, tropics) %>%  summarize(prec=mean(prec), temp=mean(temp), ChlValues=mean(ChlValues))
+
+## Temperate Lakes
+
+plot1 <- ggplot(chl.avg %>%  filter(ChlValues > 0.00001 & tropics =="Temperate"), aes(x=temp, y=log(ChlValues))) + geom_point() + geom_smooth(method="lm",se=FALSE, formula=y ~ I(x^2), lwd=2) + xlab("Average Annual Temperature (°C)") + ylab("Log Transformed Chlorophyll a (mg/L)")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) 
+
+plot2 <- ggplot(chl.avg %>%  filter(ChlValues > 0.00001 & tropics =="Temperate"), aes(x=prec, y=log(ChlValues))) + geom_point() + geom_smooth(method="lm",se=FALSE, formula= y ~ I(x^2), lwd=2) + xlab("Annual Precipitation (mm)") + ylab("")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) 
+
+m1 <- lm(log(ChlValues) ~  I(temp^2) * I(prec^2), data = subset(chlall, ChlValues > 0.00001 & tropics =="Temperate"))
+summary(m1)
+
+
+
+library(gridExtra)
+grid.arrange(plot1,plot2, ncol=2)
+
+
+
+
+ggplot(chl.avg %>%  filter(ChlValues > 0.00001 & tropics =="Arctic/Antarctic"), aes(x=temp, y=log(ChlValues))) + geom_point() + geom_smooth(method="lm",se=FALSE, formula=y ~ I(x^2), lwd=2) + xlab("Average Annual Temperature (°C)") + ylab("Log Transformed Chlorophyll a (mg/L)")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) 
+
+```
+
+### Compare against variables
+```{r}
+
+## load new data
+source("unitconvert.r")
+
+newdata %>%  filter(!is.na(TP.units)) %>% summarize(x=cor(ChlValues,TP.value, use="complete.obs", "spearman"))
+
+newdata %>%  filter(!is.na(TN.value)) %>% summarize(x=cor(ChlValues, TN.value, use="complete.obs", "spearman"))
+
+newdata %>%  filter(!is.na(NO3NO2.value)) %>% summarize(x=cor(ChlValues, NO3NO2.value, use="complete.obs", "spearman"))
+
+newdata %>%  filter(!is.na(NH3.value )) %>% summarize(x=cor(ChlValues, NH3.value , use="complete.obs", "spearman"))
+
+newdata %>%  filter(!is.na(PO4.value)) %>% summarize(x=cor(ChlValues, PO4.value, use="complete.obs", "spearman"))
+
+newdata %>%  filter(!is.na(DO.value)) %>% summarize(x=cor(ChlValues, DO.value, use="complete.obs", "spearman"))
+
+
+## lake characteristics
+cor(data2$LakeVolume, data2$ChlValues, use="complete.obs", "spearman") ## volume
+cor(data2$SurfaceArea.value, data2$ChlValues, use="complete.obs", "spearman") ## surface area
+cor(data2$Depth.mean, data2$ChlValues, use="complete.obs", "spearman") ## mean depth
+cor(data2$Depth.max, data2$ChlValues, use="complete.obs", "spearman") ## max depth
+cor(data2$Secchi, data2$ChlValues, use="complete.obs", "spearman") ## secchi
+cor(data2$pH, data2$ChlValues, use="complete.obs", "spearman") ## surface area
+

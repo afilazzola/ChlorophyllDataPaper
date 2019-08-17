@@ -1,0 +1,296 @@
+StudyID,PI,Layer,Method,Filtered,Notes
+1,AS,undescribed,spectrophotometer,yes,ethanol extraction
+2,OM,integrated water sample,undescribed,,
+12,OM,integrated water sample,spectrophotometer,,high performance liquid chromatography
+13,AF,0.2 m,radiometer,,
+14,AF,surface water sample ,spectrophotometer,yes,ethanol extraction
+19,AS,surface water sample ,ysi sensors,undescribed,undescribed
+20,AS,undescribed,spectrophotometer,yes,acetone extraction
+22,AS,surface water sample ,undescribed,yes,ethanol extraction
+26,AF,Not described,Not described,,
+29,OM,integrated water sample,fluorometer,,
+33,AS,5-7m,spectrophotometer,yes,undescribed
+42,AS,surface water sample ,calibrated electrodes - multiparameter meter,undescribed,
+53,AF,integrated water sample,spectrophotometer,,
+54,AS,subsurface water sample,Nusch method ,yes,ethanol extraction
+55,AF,Not described,fluorometer,,YSI water quality probe
+56,AS,undescribed,multiparameter probe,undescribed,undescribed
+59,AS,surface water sample ,undescribed,undescribed,undescribed
+65,AS,undescribed,modelled,undescribed,undescribed
+70,AS,surface water sample ,spectrophotometer,yes,ethanol extraction
+72,AS,integrated water sample,spectrophotometer,yes,acetone extraction
+74,AF,integrated water sample,fluorometer,yes,YSI water quality probe
+78,AF,Not described,modelled,,Satellite downscaled
+79,OM,1-3m,undescribed,,
+82,OM,undescribed,modelled,,
+89,AS,undescribed,modelled,undescribed,modelled
+93,AS,undescribed,modelled,undescribed,modelled
+104,AF,surface water sample ,spectrophotometer,yes,
+108,OM,surface water sample ,undescribed,,
+116,AF,Not described,spectrophotometer,yes,acetone extraction
+118,AS,undescribed,multiparameter probe,undescribed,undescribed
+119,AS,undescribed,modelled,undescribed,satellite 
+120,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+122,AS,undescribed,trichromatic method,yes,acetone extraction
+127,AF,surface water sample ,spectrophotometer,yes,
+133,AS,undescribed,modelled,undescribed,modelled
+140,AS,surface water sample ,spectrophotometer,yes,acetone extraction
+146,AS,undescribed,spectrophotometer,yes,acetone extraction
+147,AS,epilimnion ,spectrophotometer,yes,methanol extraction
+148,AS,undescribed,satellite,undescribed,undescribed
+149,AS,surface water sample ,spectrophotometer,undescribed,undescribed
+155,AF,Not described,fluorometer,,YSI water quality probe
+156,AS,integrated water sample,fluorometer,yes,methanol extraction
+165,AS,undescribed,undescribed,,
+176,AS,undescribed,undescribed,undescribed,undescribed
+181,OM,surface water sample ,fluorometer,yes,ethanol extraction
+183,OM,integrated water sample ,spectrophotometer,yes,high performance liquid chromatography
+195,AF,integrated water sample,spectrophotometer,,
+199,AS,undescribed,spectrophotometer,yes,ethanol extraction
+205,OM,surface water sample ,undescribed,,
+212,OM,undescribed,undescribed,,
+218,AS,undescribed,spectrophotometer,undescribed,undescribed
+223,OM,undescribed,modelled,,
+225,AS,0-30m,multiparameter probe,undescribed,undescribed
+226,OM,surface water sample ,undescribed,,
+227,OM,integrated water sample,fluorometer,yes,acetone extraction
+228,OM,1.5m,undescribed,,
+229,OM,undescribed,modelled,,
+235,OM,surface water sample ,spectrophotometer,yes,hot ethanol extraction
+239,AS,undescribed,undescribed,,
+240,OM,surface water sample ,spectrophotometer,,ethanol extraction
+241,AS,undescribed,fluorometer,GF/C filter -yes,ethanol extraction
+254,AS,24m below water surface,undescribed,undescribed,acetone extraction
+255,AS,undescribed,undescribed,,
+265,AF,Not described,undescribed,,
+266,OM,surface water sample ,fluorometer,,
+279,AS,undescribed,environmental quality standards for surface water of the People?s Republic of China,undescribed,undescribed
+290,OM,undescribed,undescribed,,
+292,OM,surface water sample ,spectrophotometer,,
+306,AF,integrated water sample,fluorometer,,YSI water quality probe
+318,OM,surface water sample ,undescribed,,
+320,AF,integrated water sample,fluorometer,,
+323,OM,integrated water sample,spectrophotometer,,
+326,AS,undescribed,spectrophotometer,yes,acetone extraction
+327,AS,undescribed,not found,,
+329,AS,undescribed,undescribed,,
+331,AS,epilimnion ,fluorometer,yes,GFF filter
+336,AS,undescribed,fluorometer,yes,acetone extraction
+342,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+344,AS,1.5m below water surface,undescribed,yes,undescribed
+345,OM,surface water sample ,undescribed,,
+351,OM,surface water sample ,spectrophotometer,yes,ethanol extraction
+352,AF,metadata,metadata,,
+353,OM,surface water sample ,spectrophotometer,,YSI water quality probe
+357,AS,surface water sample ,PMPL index,undescribed,undescribed
+359,AF,Not described,undescribed,,
+362,AF,integrated water sample,spectrophotometer,yes,
+367,AF,Not described,undescribed,,
+370,OM,integrated water sample,spectrophotometer,,
+385,AF,Not described,Enzyme kinetics equation,,Includes radioactive decay
+388,AS,3m below water surface,multiparameter probe,undescribed,undescribed
+394,AF,surface water sample ,spectrophotometer,yes,high performance liquid chromatography
+401,AF,Not described,undescribed,,
+411,AS,0.5m below water surface,undescribed,undescribed,undescribed
+412,OM,undescribed,undescribed,,
+417,AS,integrated water sample,spectophotometer,yes,acetone extraction
+418,AS,undescribed,spectrophotometer,yes,acetone extraction
+425,AS,0-25m,fluorometer,yes,ethanol extraction
+446,OM,surface water sample ,spectrophotometer,,YSI water quality probe
+457,AS,undescribed,satellite,undescribed,undescribed
+470,AS,undescribed,arnon method,undescribed,acetone extraction
+475,AF,surface water sample ,Multi-method,,Used to train a modelling algorithm
+478,OM,surface water sample ,fluorometer,yes,acetone extraction
+481,AS,2-4m,undescribed,yes,undescribed
+491,AS,undescribed,spectrophotometer,yes,transmittance-reflectance method
+496,AS,2m below water surface,undescribed,undescribed,undescribed
+501,AF,integrated water sample,colorimetric method,,
+507,AF,integrated water sample,spectrophotometer,yes,
+514,AF,integrated water sample,undescribed,,
+519,AF,integrated water sample,fluorometer,yes,acetone extraction
+521,AF,0.2 m,fluorometer,,
+524,AF,integrated water sample,spectrophotometer,,
+527,AS,undescribed,spectrophotometer,undescribed,ethanol extraction
+530,AF,integrated water sample,spectrophotometer,yes,high performance liquid chromatography
+535,OM,integrated water sample,undescribed,,
+537,OM,surface water sample ,undescribed,,
+558,OM,undescribed,spectrophotometer,yes,acetone extraction
+560,AF,0.5 m,spectrophotometer,,
+568,OM,integrated water sample,spectrophotometer,yes,Tris buffer
+569,OM,surface water sample ,spectrophotometer,yes,ethanol extraction
+570,AS,0.5m below water surface,american public health association,undescribed,undescribed
+577,OM,surface water sample ,fluorometer,yes,acetone extraction
+582,AF,integrated water sample,fluorometer,,
+591,AF,0.5 m,spectrophotometer,yes,
+600,OM,surface water sample ,spectrophotometer,yes,
+608,AS,undescribed,satellite,undescribed,undescribed
+614,AF,integrated water sample,spectrophotometer,,acetone extraction
+621,AS,undescribed,undescribed,,
+630,AF,integrated water sample,undescribed,,
+637,OM,undescribed,spectrophotometer,yes,acetone extraction
+646,AF,0.5 m,spectrophotometer,yes,acetone extraction
+649,AS,undescribed,spectrophotometer,undescribed,undescribed
+654,AS,surface water sample ,USGS analytical sampling protocol,undescribed,undescribed
+669,OM,surface water sample ,undescribed,,
+671,AF,Not described,Not described,,
+682,OM,integrated water sample,fluorometer,yes,acetone extraction
+688,AS,0-30m,spectrophotometer,yes,acetone extraction
+690,AS,undescribed,remote sensing,undescribed,undescribed
+702,AF,integrated water sample,spectrophotometer,yes,acetone extraction
+718,OM,undescribed,modelled,,
+721,AS,undescribed,ISO 10260 method,undescribed,ethanol extraction
+740,AF,Not described,spectrophotometer,yes,acetone extraction
+761,OM,integrated water sample,fluorometer,,YSI water quality probe
+771,AS,undescribed,inaccessible,,
+773,AF,Not described,modelled,,based on climate
+774,OM,integrated water sample,fluorometer,yes,acetone extraction
+776,AF,Not described,modelled,,based on climate
+777,OM,surface water sample ,undescribed,,
+780,OM,surface water sample ,fluorometer,no,YSI water quality probe
+781,AF,0.4 m,spectrophotometer,yes,acetone extraction
+782,AS,undescribed,remote sensing,undescribed,undescribed
+787,AF,0-0.15 m,spectrophotometer,yes,
+793,OM,surface water sample ,undescribed,,
+797,AS,0-1m,fluorometer,yes,undescribed
+805,OM,3m,fluorometer,yes,acetone extraction
+809,AS,surface water sample ,fluorometer,yes,acetone extraction
+811,OM,surface water sample ,undescribed,,
+814,AF,0.15 m,undescribed,,
+815,AF,surface water sample ,spectrophotometer,yes,
+821,AS,surface water sample ,radiometer,yes,methanol extraction
+823,OM,surface water sample ,spectrophotometer,yes,
+828,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+829,AF,Not described,spectrophotometer,yes,ethanol extraction
+831,OM,integrated water sample,fluorometer,yes,acetone extraction
+833,OM,undescribed,modelled,,
+844,AF,Not described,spectrophotometer,yes,ethanol extraction
+847,OM,integrated water sample,undescribed,,hot ethanol extraction
+856,AS,undescribed,Standard Methods for the Examination of Water and Wastewater (APHA 1998),undescribed,undescribed
+858,OM,2m,spectrophotometer,,
+860,OM,undescribed,undescribed,,
+866,AS,undescribed,fluorometer,yes,undescribed
+876,OM,integrated water sample,spectrophotometer,yes,molybdenum-blue method 
+888,AF,Not described,spectrophotometer,yes,acetone extraction
+947,AF,surface water sample ,spectrophotometer,yes,acetone extraction
+952,AS,undescribed,fluorometer,yes,acetone extraction
+955,AF,Not described,modelled,,
+960,OM,surface water sample ,undescribed,,
+974,AS,1.5m,undescribed,yes,undescribed
+979,OM,integrated water sample,spectrophotometer,yes,hot ethanol extraction
+983,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+989,OM,integrated water sample,spectrophotometer,,acetone extraction
+1009,AF,integrated water sample,spectrophotometer,yes,acetone extraction
+1044,OM,sampling station,undescribed,,
+1047,AF,1 m,spectrophotometer,yes,acetone extraction
+1061,OM,surface water sample ,undescribed,,
+1079,AS,1-2m (epilimnion,spectrophotometer,yes,acetone extraction
+1147,AS,undescribed,spectrophotometer,yes,undescribed
+1159,AS,epilimnion ,spectrophotometer,yes,acetone extraction
+1172,AF,Not described,undescribed,,
+1220,AF,integrated water sample,spectrophotometer,,
+1224,OM,integrated water sample,spectrophotometer,yes,acetone extraction
+1231,AF,integrated water sample,spectrophotometer,yes,acetone extraction
+1237,AS,epilimnion ,standard methods (Eaton and Franson 2005),undescribed,undescribed
+1243,OM,surface water sample ,spectrophotometer,yes,methanol extraction
+1246,OM,surface water sample ,fluorometer,yes,acetone extraction
+1257,OM,integrated water sample,fluorometer,,
+1261,AF,Not described,spectrophotometer,,
+1283,OM,surface water sample ,fluorometer,,
+1285,OM,surface water sample ,gravimeter ,yes,hot ethanol
+1287,OM,surface water sample ,undescribed,,
+1289,OM,surface water sample ,fluorometer,yes,ethanol extraction
+1297,AS,surface water sample ,procedures described by the American Public Health Association,yes,acetone extraction
+1301,AF,Not described,modelled,,Satellite downscaled
+1302,OM,integrated water sample,undescribed,,
+1314,AF,surface water sample ,fluorometer,,
+1315,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+1319,AS,epilimnion ,undescribed,undescribed,undescribed
+1320,OM,surface water sample ,undescribed,,
+1321,AF,integrated water sample,fluorometer,,
+1325,AS,undescribed,undescribed,undescribed,undescribed
+1334,AS,undescribed,modelled,undescribed,undescribed
+1340,AF,integrated water sample,fluorometer,,
+1342,AF,integrated water sample,fluorometer,yes,
+1346,AF,Not described,undescribed,,
+1350,AF,Not described,modelled,,remote sensing
+1355,OM,surface water sample ,undescribed,,
+1361,OM,surface water sample ,fluorometer,yes,acetone extraction
+1365,OM,surface water sample ,fluorometer,yes,acetone extraction
+1373,OM,2m,fluorometer,yes,acetone extraction
+1376,OM,integrated water sample,spectrophotometer,yes,acetone extraction
+1377,OM,surface water sample ,spectrophotometer,yes,ethanol extraction
+1390,OM,surface water sample ,undescribed,,
+1391,AF,0.5 m,undescribed,,
+1403,AF,Not described,undescribed,,
+1405,AS,surface water sample ,spectrophotometer,yes,methanol extraction
+1420,AF,Not described,spectrophotometer,yes,
+1436,AF,surface water sample ,undescribed,,
+1440,AF,Not described,undescribed,,
+1474,OM,surface water sample ,spectrophotometer,,
+1476,AF,integrated water sample,fluorometer,,YSI water quality probe
+1478,AS,undescribed,multiparameter probe,undescribed,undescribed
+1490,AF,surface water sample ,spectrophotometer,yes,
+1496,AS,integrated water sample,spectrophotometer,yes,ethanol extraction
+1499,OM,undescribed,undescribed,,
+1501,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+1513,AF,integrated water sample,fluorometer,,
+1540,AS,surface water sample ,spectrophotometer,yes,acetone extraction
+1566,OM,surface water sample ,spectrophotometer,yes,ethanol extraction
+1570,AS,integrated water sample,fluorometer,undescribed,undescribed
+1575,AF,integrated water sample,metadata,,
+1577,AF,Not described,spectrophotometer,yes,ethanol extraction
+1579,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+2232,OM,surface water sample ,fluorometer,,
+2233,AS,undescribed,spectrophotometer,yes,acetone extraction
+2256,AF,Not described,undescribed,,
+2258,AS,0.5m below water surface,spectophotometer,GF/C filter -yes,GF/C filter
+2283,OM,surface water sample ,spectrophotometer,yes,
+2286,AS,hypolimnion,fluorometer,yes,ethanol extraction
+2308,OM,integrated water sample,fluorometer,,
+2309,AS,undescribed,undescribed,yes,undescribed
+2312,OM,surface water sample ,spectrophotometer,yes,high performance liquid chromatography
+2313,AS,undescribed,undescribed,undescribed,undescribed
+2329,OM,surface water sample ,freeze-thaw method ,yes,acetone extraction
+2376,OM,integrated water sample,fluorometer,yes,acetone extraction
+2397,AS,undescribed,modelled,undescribed,modelled
+2412,AS,1-15m,spectrophotometer,yes,acetone extraction
+2679,AS,25-30m,spectrophotometer,yes,acetone extraction
+2692,AF,0.3-0.6 m,spectrophotometer,yes,acetone extraction
+2775,AS,0.5m below water surface,spectrophotometer,yes,acetone extraction
+2793,OM,undescribed,fluorometer,yes,DMF
+2815,AS,25m,spectrophotometer,yes,acetone extraction
+2826,OM,surface water sample ,fluorometer,yes,acetone extraction
+2839,OM,surface water sample ,spectrophotometer,yes,acetone extraction
+2950,AS,undescribed,undescribed,,
+2956,AF,2 m,fluorometer,yes,ethanol extraction
+2960,AS,40m below water surface,spectrophotometer,yes,acetone extraction
+2965,AF,integrated water sample,spectrophotometer,yes,ethanol extraction
+2979,OM,integrated water sample,spectrophotometer,yes,ethanol extraction
+2981,OM,surface water sample ,undescribed,yes,ethanol extraction
+2982,AF,Not described,spectrophotometer,yes,acetone extraction
+2983,AF,Not described,spectrophotometer,yes,acetone extraction
+2987,AS,undescribed,fluorometer,yes,acidified extracts
+2993,AF,integrated water sample,undescribed,,
+2997,AF,surface water sample ,spectrophotometer,,
+3005,AF,surface water sample ,spectrophotometer,yes,acetone extraction
+3029,OM,surface water sample ,fluorometer,yes,DMF
+3032,AF,Not described,undescribed,,
+3041,AF,surface water sample ,spectrophotometer,yes,acetone extraction
+3042,AS,hypolimnion,multiparameter probe,undescribed,surveyer 2 or IV hydrolab 
+3046,AF,integrated water sample,spectrophotometer,yes,acetone extraction
+13910,OM,undescribed,"ERROR - same paper as above, remove in final csv.file",,
+repo1,AF,metadata,metadata,,
+repo10,AF,metadata,metadata,,
+repo11,AF,metadata,metadata,,
+repo12,AF,metadata,metadata,,
+repo13,AF,metadata,metadata,,
+repo14,AF,metadata,metadata,,
+repo15,AS,na,na,na,na
+repo17,AF,metadata,metadata,,
+repo2,AF,integrated water sample,fluorometer,,
+repo3,AF,metadata,metadata,,
+repo4,AF,undescribed,undescribed,,
+repo6,AF,metadata,metadata,,
+repo7,AF,metadata,metadata,,
+repo8,AF,integrated water sample,spectrophotometer,yes,
+repo9,OM,undescribed,NA,,

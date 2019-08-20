@@ -86,3 +86,29 @@ ggplot(chl, aes(x=log(ChlValues))) + geom_density(fill="#9ACC7C") + xlab("Log tr
 
 test <- chl$ChlValues[!duplicated(chl$ChlValues)]
 ks.test(x=log(test[test>0]),y='pnorm',alternative='two.sided')
+```
+
+
+### Check methods types
+```{r}
+method <- read.csv("data//methodsSimplified.csv")
+uniqueID <- read.csv("data//uniqueID.csv")
+chl <- read.csv("data//chl.csv")
+
+## merge methods file, chlorophyll, and survey information into one file
+methodID <- merge(uniqueID, method, by="StudyID")
+chlmethod <- merge(methodID, chl, by="uniqueID")
+
+
+library(tidyverse)
+## method for calculating Chl
+chlsurvey <- chlmethod %>% group_by(surveyType) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96) %>% filter(!surveyType %in% c("not described","undescribed"))
+
+ggplot(chlsurvey, aes(x=surveyType, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyType,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) + ylim(0,0.05) + xlab("") + ylab("Chlorophyll a")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+## water survey location
+chllocation <- chlmethod %>% group_by(surveyLocation) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96) %>% filter(!surveyLocation %in% c("not described","undescribed"))
+
+ggplot(chllocation, aes(x=surveyLocation, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyLocation,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) + ylim(0,0.05) + xlab("") + ylab("Chlorophyll a")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())

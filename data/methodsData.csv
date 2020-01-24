@@ -1,4 +1,4 @@
-StudyID,PI,Layer,Method,surveyType,surveyLocation
+StudyID,PI,Chl Layer,Chl Method,Survey Type,surveyLocation
 1,AS,undescribed,spectrophotometer,in situ,undescribed
 2,OM,integrated water sample,undescribed,undescribed,integrated
 12,OM,integrated water sample,spectrophotometer,in situ,integrated

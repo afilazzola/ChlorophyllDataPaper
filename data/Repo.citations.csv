@@ -1,4 +1,4 @@
-StudyID,StudyName,Link,Author,Title,Journal,Year,Included
+StudyID,StudyName,Link,Author,Title,DataSource,Year,Included
 repo1,Ecology Under Lake Ice,,,,,,yes
 repo2,Limnological data and depth profile from Oneida Lake,https://knb.ecoinformatics.org/#view/kgordon.35.96,Rudstam,"Limnological data and depth profile from Oneida Lake, New York",KnB,2015,yes
 repo3,"Transparency, geomorphology, and mixing regime explain variability in trends in lake temperature and stratification across northeastern North America",http://www.mdpi.com/2073-4441/9/6/442,Richardson et al.,"Transparency, geomorphology, and mixing regime explain variability in trends in lake temperature and stratification across northeastern North America",Water,2017,yes
@@ -13,4 +13,4 @@ repo13,"Unpublished data, Massachusetts Department of Environment Protection, la
 repo14,LAGOS-NE ? Lake nutrient chemistry and geospatial data to measure spatial structure of ecosystem properties in a 17-state region of the U.S,https://pasta.lternet.edu/package/metadata/eml/edi/118/3,"Jean Francois Lapierre, Sarah Collins, David Seekell, Kendra Cheruvelil, Pang-Ning Tan",LAGOS-NE ? Lake nutrient chemistry and geospatial data to measure spatial structure of ecosystem properties in a 17-state region of the U.S,Environmental Data Initiative,2017,yes
 repo5,National Water Quality Monitoring Council,https://www.waterqualitydata.us/portal/#countrycode=CA&siteType=Lake%2C%20Reservoir%2C%20Impoundment&sampleMedia=Biological&sampleMedia=Water&sampleMedia=water&mimeType=csv,MultiAuthored,National Water Quality Monitoring Council,,2019,yes
 repo9,Lake Kasumigaura Database,http://db.cger.nies.go.jp/gem/inter/GEMS/database/kasumi/contents/datalist.html,MultiAuthored,Lake Kasumigaura Database,National Institute for Environmental Studies Biological and Ecological Environment Research ,2017,yes
-waterquality,Water quality database,https://www.waterqualitydata.us/portal/,MultiAuthored,USA,,2019,yes
+waterquality,Water quality database,https://www.waterqualitydata.us/portal/,MultiAuthored,USA,EPA & USGS,2019,yes

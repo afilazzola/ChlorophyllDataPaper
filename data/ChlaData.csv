@@ -1,4 +1,4 @@
-uniqueID,UniqueLakeName,StudyID,Year,Month,Lat,Lon,LakeName,ChlValues,TP,TN,DOC,DO,LakeVolume,SurfaceArea.value,Depth.mean,Depth.max,Secchi,pH
+uniqueID,UniqueLakeName,StudyID,Year,Month,Lat,Lon,LakeName,ChlValues,TP,TN,DOC,DO,LakeVolume,SurfaceArea,Depth.mean,Depth.max,Secchi,pH
 newid000001,L0001,repo8,1996,,-78.1,163.85,Lake Miers,0.0032,,,,,,,,,,
 newid000002,L0001,repo8,1997,,-78.1,163.85,Lake Miers,0.0019,,,,,,0.2,,,,
 newid000003,L0001,repo8,2008,,-78.1,163.85,Lake Miers,6.00E-04,,,,,,,,,,

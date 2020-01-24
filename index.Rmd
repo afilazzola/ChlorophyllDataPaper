@@ -94,10 +94,10 @@ methodID <- merge(data, method, by="StudyID", all.x=T)
 
 library(tidyverse)
 ## method for calculating Chl
-chlsurvey <- methodID %>% group_by(surveyType) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!surveyType %in% c("not described","undescribed")) 
+chlsurvey <- methodID %>% group_by(Survey.Type) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!Survey.Type %in% c("not described","undescribed")) 
 
 
-plot1 <- ggplot(chlsurvey, aes(x=surveyType, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyType,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab("") + ylab("Chlorophyll a (mg / L)")+theme(axis.text=element_text(size=12),
+plot1 <- ggplot(chlsurvey, aes(x=Survey.Type, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=Survey.Type,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab("") + ylab("Chlorophyll a (mg / L)")+theme(axis.text=element_text(size=12),
         axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
    scale_y_continuous(expand = c(0, 0), limits = c(0,0.08)) + annotate(geom ="text", x=0.5, y=0.075, label="a", size=10)
 
@@ -116,7 +116,7 @@ grid.arrange(plot1, plot2, ncol=2)
 repoOnly <- data[is.na(as.numeric(as.character(data$StudyID))),]
 
 ## compare methods
-methodID %>% group_by(Method) %>% summarize(n=length(ChlValues)/nrow(data)*100) %>% top_n(8)
+methodID %>% group_by(Chl.Method) %>% summarize(n=length(ChlValues)/nrow(data)*100) %>% top_n(8)
 
 ```
 
@@ -160,7 +160,20 @@ length(unique(data[data$CountryOfficial=="Canada","uniquelake"])) ## Canada
 length(unique(data[data$CountryOfficial=="USA","uniquelake"])) ## USA
 
 
+## water chem values
+sum(!is.na(data$TP))/nrow(data) ## amount of TP values
+sum(!is.na(data$TN))/nrow(data) ## amount of TN values
+sum(!is.na(data$DOC))/nrow(data) ## amount of DOC values
+sum(!is.na(data$DO))/nrow(data) ## amount of DO values
 
+
+## lake char values
+sum(!is.na(data$LakeVolume))/nrow(data) ## amount of volume values
+sum(!is.na(data$SurfaceArea))/nrow(data) ## amount of surface area values
+sum(!is.na(data$Depth.mean))/nrow(data) ## amount of mean depth values
+sum(!is.na(data$Depth.max))/nrow(data) ## amount of max depth values
+sum(!is.na(data$Secchi))/nrow(data) ## amount of secchi depth values
+sum(!is.na(data$pH))/nrow(data) ## amount of pH values
 ```
 
 

@@ -1601,10 +1601,10 @@ methodID &lt;- merge(data, method, by=&quot;StudyID&quot;, all.x=T)
 
 library(tidyverse)
 ## method for calculating Chl
-chlsurvey &lt;- methodID %&gt;% group_by(surveyType) %&gt;% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %&gt;% filter(!surveyType %in% c(&quot;not described&quot;,&quot;undescribed&quot;)) 
+chlsurvey &lt;- methodID %&gt;% group_by(Survey.Type) %&gt;% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %&gt;% filter(!Survey.Type %in% c(&quot;not described&quot;,&quot;undescribed&quot;)) 
 
 
-plot1 &lt;- ggplot(chlsurvey, aes(x=surveyType, y=chl))+ geom_bar(stat=&quot;identity&quot;, fill=&quot;#9ACC7C&quot;, color=&quot;black&quot;) + geom_errorbar(aes(x=surveyType,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab(&quot;&quot;) + ylab(&quot;Chlorophyll a (mg / L)&quot;)+theme(axis.text=element_text(size=12),
+plot1 &lt;- ggplot(chlsurvey, aes(x=Survey.Type, y=chl))+ geom_bar(stat=&quot;identity&quot;, fill=&quot;#9ACC7C&quot;, color=&quot;black&quot;) + geom_errorbar(aes(x=Survey.Type,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab(&quot;&quot;) + ylab(&quot;Chlorophyll a (mg / L)&quot;)+theme(axis.text=element_text(size=12),
         axis.title=element_text(size=14,face=&quot;bold&quot;))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
    scale_y_continuous(expand = c(0, 0), limits = c(0,0.08)) + annotate(geom =&quot;text&quot;, x=0.5, y=0.075, label=&quot;a&quot;, size=10)
 
@@ -1623,9 +1623,9 @@ grid.arrange(plot1, plot2, ncol=2)</code></pre>
 repoOnly &lt;- data[is.na(as.numeric(as.character(data$StudyID))),]
 
 ## compare methods
-methodID %&gt;% group_by(Method) %&gt;% summarize(n=length(ChlValues)/nrow(data)*100) %&gt;% top_n(8)</code></pre>
+methodID %&gt;% group_by(Chl.Method) %&gt;% summarize(n=length(ChlValues)/nrow(data)*100) %&gt;% top_n(8)</code></pre>
 <pre><code>## # A tibble: 8 x 2
-##   Method                                         n
+##   Chl.Method                                     n
 ##   &lt;fct&gt;                                      &lt;dbl&gt;
 ## 1 fluorometer                                2.24 
 ## 2 metadata                                  38.7  
@@ -1669,6 +1669,28 @@ length(unique(data[data$CountryOfficial==&quot;Canada&quot;,&quot;uniquelake&quo
 <pre><code>## [1] 0</code></pre>
 <pre class="r"><code>length(unique(data[data$CountryOfficial==&quot;USA&quot;,&quot;uniquelake&quot;])) ## USA</code></pre>
 <pre><code>## [1] 0</code></pre>
+<pre class="r"><code>## water chem values
+sum(!is.na(data$TP))/nrow(data) ## amount of TP values</code></pre>
+<pre><code>## [1] 0.5980476</code></pre>
+<pre class="r"><code>sum(!is.na(data$TN))/nrow(data) ## amount of TN values</code></pre>
+<pre><code>## [1] 0.2346526</code></pre>
+<pre class="r"><code>sum(!is.na(data$DOC))/nrow(data) ## amount of DOC values</code></pre>
+<pre><code>## [1] 0.02511947</code></pre>
+<pre class="r"><code>sum(!is.na(data$DO))/nrow(data) ## amount of DO values</code></pre>
+<pre><code>## [1] 0.0321856</code></pre>
+<pre class="r"><code>## lake char values
+sum(!is.na(data$LakeVolume))/nrow(data) ## amount of volume values</code></pre>
+<pre><code>## [1] 0.004247845</code></pre>
+<pre class="r"><code>sum(!is.na(data$SurfaceArea))/nrow(data) ## amount of surface area values</code></pre>
+<pre><code>## [1] 0.3304334</code></pre>
+<pre class="r"><code>sum(!is.na(data$Depth.mean))/nrow(data) ## amount of mean depth values</code></pre>
+<pre><code>## [1] 0.07417392</code></pre>
+<pre class="r"><code>sum(!is.na(data$Depth.max))/nrow(data) ## amount of max depth values</code></pre>
+<pre><code>## [1] 0.181963</code></pre>
+<pre class="r"><code>sum(!is.na(data$Secchi))/nrow(data) ## amount of secchi depth values</code></pre>
+<pre><code>## [1] 0.3436262</code></pre>
+<pre class="r"><code>sum(!is.na(data$pH))/nrow(data) ## amount of pH values</code></pre>
+<pre><code>## [1] 0.4880938</code></pre>
 </div>
 
 

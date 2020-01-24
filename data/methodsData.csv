@@ -285,8 +285,8 @@ repo11,AF,metadata,metadata,in situ,not described
 repo12,AF,metadata,metadata,in situ,not described
 repo13,AF,metadata,metadata,in situ,not described
 repo14,AF,metadata,metadata,in situ,not described
-repo15,AS,na,na,not described,not described
-repo17,AF,metadata,metadata,in situ,not described
+repo5,AS,na,na,not described,not described
+repo9,AF,metadata,metadata,in situ,not described
 repo2,AF,integrated water sample,fluorometer,in situ,integrated
 repo3,AF,metadata,metadata,in situ,not described
 repo4,AF,undescribed,undescribed,undescribed,undescribed
@@ -294,3 +294,4 @@ repo6,AF,metadata,metadata,in situ,not described
 repo7,AF,metadata,metadata,in situ,not described
 repo8,AF,integrated water sample,spectrophotometer,in situ,integrated
 repo9,OM,undescribed,NA,modelled,undescribed
+waterquality,AF,undescribed,undescribed,in situ,undescribed

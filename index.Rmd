@@ -10,6 +10,8 @@ output:
     toc_float: yes
   pdf_document:
     toc: yes
+editor_options: 
+  chunk_output_type: console
 ---
 <br>  
 
@@ -52,63 +54,114 @@ options(scipen=6) ## lower threshold for scientific notation
 
 ### Map of studies
 ```{r}
-lakes <- read.csv("data//uniqueID.csv")
+data <- read.csv("data//ChlaData.csv")
 
 ## plot out global distribution of lake chl
 mp <- NULL
 mapWorld <- borders("world", colour="gray50", fill="gray50") # create a layer of borders
 mp <- ggplot() +   mapWorld
 
-mp <- mp+ geom_point(data=lakes , aes(x=Lon, y=Lat), size=1, alpha=0.3, color="#176117") + xlab("Longitude") + ylab("Latitude")
+mp <- mp+ geom_point(data=data , aes(x=Lon, y=Lat), size=1, alpha=0.3, color="#176117") + xlab("Longitude") + ylab("Latitude")
 mp
-
 
 ```
 
 
-### Histograms
-```{r}
+### Patterns in chlorophyll distribution
+```{r warning=FALSE, message=FALSE}
+
+## get standard error function
+se <- function(x) sqrt(var(x)/length(x))
 
 
-## load chl data
-chl <- read.csv("data//chl.csv")
-
-## Round ug/L values to the 1000th because accuracy below a nanogram unlikely
-chl$ChlValues <- round(chl$ChlValues, 5)
-
-chl.min <- min(chl$ChlValues)
-
-ggplot(chl, aes(x=log(ChlValues))) + geom_density(fill="#9ACC7C") + xlab("Log transformed Chlorophyll a (mg/L)") + ylab("Frequency of observered values") + 
+## Plot distribution of Chl values
+ggplot(data, aes(x=log(ChlValues))) + geom_density(fill="#9ACC7C") + xlab("Log transformed Chlorophyll a (mg/L)") + ylab("Frequency of observered values") + 
   annotate("text", x=-1, y=0.3, label=paste("minimum = 0 mg/L"), size=5) + ## min
-  annotate("text", x=-1, y=0.27, label=paste("maximum = ",round(max(chl$ChlValues),2), "mg/L"), size=5)  + ## max
-  annotate("text", x=-1, y=0.24, label=paste("median ± SE = ",round(median(chl$ChlValues),3), "±", round(se(chl$ChlValues),4), "mg/L"), size=5) +theme(axis.text=element_text(size=12),
-        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + xlim(-11,1)
+  annotate("text", x=-1, y=0.27, label=paste("maximum = ",max(data$ChlValues), "mg/L"), size=5)  + ## max
+  annotate("text", x=-1, y=0.24, label=paste("median ± SE = ",round(median(data$ChlValues),3), "±", formatC(round(se(data$ChlValues),4), digits=4,format="f") , "mg/L"), size=5) +theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + xlim(-10,3)
 
-test <- chl$ChlValues[!duplicated(chl$ChlValues)]
-ks.test(x=log(test[test>0]),y='pnorm',alternative='two.sided')
+ks.test(x=log(data$ChlValues[data$ChlValues>0]),y='pnorm',alternative='two.sided')
 ```
 
 
 ### Check methods types
-```{r}
-method <- read.csv("data//methodsSimplified.csv")
-uniqueID <- read.csv("data//uniqueID.csv")
-chl <- read.csv("data//chl.csv")
+```{r warning=FALSE, message=FALSE}
+method <- read.csv("data//methodsData.csv")
 
 ## merge methods file, chlorophyll, and survey information into one file
-methodID <- merge(uniqueID, method, by="StudyID")
-chlmethod <- merge(methodID, chl, by="uniqueID")
-
+methodID <- merge(data, method, by="StudyID", all.x=T)
 
 library(tidyverse)
 ## method for calculating Chl
-chlsurvey <- chlmethod %>% group_by(surveyType) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96) %>% filter(!surveyType %in% c("not described","undescribed"))
+chlsurvey <- methodID %>% group_by(surveyType) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!surveyType %in% c("not described","undescribed")) 
 
-ggplot(chlsurvey, aes(x=surveyType, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyType,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) + ylim(0,0.05) + xlab("") + ylab("Chlorophyll a")+theme(axis.text=element_text(size=12),
-        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
+plot1 <- ggplot(chlsurvey, aes(x=surveyType, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyType,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab("") + ylab("Chlorophyll a (mg / L)")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+   scale_y_continuous(expand = c(0, 0), limits = c(0,0.08)) + annotate(geom ="text", x=0.5, y=0.075, label="a", size=10)
 
 ## water survey location
-chllocation <- chlmethod %>% group_by(surveyLocation) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96) %>% filter(!surveyLocation %in% c("not described","undescribed"))
+chllocation <- methodID %>% group_by(surveyLocation) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!surveyLocation %in% c("not described","undescribed"))
 
-ggplot(chllocation, aes(x=surveyLocation, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyLocation,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) + ylim(0,0.05) + xlab("") + ylab("Chlorophyll a")+theme(axis.text=element_text(size=12),
-        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+plot2 <- ggplot(chllocation, aes(x=surveyLocation, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyLocation,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) +  xlab("") + ylab("")+theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  scale_y_continuous(expand = c(0, 0), limits = c(0,0.08))+ annotate(geom ="text", x=0.5, y=0.075, label="b", size=10)
+
+library(gridExtra)
+
+grid.arrange(plot1, plot2, ncol=2)
+
+## compare number of studies from repo data
+repoOnly <- data[is.na(as.numeric(as.character(data$StudyID))),]
+
+## compare methods
+methodID %>% group_by(Method) %>% summarize(n=length(ChlValues)/nrow(data)*100) %>% top_n(8)
+
+```
+
+
+
+
+### Compare lakes frequency based on trophic status
+```{r warning=FALSE, message=FALSE}
+
+chl <- data %>% mutate(Chl.ug = ChlValues*1000) %>%   mutate(trophic=cut(Chl.ug, breaks=c(-Inf, 7, 9, 26, 75, Inf), labels=c("Oligotrophic","Oligo-mesotrophic","Mesotrophic","Eutrophic","Hyper-eutrophic")))
+## breaks taken from NWT Government Worksheet https://www.enr.gov.nt.ca/sites/enr/files/chlorophyll.pdf
+
+chl.n <- chl %>% group_by(trophic) %>% summarize(n=length(Chl.ug))
+
+## plot out lake frequency
+ggplot(chl.n, aes(x=trophic, y=n)) + geom_bar(stat="identity")
+
+
+```
+                                         
+
+### Summary statistics of dataset
+```{r warning=FALSE, message=FALSE}
+## Unique Lake IDs
+data[,"UniqueLakeLocation"] <- paste0(data$Lat, data$Lon, sep=";")
+data2 <-data 
+data2 <- data2[!duplicated(data2$UniqueLakeLocation),]
+
+## number of unique locations
+nrow(data2)
+
+## Number of Countries surveyed
+library(maps)
+data[,"CountryOfficial"] <- map.where(database="world", data$Lon, data$Lat)
+## separate subcountry identifiers
+country <- gsub("?:.*", "", data$CountryOfficial)
+length(unique(country))
+
+## How many lakes are in Canada, and the USA? 
+length(unique(data[data$CountryOfficial=="Canada","uniquelake"])) ## Canada
+length(unique(data[data$CountryOfficial=="USA","uniquelake"])) ## USA
+
+
+
+```
+
+
+

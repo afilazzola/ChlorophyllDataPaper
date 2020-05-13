@@ -1,297 +1,296 @@
-StudyID,PI,Chl Layer,Chl Method,Survey Type,surveyLocation
-1,AS,undescribed,spectrophotometer,in situ,undescribed
-2,OM,integrated water sample,undescribed,undescribed,integrated
-12,OM,integrated water sample,spectrophotometer,in situ,integrated
-13,AF,0.2 m,radiometer,in situ,surface
-14,AF,surface water sample ,spectrophotometer,in situ,surface
-19,AS,surface water sample ,ysi sensors,in situ,surface
-20,AS,undescribed,spectrophotometer,in situ,undescribed
-22,AS,surface water sample ,undescribed,undescribed,surface
-26,AF,Not described,Not described,not described,not described
-29,OM,integrated water sample,fluorometer,in situ,integrated
-33,AS,5-7m,spectrophotometer,in situ,specific depth
-42,AS,surface water sample ,calibrated electrodes - multiparameter meter,in situ,surface
-53,AF,integrated water sample,spectrophotometer,in situ,integrated
-54,AS,subsurface water sample,Nusch method ,in situ,specific depth
-55,AF,Not described,fluorometer,in situ,not described
-56,AS,undescribed,multiparameter probe,in situ,undescribed
-59,AS,surface water sample ,undescribed,undescribed,surface
-65,AS,undescribed,modelled,modelled,undescribed
-70,AS,surface water sample ,spectrophotometer,in situ,surface
-72,AS,integrated water sample,spectrophotometer,in situ,integrated
-74,AF,integrated water sample,fluorometer,in situ,integrated
-78,AF,Not described,modelled,modelled,not described
-79,OM,1-3m,undescribed,undescribed,specific depth
-82,OM,undescribed,modelled,modelled,undescribed
-89,AS,undescribed,modelled,modelled,undescribed
-93,AS,undescribed,modelled,modelled,undescribed
-104,AF,surface water sample ,spectrophotometer,in situ,surface
-108,OM,surface water sample ,undescribed,undescribed,surface
-116,AF,Not described,spectrophotometer,in situ,not described
-118,AS,undescribed,multiparameter probe,in situ,undescribed
-119,AS,undescribed,modelled,modelled,undescribed
-120,OM,surface water sample ,spectrophotometer,in situ,surface
-122,AS,undescribed,trichromatic method,in situ,undescribed
-127,AF,surface water sample ,spectrophotometer,in situ,surface
-133,AS,undescribed,modelled,modelled,undescribed
-140,AS,surface water sample ,spectrophotometer,in situ,surface
-146,AS,undescribed,spectrophotometer,in situ,undescribed
-147,AS,epilimnion ,spectrophotometer,in situ,specific depth
-148,AS,undescribed,satellite,modelled,undescribed
-149,AS,surface water sample ,spectrophotometer,in situ,surface
-155,AF,Not described,fluorometer,in situ,not described
-156,AS,integrated water sample,fluorometer,in situ,integrated
-165,AS,undescribed,undescribed,undescribed,undescribed
-176,AS,undescribed,undescribed,undescribed,undescribed
-181,OM,surface water sample ,fluorometer,in situ,surface
-183,OM,integrated water sample ,spectrophotometer,in situ,integrated
-195,AF,integrated water sample,spectrophotometer,in situ,integrated
-199,AS,undescribed,spectrophotometer,in situ,undescribed
-205,OM,surface water sample ,undescribed,undescribed,surface
-212,OM,undescribed,undescribed,undescribed,undescribed
-218,AS,undescribed,spectrophotometer,in situ,undescribed
-223,OM,undescribed,modelled,modelled,undescribed
-225,AS,0-30m,multiparameter probe,in situ,integrated
-226,OM,surface water sample ,undescribed,undescribed,surface
-227,OM,integrated water sample,fluorometer,in situ,integrated
-228,OM,1.5m,undescribed,undescribed,specific depth
-229,OM,undescribed,modelled,modelled,undescribed
-235,OM,surface water sample ,spectrophotometer,in situ,surface
-239,AS,undescribed,undescribed,undescribed,undescribed
-240,OM,surface water sample ,spectrophotometer,in situ,surface
-241,AS,undescribed,fluorometer,in situ,undescribed
-254,AS,24m below water surface,undescribed,undescribed,specific depth
-255,AS,undescribed,undescribed,undescribed,undescribed
-265,AF,Not described,undescribed,undescribed,not described
-266,OM,surface water sample ,fluorometer,in situ,surface
-279,AS,undescribed,environmental quality standards for surface water of the People?s Republic of China,undescribed,undescribed
-290,OM,undescribed,undescribed,undescribed,undescribed
-292,OM,surface water sample ,spectrophotometer,in situ,surface
-306,AF,integrated water sample,fluorometer,in situ,integrated
-318,OM,surface water sample ,undescribed,undescribed,surface
-320,AF,integrated water sample,fluorometer,in situ,integrated
-323,OM,integrated water sample,spectrophotometer,in situ,integrated
-326,AS,undescribed,spectrophotometer,in situ,undescribed
-327,AS,undescribed,not found,not described,undescribed
-329,AS,undescribed,undescribed,undescribed,undescribed
-331,AS,epilimnion ,fluorometer,in situ,specific depth
-336,AS,undescribed,fluorometer,in situ,undescribed
-342,OM,surface water sample ,spectrophotometer,in situ,surface
-344,AS,1.5m below water surface,undescribed,undescribed,specific depth
-345,OM,surface water sample ,undescribed,undescribed,surface
-351,OM,surface water sample ,spectrophotometer,in situ,surface
-352,AF,metadata,metadata,in situ,not described
-353,OM,surface water sample ,spectrophotometer,in situ,surface
-357,AS,surface water sample ,PMPL index,in situ,surface
-359,AF,Not described,undescribed,undescribed,not described
-362,AF,integrated water sample,spectrophotometer,in situ,integrated
-367,AF,Not described,undescribed,undescribed,not described
-370,OM,integrated water sample,spectrophotometer,in situ,integrated
-385,AF,Not described,Enzyme kinetics equation,in situ,not described
-388,AS,3m below water surface,multiparameter probe,in situ,specific depth
-394,AF,surface water sample ,spectrophotometer,in situ,surface
-401,AF,Not described,undescribed,undescribed,not described
-411,AS,0.5m below water surface,undescribed,undescribed,surface
-412,OM,undescribed,undescribed,undescribed,undescribed
-417,AS,integrated water sample,spectophotometer,in situ,integrated
-418,AS,undescribed,spectrophotometer,in situ,undescribed
-425,AS,0-25m,fluorometer,in situ,integrated
-446,OM,surface water sample ,spectrophotometer,in situ,surface
-457,AS,undescribed,satellite,modelled,undescribed
-470,AS,undescribed,arnon method,undescribed,undescribed
-475,AF,surface water sample ,Multi-method,in situ,surface
-478,OM,surface water sample ,fluorometer,in situ,surface
-481,AS,2-4m,undescribed,undescribed,specific depth
-491,AS,undescribed,spectrophotometer,in situ,undescribed
-496,AS,2m below water surface,undescribed,undescribed,specific depth
-501,AF,integrated water sample,colorimetric method,in situ,integrated
-507,AF,integrated water sample,spectrophotometer,in situ,integrated
-514,AF,integrated water sample,undescribed,undescribed,integrated
-519,AF,integrated water sample,fluorometer,in situ,integrated
-521,AF,0.2 m,fluorometer,in situ,surface
-524,AF,integrated water sample,spectrophotometer,in situ,integrated
-527,AS,undescribed,spectrophotometer,in situ,undescribed
-530,AF,integrated water sample,spectrophotometer,in situ,integrated
-535,OM,integrated water sample,undescribed,undescribed,integrated
-537,OM,surface water sample ,undescribed,undescribed,surface
-558,OM,undescribed,spectrophotometer,in situ,undescribed
-560,AF,0.5 m,spectrophotometer,in situ,surface
-568,OM,integrated water sample,spectrophotometer,in situ,integrated
-569,OM,surface water sample ,spectrophotometer,in situ,surface
-570,AS,0.5m below water surface,american public health association,undescribed,surface
-577,OM,surface water sample ,fluorometer,in situ,surface
-582,AF,integrated water sample,fluorometer,in situ,integrated
-591,AF,0.5 m,spectrophotometer,in situ,surface
-600,OM,surface water sample ,spectrophotometer,in situ,surface
-608,AS,undescribed,satellite,modelled,undescribed
-614,AF,integrated water sample,spectrophotometer,in situ,integrated
-621,AS,undescribed,undescribed,undescribed,undescribed
-630,AF,integrated water sample,undescribed,undescribed,integrated
-637,OM,undescribed,spectrophotometer,in situ,undescribed
-646,AF,0.5 m,spectrophotometer,in situ,surface
-649,AS,undescribed,spectrophotometer,in situ,undescribed
-654,AS,surface water sample ,USGS analytical sampling protocol,in situ,surface
-669,OM,surface water sample ,undescribed,undescribed,surface
-671,AF,Not described,Not described,not described,not described
-682,OM,integrated water sample,fluorometer,in situ,integrated
-688,AS,0-30m,spectrophotometer,in situ,integrated
-690,AS,undescribed,remote sensing,modelled,undescribed
-702,AF,integrated water sample,spectrophotometer,in situ,integrated
-718,OM,undescribed,modelled,modelled,undescribed
-721,AS,undescribed,ISO 10260 method,in situ,undescribed
-740,AF,Not described,spectrophotometer,in situ,not described
-761,OM,integrated water sample,fluorometer,in situ,integrated
-771,AS,undescribed,inaccessible,in situ,undescribed
-773,AF,Not described,modelled,modelled,not described
-774,OM,integrated water sample,fluorometer,in situ,integrated
-776,AF,Not described,modelled,modelled,not described
-777,OM,surface water sample ,undescribed,undescribed,surface
-780,OM,surface water sample ,fluorometer,in situ,surface
-781,AF,0.4 m,spectrophotometer,in situ,surface
-782,AS,undescribed,remote sensing,modelled,undescribed
-787,AF,0-0.15 m,spectrophotometer,in situ,surface
-793,OM,surface water sample ,undescribed,undescribed,surface
-797,AS,0-1m,fluorometer,in situ,surface
-805,OM,3m,fluorometer,in situ,specific depth
-809,AS,surface water sample ,fluorometer,in situ,surface
-811,OM,surface water sample ,undescribed,undescribed,surface
-814,AF,0.15 m,undescribed,undescribed,surface
-815,AF,surface water sample ,spectrophotometer,in situ,surface
-821,AS,surface water sample ,radiometer,in situ,surface
-823,OM,surface water sample ,spectrophotometer,in situ,surface
-828,OM,surface water sample ,spectrophotometer,in situ,surface
-829,AF,Not described,spectrophotometer,in situ,not described
-831,OM,integrated water sample,fluorometer,in situ,integrated
-833,OM,undescribed,modelled,modelled,undescribed
-844,AF,Not described,spectrophotometer,in situ,not described
-847,OM,integrated water sample,undescribed,undescribed,integrated
-856,AS,undescribed,Standard Methods for the Examination of Water and Wastewater (APHA 1998),in situ,undescribed
-858,OM,2m,spectrophotometer,in situ,specific depth
-860,OM,undescribed,undescribed,undescribed,undescribed
-866,AS,undescribed,fluorometer,in situ,undescribed
-876,OM,integrated water sample,spectrophotometer,in situ,integrated
-888,AF,Not described,spectrophotometer,in situ,not described
-947,AF,surface water sample ,spectrophotometer,in situ,surface
-952,AS,undescribed,fluorometer,in situ,undescribed
-955,AF,Not described,modelled,modelled,not described
-960,OM,surface water sample ,undescribed,undescribed,surface
-974,AS,1.5m,undescribed,undescribed,specific depth
-979,OM,integrated water sample,spectrophotometer,in situ,integrated
-983,OM,surface water sample ,spectrophotometer,in situ,surface
-989,OM,integrated water sample,spectrophotometer,in situ,integrated
-1009,AF,integrated water sample,spectrophotometer,in situ,integrated
-1044,OM,sampling station,undescribed,undescribed,not described
-1047,AF,1 m,spectrophotometer,in situ,specific depth
-1061,OM,surface water sample ,undescribed,undescribed,surface
-1079,AS,1-2m (epilimnion,spectrophotometer,in situ,specific depth
-1147,AS,undescribed,spectrophotometer,in situ,undescribed
-1159,AS,epilimnion ,spectrophotometer,in situ,specific depth
-1172,AF,Not described,undescribed,undescribed,not described
-1220,AF,integrated water sample,spectrophotometer,in situ,integrated
-1224,OM,integrated water sample,spectrophotometer,in situ,integrated
-1231,AF,integrated water sample,spectrophotometer,in situ,integrated
-1237,AS,epilimnion ,standard methods (Eaton and Franson 2005),in situ,specific depth
-1243,OM,surface water sample ,spectrophotometer,in situ,surface
-1246,OM,surface water sample ,fluorometer,in situ,surface
-1257,OM,integrated water sample,fluorometer,in situ,integrated
-1261,AF,Not described,spectrophotometer,in situ,not described
-1283,OM,surface water sample ,fluorometer,in situ,surface
-1285,OM,surface water sample ,gravimeter ,in situ,surface
-1287,OM,surface water sample ,undescribed,undescribed,surface
-1289,OM,surface water sample ,fluorometer,in situ,surface
-1297,AS,surface water sample ,procedures described by the American Public Health Association,in situ,surface
-1301,AF,Not described,modelled,modelled,not described
-1302,OM,integrated water sample,undescribed,undescribed,integrated
-1314,AF,surface water sample ,fluorometer,in situ,surface
-1315,OM,surface water sample ,spectrophotometer,in situ,surface
-1319,AS,epilimnion ,undescribed,undescribed,specific depth
-1320,OM,surface water sample ,undescribed,undescribed,surface
-1321,AF,integrated water sample,fluorometer,in situ,integrated
-1325,AS,undescribed,undescribed,undescribed,undescribed
-1334,AS,undescribed,modelled,modelled,undescribed
-1340,AF,integrated water sample,fluorometer,in situ,integrated
-1342,AF,integrated water sample,fluorometer,in situ,integrated
-1346,AF,Not described,undescribed,undescribed,not described
-1350,AF,Not described,modelled,modelled,not described
-1355,OM,surface water sample ,undescribed,undescribed,surface
-1361,OM,surface water sample ,fluorometer,in situ,surface
-1365,OM,surface water sample ,fluorometer,in situ,surface
-1373,OM,2m,fluorometer,in situ,specific depth
-1376,OM,integrated water sample,spectrophotometer,in situ,integrated
-1377,OM,surface water sample ,spectrophotometer,in situ,surface
-1390,OM,surface water sample ,undescribed,undescribed,surface
-1391,AF,0.5 m,undescribed,undescribed,surface
-1403,AF,Not described,undescribed,undescribed,not described
-1405,AS,surface water sample ,spectrophotometer,in situ,surface
-1420,AF,Not described,spectrophotometer,in situ,not described
-1436,AF,surface water sample ,undescribed,undescribed,surface
-1440,AF,Not described,undescribed,undescribed,not described
-1474,OM,surface water sample ,spectrophotometer,in situ,surface
-1476,AF,integrated water sample,fluorometer,in situ,integrated
-1478,AS,undescribed,multiparameter probe,in situ,undescribed
-1490,AF,surface water sample ,spectrophotometer,in situ,surface
-1496,AS,integrated water sample,spectrophotometer,in situ,integrated
-1499,OM,undescribed,undescribed,undescribed,undescribed
-1501,OM,surface water sample ,spectrophotometer,in situ,surface
-1513,AF,integrated water sample,fluorometer,in situ,integrated
-1540,AS,surface water sample ,spectrophotometer,in situ,surface
-1566,OM,surface water sample ,spectrophotometer,in situ,surface
-1570,AS,integrated water sample,fluorometer,in situ,integrated
-1575,AF,integrated water sample,metadata,in situ,integrated
-1577,AF,Not described,spectrophotometer,in situ,not described
-1579,OM,surface water sample ,spectrophotometer,in situ,surface
-2232,OM,surface water sample ,fluorometer,in situ,surface
-2233,AS,undescribed,spectrophotometer,in situ,undescribed
-2256,AF,Not described,undescribed,undescribed,not described
-2258,AS,0.5m below water surface,spectophotometer,in situ,surface
-2283,OM,surface water sample ,spectrophotometer,in situ,surface
-2286,AS,hypolimnion,fluorometer,in situ,specific depth
-2308,OM,integrated water sample,fluorometer,in situ,integrated
-2309,AS,undescribed,undescribed,undescribed,undescribed
-2312,OM,surface water sample ,spectrophotometer,in situ,surface
-2313,AS,undescribed,undescribed,undescribed,undescribed
-2329,OM,surface water sample ,freeze-thaw method ,in situ,surface
-2376,OM,integrated water sample,fluorometer,in situ,integrated
-2397,AS,undescribed,modelled,modelled,undescribed
-2412,AS,1-15m,spectrophotometer,in situ,specific depth
-2679,AS,25-30m,spectrophotometer,in situ,specific depth
-2692,AF,0.3-0.6 m,spectrophotometer,in situ,surface
-2775,AS,0.5m below water surface,spectrophotometer,in situ,surface
-2793,OM,undescribed,fluorometer,in situ,undescribed
-2815,AS,25m,spectrophotometer,in situ,specific depth
-2826,OM,surface water sample ,fluorometer,in situ,surface
-2839,OM,surface water sample ,spectrophotometer,in situ,surface
-2950,AS,undescribed,undescribed,undescribed,undescribed
-2956,AF,2 m,fluorometer,in situ,specific depth
-2960,AS,40m below water surface,spectrophotometer,in situ,specific depth
-2965,AF,integrated water sample,spectrophotometer,in situ,integrated
-2979,OM,integrated water sample,spectrophotometer,in situ,integrated
-2981,OM,surface water sample ,undescribed,undescribed,surface
-2982,AF,Not described,spectrophotometer,in situ,not described
-2983,AF,Not described,spectrophotometer,in situ,not described
-2987,AS,undescribed,fluorometer,in situ,undescribed
-2993,AF,integrated water sample,undescribed,undescribed,integrated
-2997,AF,surface water sample ,spectrophotometer,in situ,surface
-3005,AF,surface water sample ,spectrophotometer,in situ,surface
-3029,OM,surface water sample ,fluorometer,in situ,surface
-3032,AF,Not described,undescribed,undescribed,not described
-3041,AF,surface water sample ,spectrophotometer,in situ,surface
-3042,AS,hypolimnion,multiparameter probe,in situ,specific depth
-3046,AF,integrated water sample,spectrophotometer,in situ,integrated
-13910,OM,undescribed,"ERROR - same paper as above, remove in final csv.file",undescribed,undescribed
-repo1,AF,metadata,metadata,in situ,not described
-repo10,AF,metadata,metadata,in situ,not described
-repo11,AF,metadata,metadata,in situ,not described
-repo12,AF,metadata,metadata,in situ,not described
-repo13,AF,metadata,metadata,in situ,not described
-repo14,AF,metadata,metadata,in situ,not described
-repo5,AS,na,na,not described,not described
-repo9,AF,metadata,metadata,in situ,not described
-repo2,AF,integrated water sample,fluorometer,in situ,integrated
-repo3,AF,metadata,metadata,in situ,not described
-repo4,AF,undescribed,undescribed,undescribed,undescribed
-repo6,AF,metadata,metadata,in situ,not described
-repo7,AF,metadata,metadata,in situ,not described
-repo8,AF,integrated water sample,spectrophotometer,in situ,integrated
-repo9,OM,undescribed,NA,modelled,undescribed
-waterquality,AF,undescribed,undescribed,in situ,undescribed
+StudyID,Chl Layer,Chl Method,Survey Type,surveyLocation,PI
+1,undescribed,spectrophotometer,in situ,undescribed,
+2,integrated water sample,undescribed,undescribed,integrated,
+12,integrated water sample,spectrophotometer,in situ,integrated,
+13,0.2 m,radiometer,in situ,surface,
+14,surface water sample ,spectrophotometer,in situ,surface,
+19,surface water sample ,ysi sensors,in situ,surface,
+20,undescribed,spectrophotometer,in situ,undescribed,
+22,surface water sample ,undescribed,undescribed,surface,
+26,Not described,Not described,not described,not described,
+29,integrated water sample,fluorometer,in situ,integrated,
+33,5-7m,spectrophotometer,in situ,specific depth,
+42,surface water sample ,calibrated electrodes - multiparameter meter,in situ,surface,
+53,integrated water sample,spectrophotometer,in situ,integrated,
+54,subsurface water sample,Nusch method ,in situ,specific depth,
+55,Not described,fluorometer,in situ,not described,
+56,undescribed,multiparameter probe,in situ,undescribed,
+59,surface water sample ,undescribed,undescribed,surface,
+65,undescribed,modelled,modelled,undescribed,
+70,surface water sample ,spectrophotometer,in situ,surface,
+72,integrated water sample,spectrophotometer,in situ,integrated,
+74,integrated water sample,fluorometer,in situ,integrated,
+78,Not described,modelled,modelled,not described,
+79,1-3m,undescribed,undescribed,specific depth,
+82,undescribed,modelled,modelled,undescribed,
+89,undescribed,modelled,modelled,undescribed,
+93,undescribed,modelled,modelled,undescribed,
+104,surface water sample ,spectrophotometer,in situ,surface,
+108,surface water sample ,undescribed,undescribed,surface,
+116,Not described,spectrophotometer,in situ,not described,
+118,undescribed,multiparameter probe,in situ,undescribed,
+119,undescribed,modelled,modelled,undescribed,
+120,surface water sample ,spectrophotometer,in situ,surface,
+122,undescribed,trichromatic method,in situ,undescribed,
+127,surface water sample ,spectrophotometer,in situ,surface,
+133,undescribed,modelled,modelled,undescribed,
+140,surface water sample ,spectrophotometer,in situ,surface,
+146,undescribed,spectrophotometer,in situ,undescribed,
+147,epilimnion ,spectrophotometer,in situ,specific depth,
+148,undescribed,satellite,modelled,undescribed,
+149,surface water sample ,spectrophotometer,in situ,surface,
+155,Not described,fluorometer,in situ,not described,
+156,integrated water sample,fluorometer,in situ,integrated,
+165,undescribed,undescribed,undescribed,undescribed,
+176,undescribed,undescribed,undescribed,undescribed,
+181,surface water sample ,fluorometer,in situ,surface,
+183,integrated water sample ,spectrophotometer,in situ,integrated,
+195,integrated water sample,spectrophotometer,in situ,integrated,
+199,undescribed,spectrophotometer,in situ,undescribed,
+205,surface water sample ,undescribed,undescribed,surface,
+212,undescribed,undescribed,undescribed,undescribed,
+218,undescribed,spectrophotometer,in situ,undescribed,
+223,undescribed,modelled,modelled,undescribed,
+225,0-30m,multiparameter probe,in situ,integrated,
+226,surface water sample ,undescribed,undescribed,surface,
+227,integrated water sample,fluorometer,in situ,integrated,
+228,1.5m,undescribed,undescribed,specific depth,
+229,undescribed,modelled,modelled,undescribed,
+235,surface water sample ,spectrophotometer,in situ,surface,
+239,undescribed,undescribed,undescribed,undescribed,
+240,surface water sample ,spectrophotometer,in situ,surface,
+241,undescribed,fluorometer,in situ,undescribed,
+254,24m below water surface,undescribed,undescribed,specific depth,
+255,undescribed,undescribed,undescribed,undescribed,
+265,Not described,undescribed,undescribed,not described,
+266,surface water sample ,fluorometer,in situ,surface,
+279,undescribed,environmental quality standards for surface water of the People?s Republic of China,undescribed,undescribed,
+290,undescribed,undescribed,undescribed,undescribed,
+292,surface water sample ,spectrophotometer,in situ,surface,
+306,integrated water sample,fluorometer,in situ,integrated,
+318,surface water sample ,undescribed,undescribed,surface,
+320,integrated water sample,fluorometer,in situ,integrated,
+323,integrated water sample,spectrophotometer,in situ,integrated,
+326,undescribed,spectrophotometer,in situ,undescribed,
+327,undescribed,not found,not described,undescribed,
+329,undescribed,undescribed,undescribed,undescribed,
+331,epilimnion ,fluorometer,in situ,specific depth,
+336,undescribed,fluorometer,in situ,undescribed,
+342,surface water sample ,spectrophotometer,in situ,surface,
+344,1.5m below water surface,undescribed,undescribed,specific depth,
+345,surface water sample ,undescribed,undescribed,surface,
+351,surface water sample ,spectrophotometer,in situ,surface,
+352,metadata,metadata,in situ,not described,
+353,surface water sample ,spectrophotometer,in situ,surface,
+357,surface water sample ,PMPL index,in situ,surface,
+359,Not described,undescribed,undescribed,not described,
+362,integrated water sample,spectrophotometer,in situ,integrated,
+367,Not described,undescribed,undescribed,not described,
+370,integrated water sample,spectrophotometer,in situ,integrated,
+385,Not described,Enzyme kinetics equation,in situ,not described,
+388,3m below water surface,multiparameter probe,in situ,specific depth,
+394,surface water sample ,spectrophotometer,in situ,surface,
+401,Not described,undescribed,undescribed,not described,
+411,0.5m below water surface,undescribed,undescribed,surface,
+412,undescribed,undescribed,undescribed,undescribed,
+417,integrated water sample,spectophotometer,in situ,integrated,
+418,undescribed,spectrophotometer,in situ,undescribed,
+425,0-25m,fluorometer,in situ,integrated,
+446,surface water sample ,spectrophotometer,in situ,surface,
+457,undescribed,satellite,modelled,undescribed,
+470,undescribed,arnon method,undescribed,undescribed,
+475,surface water sample ,Multi-method,in situ,surface,
+478,surface water sample ,fluorometer,in situ,surface,
+481,2-4m,undescribed,undescribed,specific depth,
+491,undescribed,spectrophotometer,in situ,undescribed,
+496,2m below water surface,undescribed,undescribed,specific depth,
+501,integrated water sample,colorimetric method,in situ,integrated,
+507,integrated water sample,spectrophotometer,in situ,integrated,
+514,integrated water sample,undescribed,undescribed,integrated,
+519,integrated water sample,fluorometer,in situ,integrated,
+521,0.2 m,fluorometer,in situ,surface,
+524,integrated water sample,spectrophotometer,in situ,integrated,
+527,undescribed,spectrophotometer,in situ,undescribed,
+530,integrated water sample,spectrophotometer,in situ,integrated,
+535,integrated water sample,undescribed,undescribed,integrated,
+537,surface water sample ,undescribed,undescribed,surface,
+558,undescribed,spectrophotometer,in situ,undescribed,
+560,0.5 m,spectrophotometer,in situ,surface,
+568,integrated water sample,spectrophotometer,in situ,integrated,
+569,surface water sample ,spectrophotometer,in situ,surface,
+570,0.5m below water surface,american public health association,undescribed,surface,
+577,surface water sample ,fluorometer,in situ,surface,
+582,integrated water sample,fluorometer,in situ,integrated,
+591,0.5 m,spectrophotometer,in situ,surface,
+600,surface water sample ,spectrophotometer,in situ,surface,
+608,undescribed,satellite,modelled,undescribed,
+614,integrated water sample,spectrophotometer,in situ,integrated,
+621,undescribed,undescribed,undescribed,undescribed,
+630,integrated water sample,undescribed,undescribed,integrated,
+637,undescribed,spectrophotometer,in situ,undescribed,
+646,0.5 m,spectrophotometer,in situ,surface,
+649,undescribed,spectrophotometer,in situ,undescribed,
+654,surface water sample ,USGS analytical sampling protocol,in situ,surface,
+669,surface water sample ,undescribed,undescribed,surface,
+671,Not described,Not described,not described,not described,
+682,integrated water sample,fluorometer,in situ,integrated,
+688,0-30m,spectrophotometer,in situ,integrated,
+690,undescribed,remote sensing,modelled,undescribed,
+702,integrated water sample,spectrophotometer,in situ,integrated,
+718,undescribed,modelled,modelled,undescribed,
+721,undescribed,ISO 10260 method,in situ,undescribed,
+740,Not described,spectrophotometer,in situ,not described,
+761,integrated water sample,fluorometer,in situ,integrated,
+771,undescribed,inaccessible,in situ,undescribed,
+773,Not described,modelled,modelled,not described,
+774,integrated water sample,fluorometer,in situ,integrated,
+776,Not described,modelled,modelled,not described,
+777,surface water sample ,undescribed,undescribed,surface,
+780,surface water sample ,fluorometer,in situ,surface,
+781,0.4 m,spectrophotometer,in situ,surface,
+782,undescribed,remote sensing,modelled,undescribed,
+787,0-0.15 m,spectrophotometer,in situ,surface,
+793,surface water sample ,undescribed,undescribed,surface,
+797,0-1m,fluorometer,in situ,surface,
+805,3m,fluorometer,in situ,specific depth,
+809,surface water sample ,fluorometer,in situ,surface,
+811,surface water sample ,undescribed,undescribed,surface,
+814,0.15 m,undescribed,undescribed,surface,
+815,surface water sample ,spectrophotometer,in situ,surface,
+821,surface water sample ,radiometer,in situ,surface,
+823,surface water sample ,spectrophotometer,in situ,surface,
+828,surface water sample ,spectrophotometer,in situ,surface,
+829,Not described,spectrophotometer,in situ,not described,
+831,integrated water sample,fluorometer,in situ,integrated,
+833,undescribed,modelled,modelled,undescribed,
+844,Not described,spectrophotometer,in situ,not described,
+847,integrated water sample,undescribed,undescribed,integrated,
+856,undescribed,Standard Methods for the Examination of Water and Wastewater (APHA 1998),in situ,undescribed,
+858,2m,spectrophotometer,in situ,specific depth,
+860,undescribed,undescribed,undescribed,undescribed,
+866,undescribed,fluorometer,in situ,undescribed,
+876,integrated water sample,spectrophotometer,in situ,integrated,
+888,Not described,spectrophotometer,in situ,not described,
+947,surface water sample ,spectrophotometer,in situ,surface,
+952,undescribed,fluorometer,in situ,undescribed,
+955,Not described,modelled,modelled,not described,
+960,surface water sample ,undescribed,undescribed,surface,
+974,1.5m,undescribed,undescribed,specific depth,
+979,integrated water sample,spectrophotometer,in situ,integrated,
+983,surface water sample ,spectrophotometer,in situ,surface,
+989,integrated water sample,spectrophotometer,in situ,integrated,
+1009,integrated water sample,spectrophotometer,in situ,integrated,
+1044,sampling station,undescribed,undescribed,not described,
+1047,1 m,spectrophotometer,in situ,specific depth,
+1061,surface water sample ,undescribed,undescribed,surface,
+1079,1-2m (epilimnion,spectrophotometer,in situ,specific depth,
+1147,undescribed,spectrophotometer,in situ,undescribed,
+1159,epilimnion ,spectrophotometer,in situ,specific depth,
+1172,Not described,undescribed,undescribed,not described,
+1220,integrated water sample,spectrophotometer,in situ,integrated,
+1224,integrated water sample,spectrophotometer,in situ,integrated,
+1231,integrated water sample,spectrophotometer,in situ,integrated,
+1237,epilimnion ,standard methods (Eaton and Franson 2005),in situ,specific depth,
+1243,surface water sample ,spectrophotometer,in situ,surface,
+1246,surface water sample ,fluorometer,in situ,surface,
+1257,integrated water sample,fluorometer,in situ,integrated,
+1261,Not described,spectrophotometer,in situ,not described,
+1283,surface water sample ,fluorometer,in situ,surface,
+1285,surface water sample ,gravimeter ,in situ,surface,
+1287,surface water sample ,undescribed,undescribed,surface,
+1289,surface water sample ,fluorometer,in situ,surface,
+1297,surface water sample ,procedures described by the American Public Health Association,in situ,surface,
+1301,Not described,modelled,modelled,not described,
+1302,integrated water sample,undescribed,undescribed,integrated,
+1314,surface water sample ,fluorometer,in situ,surface,
+1315,surface water sample ,spectrophotometer,in situ,surface,
+1319,epilimnion ,undescribed,undescribed,specific depth,
+1320,surface water sample ,undescribed,undescribed,surface,
+1321,integrated water sample,fluorometer,in situ,integrated,
+1325,undescribed,undescribed,undescribed,undescribed,
+1334,undescribed,modelled,modelled,undescribed,
+1340,integrated water sample,fluorometer,in situ,integrated,
+1342,integrated water sample,fluorometer,in situ,integrated,
+1346,Not described,undescribed,undescribed,not described,
+1350,Not described,modelled,modelled,not described,
+1355,surface water sample ,undescribed,undescribed,surface,
+1361,surface water sample ,fluorometer,in situ,surface,
+1365,surface water sample ,fluorometer,in situ,surface,
+1373,2m,fluorometer,in situ,specific depth,
+1376,integrated water sample,spectrophotometer,in situ,integrated,
+1377,surface water sample ,spectrophotometer,in situ,surface,
+1390,surface water sample ,undescribed,undescribed,surface,
+1391,0.5 m,undescribed,undescribed,surface,
+1403,Not described,undescribed,undescribed,not described,
+1405,surface water sample ,spectrophotometer,in situ,surface,
+1420,Not described,spectrophotometer,in situ,not described,
+1436,surface water sample ,undescribed,undescribed,surface,
+1440,Not described,undescribed,undescribed,not described,
+1474,surface water sample ,spectrophotometer,in situ,surface,
+1476,integrated water sample,fluorometer,in situ,integrated,
+1478,undescribed,multiparameter probe,in situ,undescribed,
+1490,surface water sample ,spectrophotometer,in situ,surface,
+1496,integrated water sample,spectrophotometer,in situ,integrated,
+1499,undescribed,undescribed,undescribed,undescribed,
+1501,surface water sample ,spectrophotometer,in situ,surface,
+1513,integrated water sample,fluorometer,in situ,integrated,
+1540,surface water sample ,spectrophotometer,in situ,surface,
+1566,surface water sample ,spectrophotometer,in situ,surface,
+1570,integrated water sample,fluorometer,in situ,integrated,
+1575,integrated water sample,metadata,in situ,integrated,
+1577,Not described,spectrophotometer,in situ,not described,
+1579,surface water sample ,spectrophotometer,in situ,surface,
+2232,surface water sample ,fluorometer,in situ,surface,
+2233,undescribed,spectrophotometer,in situ,undescribed,
+2256,Not described,undescribed,undescribed,not described,
+2258,0.5m below water surface,spectophotometer,in situ,surface,
+2283,surface water sample ,spectrophotometer,in situ,surface,
+2286,hypolimnion,fluorometer,in situ,specific depth,
+2308,integrated water sample,fluorometer,in situ,integrated,
+2309,undescribed,undescribed,undescribed,undescribed,
+2312,surface water sample ,spectrophotometer,in situ,surface,
+2313,undescribed,undescribed,undescribed,undescribed,
+2329,surface water sample ,freeze-thaw method ,in situ,surface,
+2376,integrated water sample,fluorometer,in situ,integrated,
+2397,undescribed,modelled,modelled,undescribed,
+2412,1-15m,spectrophotometer,in situ,specific depth,
+2679,25-30m,spectrophotometer,in situ,specific depth,
+2692,0.3-0.6 m,spectrophotometer,in situ,surface,
+2775,0.5m below water surface,spectrophotometer,in situ,surface,
+2793,undescribed,fluorometer,in situ,undescribed,
+2815,25m,spectrophotometer,in situ,specific depth,
+2826,surface water sample ,fluorometer,in situ,surface,
+2839,surface water sample ,spectrophotometer,in situ,surface,
+2950,undescribed,undescribed,undescribed,undescribed,
+2956,2 m,fluorometer,in situ,specific depth,
+2960,40m below water surface,spectrophotometer,in situ,specific depth,
+2965,integrated water sample,spectrophotometer,in situ,integrated,
+2979,integrated water sample,spectrophotometer,in situ,integrated,
+2981,surface water sample ,undescribed,undescribed,surface,
+2982,Not described,spectrophotometer,in situ,not described,
+2983,Not described,spectrophotometer,in situ,not described,
+2987,undescribed,fluorometer,in situ,undescribed,
+2993,integrated water sample,undescribed,undescribed,integrated,
+2997,surface water sample ,spectrophotometer,in situ,surface,
+3005,surface water sample ,spectrophotometer,in situ,surface,
+3029,surface water sample ,fluorometer,in situ,surface,
+3032,Not described,undescribed,undescribed,not described,
+3041,surface water sample ,spectrophotometer,in situ,surface,
+3042,hypolimnion,multiparameter probe,in situ,specific depth,
+3046,integrated water sample,spectrophotometer,in situ,integrated,
+repo1,metadata,metadata,in situ,not described,
+repo10,metadata,metadata,in situ,not described,
+repo11,metadata,metadata,in situ,not described,
+repo12,metadata,metadata,in situ,not described,
+repo13,metadata,metadata,in situ,not described,
+repo14,metadata,metadata,in situ,not described,
+repo5,na,na,not described,not described,
+repo9,metadata,metadata,in situ,not described,
+repo2,integrated water sample,fluorometer,in situ,integrated,
+repo3,metadata,metadata,in situ,not described,
+repo4,undescribed,undescribed,undescribed,undescribed,
+repo6,metadata,metadata,in situ,not described,
+repo7,metadata,metadata,in situ,not described,
+repo8,integrated water sample,spectrophotometer,in situ,integrated,
+repo9,undescribed,NA,modelled,undescribed,
+waterquality,undescribed,undescribed,in situ,undescribed,

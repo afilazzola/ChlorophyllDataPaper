@@ -74,4 +74,15 @@ allvarsID <- merge(allvars, lakeCodes, by="lagoslakeid")
 
 write.csv(allvarsID, "LAGOSwID.csv", row.names=F)
 
+## Revise remaining lakes
+edits <- read.csv("LAGOS//edits.csv", stringsAsFactors = F)
+lagosID <- read.csv("LAGOS//LAGOSwID.csv" , stringsAsFactors = F)
 
+## Cycle through edits based on maps
+for(i in 1:nrow(edits)){
+editIter <- edits[i,"LAGOS.ID"]
+editRevise <- edits[i,"Unique.ID"]
+lagosID[lagosID$lagoslakeid==editIter, "LakeID"] <- editRevise
+}
+
+write.csv(lagosID, "LAGOS//LAGOSwID.csv" , row.names = F)

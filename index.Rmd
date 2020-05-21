@@ -54,7 +54,8 @@ options(scipen=6) ## lower threshold for scientific notation
 
 ### Map of studies
 ```{r}
-data <- read.csv("data//ChlaData.csv")
+
+data <- read.csv("data//ChlaDataV2.csv")
 
 ## plot out global distribution of lake chl
 mp <- NULL
@@ -79,9 +80,7 @@ ggplot(data, aes(x=log(ChlValues))) + geom_density(fill="#9ACC7C") + xlab("Log t
   annotate("text", x=-1, y=0.3, label=paste("minimum = 0 mg/L"), size=5) + ## min
   annotate("text", x=-1, y=0.27, label=paste("maximum = ",max(data$ChlValues), "mg/L"), size=5)  + ## max
   annotate("text", x=-1, y=0.24, label=paste("median ± SE = ",round(median(data$ChlValues),3), "±", formatC(round(se(data$ChlValues),4), digits=4,format="f") , "mg/L"), size=5) +theme(axis.text=element_text(size=12),
-        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + xlim(-10,3)
-
-ks.test(x=log(data$ChlValues[data$ChlValues>0]),y='pnorm',alternative='two.sided')
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + xlim(-10,3) + geom_vline(xintercept = log(2.5/1000), lty=2) + geom_vline(xintercept = log(0.001), lty=2) 
 ```
 
 

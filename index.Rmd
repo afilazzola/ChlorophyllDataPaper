@@ -175,5 +175,15 @@ sum(!is.na(data$Secchi))/nrow(data) ## amount of secchi depth values
 sum(!is.na(data$pH))/nrow(data) ## amount of pH values
 ```
 
+### Create barplots of variables
+```{r}
+chlaLong <- chla %>% gather(variable, value, 9:19)
 
+chla[chla$pH<5.5 & !is.na(chla$pH),"pH"] <- NA
+chla[chla$pH>10.5 & !is.na(chla$pH),"pH"] <- NA
 
+chlaLong[chlaLong$variable=="pH","value"] <- 10^chlaLong[chlaLong$variable=="pH","value"]
+
+ggplot(chlaLong, aes(y=log10(value))) + geom_boxplot() + facet_grid(.~variable, scales="free") +theme(axis.text=element_text(size=12),
+        axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+```

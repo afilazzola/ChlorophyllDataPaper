@@ -117,3 +117,18 @@ for(i in 1:length(ID)){
 }
 
 write.csv(chla, "data//ChlaDataV2.csv", row.names=F)
+
+## Append data to include surface area
+chla <- read.csv("data//ChlaDataV2.csv", stringsAsFactors = F)
+SA <- read.csv("LAGOS//LAGOSsurfacearea.csv", stringsAsFactors = F)
+
+## Cycle through edits based on maps
+for(i in 1:nrow(SA)){
+  addSA <- SA[i, "surfaceArea"]
+  lakeName <- SA[i, "LagosName"]
+  chla[chla$LakeName==lakeName, "SurfaceArea"] <- addSA
+}
+
+sum(!is.na(chla$SurfaceArea))
+
+write.csv(chla, "data//ChlaDataV2.csv", row.names=F)

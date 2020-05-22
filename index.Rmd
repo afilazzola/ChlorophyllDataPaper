@@ -173,11 +173,13 @@ sum(!is.na(data$Depth.mean))/nrow(data) ## amount of mean depth values
 sum(!is.na(data$Depth.max))/nrow(data) ## amount of max depth values
 sum(!is.na(data$Secchi))/nrow(data) ## amount of secchi depth values
 sum(!is.na(data$pH))/nrow(data) ## amount of pH values
+
+
 ```
 
 ### Create barplots of variables
 ```{r}
-chlaLong <- chla %>% gather(variable, value, 9:19)
+chlaLong <- data %>% gather(variable, value, 9:19)
 
 chlaLong[chlaLong$variable=="pH","value"] <- 10^chlaLong[chlaLong$variable=="pH","value"]
 

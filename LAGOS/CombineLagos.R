@@ -132,3 +132,11 @@ for(i in 1:nrow(SA)){
 sum(!is.na(chla$SurfaceArea))
 
 write.csv(chla, "data//ChlaDataV2.csv", row.names=F)
+
+
+
+chla <- read.csv("data//ChlaDataV2.csv", stringsAsFactors = F)
+
+
+
+

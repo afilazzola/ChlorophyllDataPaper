@@ -1549,14 +1549,49 @@ div.tocify {
 <p>Data was be extracted from papers or supplemental materials. Authors will be contacted for their available data if not available online. Additional datasets will be obtained used online repostiories (e.g. Dryad, KnB, Github) and more general searches online.</p>
 <p><code>chlorophyll</code> <strong>AND</strong> <code>lake*</code></p>
 <p>These terms have returned 4131 results (as of Sept 2018)</p>
+</div>
+<div id="load-libraries" class="section level3">
+<h3>Load Libraries</h3>
 <pre class="r"><code>#libraries
 library(tidyverse)
 library(ggmap)
+library(dataone)
 
 ## get standard error function
 se &lt;- function(x) sqrt(var(x)/length(x))
 
 options(scipen=6) ## lower threshold for scientific notation</code></pre>
+</div>
+<div id="download-data-from-knb" class="section level3">
+<h3>Download data from KNB</h3>
+<pre class="r"><code>## Select KNB repo for download and database identifiers
+cn &lt;- CNode(&quot;PROD&quot;)
+mn &lt;- getMNode(cn, &quot;urn:node:KNB&quot;)
+id &lt;- &quot;doi:10.5063/F1RV0M1S&quot;
+uuid &lt;- &quot;urn:uuid:317170a4-fbe5-4b20-8d32-bdf896b2b75e&quot;
+
+
+## Get Meta data
+library(XML)
+metadata &lt;- rawToChar(getObject(mn, id))
+doc = xmlRoot(xmlTreeParse(metadata, asText=TRUE, trim = TRUE, ignoreBlanks = TRUE))
+tf &lt;- tempfile()
+saveXML(doc, tf)</code></pre>
+<pre><code>## [1] &quot;C:\\Users\\alexf\\AppData\\Local\\Temp\\Rtmp8CooUD\\file720c271e4a8a&quot;</code></pre>
+<pre class="r"><code>file.show(tf)
+
+## Get Raw data
+databasePath &lt;- getPackage(mn, id=uuid, dirPath=&quot;.&quot;, unzip=T)
+
+## List files
+list.files(paste0(databasePath,&quot;/data/&quot;))</code></pre>
+<pre><code>## [1] &quot;A_global_database_of_chlorophyll_and_water.xml&quot;                   
+## [2] &quot;ChlaData.csv&quot;                                                     
+## [3] &quot;doi_10.5063_F1RV0M1S-METADATA.pdf&quot;                                
+## [4] &quot;methodsData.csv&quot;                                                  
+## [5] &quot;MS_citations.csv&quot;                                                 
+## [6] &quot;Repo_citations.csv&quot;                                               
+## [7] &quot;resourceMap_urn_uuid_317170a4-fbe5-4b20-8d32-bdf896b2b75e.rdf.xml&quot;</code></pre>
 </div>
 <div id="map-of-studies" class="section level3">
 <h3>Map of studies</h3>

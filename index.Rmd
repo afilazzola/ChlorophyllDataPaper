@@ -40,10 +40,13 @@ Data was be extracted from papers or supplemental materials. Authors will be con
 
 These terms have returned 4131 results (as of Sept 2018) 
 
+
+### Load Libraries
 ```{r warning=FALSE, message=FALSE}
 #libraries
 library(tidyverse)
 library(ggmap)
+library(dataone)
 
 ## get standard error function
 se <- function(x) sqrt(var(x)/length(x))
@@ -51,6 +54,30 @@ se <- function(x) sqrt(var(x)/length(x))
 options(scipen=6) ## lower threshold for scientific notation
 ```
 
+### Download data from KNB
+```{r}
+## Select KNB repo for download and database identifiers
+cn <- CNode("PROD")
+mn <- getMNode(cn, "urn:node:KNB")
+id <- "doi:10.5063/F1RV0M1S"
+uuid <- "urn:uuid:317170a4-fbe5-4b20-8d32-bdf896b2b75e"
+
+
+## Get Meta data
+library(XML)
+metadata <- rawToChar(getObject(mn, id))
+doc = xmlRoot(xmlTreeParse(metadata, asText=TRUE, trim = TRUE, ignoreBlanks = TRUE))
+tf <- tempfile()
+saveXML(doc, tf)
+file.show(tf)
+
+## Get Raw data
+databasePath <- getPackage(mn, id=uuid, dirPath=".", unzip=T)
+
+## List files
+list.files(paste0(databasePath,"/data/"))
+
+```
 
 ### Map of studies
 ```{r}

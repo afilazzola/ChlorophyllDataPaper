@@ -213,3 +213,17 @@ chlaLong[chlaLong$variable=="pH","value"] <- 10^chlaLong[chlaLong$variable=="pH"
 ggplot(chlaLong, aes(y=log10(value))) + geom_boxplot() + facet_grid(.~variable, scales="free") +theme(axis.text=element_text(size=12),
         axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 ```
+
+
+### Repository statistics
+```{r}
+## Select only repo datasets
+data$StudyID <- as.character(data$StudyID) 
+repoData <- data[grep("repo*", data$StudyID),]
+
+## Number of lakes
+repoData %>% group_by(StudyID) %>% summarize(n=length(unique(UniqueLakeName)))
+## Number of observations
+repoData %>% group_by(StudyID) %>% summarize(n=length(uniqueID))
+## Timeframe
+repoData %>%  group_by(StudyID) %>% mutate(Year = as.numeric(as.character(Year))) %>%  summarize(first = min(Year), last = max(Year))

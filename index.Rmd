@@ -130,21 +130,19 @@ plot1 <- ggplot(chlsurvey, aes(x=Survey.Type, y=chl))+ geom_bar(stat="identity",
    scale_y_continuous(expand = c(0, 0), limits = c(0,0.08)) + annotate(geom ="text", x=0.5, y=0.075, label="a", size=10)
 
 ## water survey location
-chllocation <- methodID %>% group_by(surveyLocation) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!surveyLocation %in% c("not described","undescribed"))
+chllocation <- methodID %>% group_by(Depth.qual) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!Depth.qual %in% c("not described","undescribed")) %>% filter(!is.na(Depth.qual))
 
-plot2 <- ggplot(chllocation, aes(x=surveyLocation, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=surveyLocation,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) +  xlab("") + ylab("")+theme(axis.text=element_text(size=12),
+plot2 <- ggplot(chllocation, aes(x=Depth.qual, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=Depth.qual,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.5) +  xlab("") + ylab("")+theme(axis.text=element_text(size=12),
         axis.title=element_text(size=14,face="bold"))+ theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
-  scale_y_continuous(expand = c(0, 0), limits = c(0,0.08))+ annotate(geom ="text", x=0.5, y=0.075, label="b", size=10)
+  scale_y_continuous(expand = c(0, 0), limits = c(0,0.04))+ annotate(geom ="text", x=0.5, y=0.075, label="b", size=10)
 
 library(gridExtra)
 
 grid.arrange(plot1, plot2, ncol=2)
 
-## compare number of studies from repo data
-repoOnly <- data[is.na(as.numeric(as.character(data$StudyID))),]
 
 ## compare methods
-methodID %>% group_by(Chl.Method) %>% summarize(n=length(ChlValues)/nrow(data)*100) %>% top_n(8)
+method %>% group_by(Depth.qual) %>% summarize(n=length(Depth.quant))
 
 ```
 

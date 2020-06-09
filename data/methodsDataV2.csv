@@ -1,997 +1,286 @@
-StudyID,Title,Authors,Year,PI,Chl Method,MeasurementType,DetectionLimits,Survey Type,Depth.qual,Depth.quant,Column.rep,Replicate,Spatial.rep,Spatial.qual,Temporal.rep,Temporal.qual,StartDay,StartMonth,StartYear,EndDay,EndMonth,EndYear
-1,Hot and toxic: Temperature regulates microcystin release from cyanobacteria,"Walls, Jeremy T.; Wyatt, Kevin H.; Doll, Jason C.; Rubenstein, Eric M.; Rober, Allison R.",2018,AF,spectrophotometer,mean,0.0001,in situ,undescribed,,1,165,11,integrated,15,monthly,1,5,2015,1,5,2016
-2,Spatial and temporal variations in the relationship between lake water surface temperatures and water quality - A case study of Dianchi Lake,"Yang, Kun; Yu, Zhenyu; Luo, Yi; Yang, Yang; Zhao, Lei; Zhou, Xiaolu",2018,AF,undescribed,mean,0.01,undescribed,integrated,,1,960,10,integrated,96,monthly,1,1,2005,31,12,2016
-12,"Spatial differences in dissolved silicon utilization in Lake Baikal, Siberia: Examining the impact of high diatom biomass events and eutrophication","Panizzo, V. N.; Roberts, S.; Swann, G. E. A.; McGowan, S.; Mackay, A. W.; Vologina, E.; Pashley, V; Horstwood, M. S. A.",2018,AF,spectrophotometer,mean,0.0001,in situ,integrated,1 to 180,8,120,15,integrated,1,once,30,7,2013,15,8,2013
-13,Phytoplankton limitation in Patagonian and Pampean shallow lakes: effect of phosphorus and light,"Torremorell, Ana; del Carmen Dieguez, Maria; Queimalinos, Claudia; Izaguirre, Irina; Zagarese, Horacio E.",2018,AF,radiometer,raw,0.0001,in situ,surface,0.2,1,2,1,center,2,yearly,10,11,2005,5,9,2006
-14,"Evaluating the contamination of microcystins in Lake Taihu, China: The. application of equivalent total MC-LR concentration","Su, Xiaomei; Steinman, Alan D.; Xue, Qingju; Zhao, Yanyan; Xie, Liqiang",2018,AF,spectrophotometer,mean,0.0001,in situ,surface,0.5,1,224,14,integrated,17,monthly,1,7,2013,1,12,2014
-19,From Bacteria to Fish: Ecological Consequences of Seasonal Hypoxia in a Great Lakes Estuary,"Weinke, Anthony D.; Biddanda, Bopaiah A.",2018,AF,ysi sensors,mean,0.0001,in situ,surface,,2,224,4,integrated,28,biweekly,6,5,2015,4,11,2015
-20,Interactive effects of environmental factors on phytoplankton communities and benthic nutrient interactions in a shallow lake and adjoining rivers in China,"Rao, Ke; Zhang, Xiang; Yi, Xiang-Jun; Li, Zheng-Shan; Wang, Ping; Huang, Guang-Wei; Guo, Xiao-Xi",2018,AF,spectrophotometer,mean,0.0001,in situ,undescribed,,1,48,12,integrated,4,seasonally,1,4,2016,1,12,2016
-22,The structuring role of submerged macrophytes in a large subtropical shallow lake: Clear effects on water chemistry and phytoplankton structure community along a vegetated-pelagic gradient,"Ferreira, Tiago Finkler; Crossetti, Luciane O.; Motta Marques, David M. L.; Cardoso, Luciana; Fragoso, Carlos Ruberto, Jr.; van Nes, Egbert H.",2018,AF,undescribed,mean,0.0001,undescribed,surface,0.15,1,40,8,integrated,5,seasonally,1,5,2007,1,3,2008
-26,Gravel pit lakes in Denmark: Chemical and biological state,"Sondergaard, Martin; Lauridsen, Torben L.; Johansson, Liselotte S.; Jeppesen, Erik",2018,AF,Not described,raw,0.001,not described,not described,0.5,1,1,1,center,1,once,6,6,2016,17,8,2016
-29,Pelagic zonation of water quality and phytoplankton in the Great Lakes,"Cai, Meijun; Reavie, Euan D.",2018,AF,fluorometer,mean,0.00001,in situ,integrated,0 to 20,4,1728,72,integrated,6,semi-annually,1,8,2007,1,12,2010
-33,"Sources of nutrients behind recent eutrophication of Lago de Tota, a high mountain Andean lake","Javier Aranguren-Riano, Nelson; Shurin, Jonathan B.; Pedroza-Ramos, Adriana; Liliana Munoz-Lopez, Claudia; Lopez, Ricardo; Cely, Omar",2018,AF,spectrophotometer,mean,0.0001,in situ,specific depth,5 to 7,1,80,10,integrated,8,monthly,9,9,2014,3,9,2015
-42,Extreme drought decouples silicon and carbon geochemical linkages in lakes,"Li, Tianyang; Li, Siyue; Bush, Richard T.; Liang, Chuan",2018,AF,calibrated electrodes - multiparameter meter,mean,0.0001,in situ,surface,10 to 30,1,491,13,integrated,38,monthly,1,4,2008,1,12,2012
-53,Differential bioaccumulation of mercury by zooplankton taxa in a mercury-contaminated reservoir Guizhou China,"Long, Sheng-Xing; Hamilton, Paul B.; Yang, Yang; Wang, Sai; Huang, Wen-da; Chen, Chuan; Tao, Ran",2018,AF,spectrophotometer,mean,0.0001,in situ,integrated,5 to 13,3,48,4,integrated,4,seasonally,1,9,2015,1,8,2016
-54,"Influence of Environmental Conditions on the Phytoplankton Community Assemblages in Suloglu Reservoir (Edirne, Turkey)","Oterler, Burak; Elipek, Belgin Camur; Arat, Salih Murat",2018,AF,Nusch method ,mean,0.0001,in situ,specific depth,1 to 15,3,89,3,center,11,monthly,1,1,2013,1,11,2013
-55,Habitat suitability evaluation of a benthic macroinvertebrate community in a shallow lake,"Yi, Yujun; Sun, Jie; Yang, Yufeng; Zhou, Yang; Tang, Caihong; Wang, Xuan; Yang, Zhifeng",2018,AF,fluorometer,mean,0.00001,in situ,not described,,1,42,14,integrated,3,seasonally,1,4,2016,1,9,2016
-56,Assessment of the efficiency of a trophic state index in determining the water quality of public water supply reservoirs,"Vieira Rego da Silva, Daniel Clemente; Queiroz, Lucas Goncalves; Alamino, Douglas Alvarez; Fernandes, Juliana Goncalves; da Silva, Sheila Cardoso; Brazil de Paiva, Teresa Cristina; Martins Pompeo, Marcelo Luiz",2018,AF,modelled,mean,0.0001,in situ,surface,0,1,,,,,,,,,,,
-59,"Status of Water Quality in King Talal Reservoir Dam, Jordan","Al-Taani, Ahmed A.; El-Radaideh, Nazem M.; Al Khateeb, Wesam M.",2018,AF,undescribed,mean,0.00001,in situ,integrated,0 to 28,3,120,40,integrated,1,once,,,,,,
-65,Application of feature selection and regression models for chlorophyll-a prediction in a shallow lake,"Li, Xue; Sha, Jian; Wang, Zhong-Liang",2018,AF,undescribed,mean,0.00001,in situ,surface,0,1,64,8,integrated,8,monthly,1,5,2006,1,12,2010
-70,Spatial statistics of hydrography and water chemistry in a eutrophic boreal lake based on sounding and water samples,"Lepparanta, Matti; Lewis, John E.; Heini, Anniina; Arvola, Lauri",2018,AF,spectrophotometer,median,0.0001,in situ,surface,0,1,64,16,integrated,4,seasonally,18,3,2009,26,10,2010
-72,Lake Caviahue: an extreme environment as a potential sentinel for nutrient deposition in Patagonia,"Baffico, Gustavo; Diaz, Monica; Beamud, Guadalupe; Schultz, Sabina; Temporetti, Pedro; Pedrozo, Fernando",2018,AF,spectrophotometer,mean,0.00001,in situ,integrated,0 to 80,10,620,2,center,31,seasonally,1,1,2000,12,12,2015
-74,The Role of Confluence in Shaping Water Quality Parameters on Example of the Flow-Through Lake Bikcze (Eastern Poland),"Ferencz, Beata; Dawidek, Jaroslaw",2018,OM,fluorometer,mean,0.001,in situ,integrated,0 to 2.5,5,360,72,integrated,1,once,1,5,2016,1,5,2016
-78,An analysis of satellite-derived chlorophyll and algal bloom indices on Lake Winnipeg,"Binding, C. E.; Greenberg, T. A.; McCullough, G.; Watson, S. B.; Page, E.",2018,OM,modelled,mean,0.0001,satellite,surface,0,,,,,,seasonally,1,6,2002,1,10,2011
-79,Phytoplankton and benthic algal response to ecosystem engineers and multiple stressors in the nearshore of Lake Huron,"Stefanoff, Samantha; Vogt, Richard J.; Howell, Todd; Sharma, Sapna",2018,OM,undescribed,mean,0.00001,in situ,undescribed,,1,18,3,integrated,6,seasonally,12,5,2010,30,9,2010
-82,Evaluating the portability of satellite derived chlorophyll-a algorithms for temperate inland lakes using airborne hyperspectral imagery and dense surface observations,"Johansen, Richard; Beck, Richard; Nowosad, Jakub; Nietch, Christopher; Xu, Min; Shu, Song; Yang, Bo; Liu, Hongxing; Emery, Erich; Reif, Molly; Harwood, Joseph; Young, Jade; Macke, Dana; Martin, Mark; Stillings, Garrett; Stumpf, Richard; Su, Haibin",2018,OM,modelled,mean,0.0001,satellite,surface,,1,114,114,integrated,1,once,18,6,2014,18,6,2014
-89,"When and where to reduce nutrient for controlling harmful algal blooms in large eutrophic lake Chaohu, China?","Huang, Jiacong; Zhang, Yinjun; Huang, Qi; Gao, Junfeng",2018,OM,modelled,mean,0.0001,in situ,undescribed,,1,840,14,integrated ,60,monthly,1,1,2010,1,1,2014
-93,Evaluation of Unified Algorithms for Remote Sensing of Chlorophyll-a and Turbidity in Lake Shinji and Lake Nakaumi of Japan and the Vaal Dam Reservoir of South Africa under Eutrophic and Ultra-Turbid Conditions,"Sakuno, Yuji; Yajima, Hiroshi; Yoshioka, Yumi; Sugahara, Shogo; Abd Elbasit, Mohamed A. M.; Adam, Elhadi; Chirima, Johannes George",2018,OM,multiparameter probe,mean,0.0001,in situ,undescribed,,1,36,36,integrated,1,once,15,7,2016,27,3,2017
-104,Importance of sediment organic matter to methane ebullition in a sub-tropical freshwater reservoir,"Grinham, Alistair; Dunbabin, Matthew; Albert, Simon",2018,OM,spectrophotometer,mean,0.0001,in situ,integrated,0 to 3,7,336,4,integrated,12,monthly,1,1,2016,31,12,2016
-108,"Spatio-temporal variation of microcystins and its relationship to biotic and abiotic factors in Hongze Lake, China","Xue, Qingju; Rediske, Richard R.; Gong, Zhijun; Su, Xiaomei; Xu, Hao; Cai, Yongjiu; Zhao, Yanyan; Xie, Liqiang",2018,OM,undescribed,mean,0.00001,undescribed,surface,0.5,1,40,10,integrated,4,monthly ,1,8,2013,1,11,2013
-116,"Assessing Eutrophication Potential of a Freshwater Lake by Relating Its Bioproductivity and Biodiversity: A Case Study of Lake Wilson on Central Oahu, Hawaii","Lee, Tsu-Chuan; Liu, Clark C. K.",2018,OM,spectrophotometer,mean,0.0001,in situ,surface,0,1,2,2,integrated,1,once,12,4,2011,12,4,2011
-118,ONLINE MEASUREMENT METHOD OF WATER QUALITY IN THE SULEJOW RESERVOIR,"Zieminska-Stolarska, Aleksandra; Adamiec, Janusz; Imbierowicz, Miroslaw; Imbierowicz, Ewa; Jaskulski, Marcin; Szmidt, Aleksander; Zbicinski, Ireneusz",2018,OM,multiparameter probe,mean,0.0001,in situ,undescribed,1.5,1,17,17,integrated,1,once,,,,,,
-119,Remote sensing of water quality based on HJ-1A HSI imagery with modified discrete binary particle swarm optimization-partial least squares (MDBPSO-PLS) in inland waters: A case in Weishan Lake,"Cao, Yin; Ye, Yuntao; Zhao, Hongli; Jiang, Yunzhong; Wang, Hao; Shang, Yizi; Wang, Junfeng",2018,OM,spectophotometer,mean,0.0001,in situ,surface,0.5,1,23,23,integrated,1,once,16,10,2015,17,10,2015
-120,Assessment of temporal and spatial eutrophication index in a water dam reservoir,"Esfandi, F.; Mahvi, A. H.; Mosaferi, M.; Armanfar, F.; Hejazi, M. A.; Maleki, S.",2018,OM,spectrophotometer,mean,0.001,in situ,surface,0.5,1,30,5,integrated,6,seasonally,1,7,2015,1,12,2015
-122,Predicting chlorophyll-a concentrations in two temperate reservoirs with different trophic states using Principal Component Regression (PCR),"Celik, Kemal",2018,MAI,trichromatic method,,,in situ,undescribed,undescribed,,,,,,,,,,,,
-127,Potential contributions of dissolved organic matter to monomethylmercury distributions in temperate reservoirs as revealed by fluorescence spectroscopy,"Noh, Seam; Kim, Jihee; Hur, Jin; Hong, Yongseok; Han, Seunghee",2018,MAI,spectrophotometer,mean,0.00001,in situ,surface,surface water sample ,5,80,3,integrated,2,seasonally,1,7,2013,1,9,2015
-133,Global Sensitivity Analysis of a Water Quality Model in the Three Gorges Reservoir,"Cheng, Yao; Li, Yajun; Ji, Fei; Wang, Yuchun",2018,MAI,modelled,,0.00001,modelled,undescribed,undescribed,1,2000,,integrated,12,monthly,1,1,2014,31,12,2014
-140,Multi-sensor satellite and in situ monitoring of phytoplankton development in a eutrophic-mesotrophic lake,"Doernhoefer, Katja; Klinger, Philip; Heege, Thomas; Oppelt, Natascha",2018,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,153,2,integrated,15,biweekly,5,6,2015,30,9,2015
-146,Planktonic-based assessment of the landside-dammed lake (Erzurum-Turkey),"Fakioglu, O.; Kokturk, M.; Uzundumlu, A. S.; Arslan, H.; Atamanalp, M.",2018,MAI,spectrophotometer,mean,0.01,in situ,undescribed,undescribed,,,3,integrated,12,monthly,1,6,2012,1,5,2014
-147,"EVALUATION OF THE PHYSICOCHEMICAL CHARACTERISTICS AND CHLOROPHYLL-A CONTENT OF LAKE YENICAGA, BOLU","Kilic, Savas; Becer, Z. Arzu",2018,MAI,spectrophotometer,mean,0.0001,in situ,specific depth,epilimnion ,2,120,5,integrated,12,monthly,1,8,2009,1,7,2010
-148,Bioremediation of South Africa's hypertrophic Hartbeespoort Dam: evaluating its effects by comparative analysis of a decade of MERIS satellite data in six control reservoirs,"Hart, R. C.; Matthews, M. W.",2018,MAI,satellite,mean,0.00001,modelled,undescribed,undescribed,,,,integrated,,monthly,30,11,2002,30,4,2012
-149,USE OF THE EPIPHYTIC DIATOMS TO ESTIMATE THE ECOLOGICAL STATUS OF LAKE MOGAN,"Sanal, M.; Demir, N.",2018,MAI,spectrophotometer,mean,0.00001,in situ,surface,surface water sample ,2,44,2,integrated,11,monthly,1,1,2012,1,12,2012
-155,Vertical Distribution of Chlorophyll in the Upper Volga Reservoirs,"Mineeva, N. M.; Mukhutdinov, V. F.",2018,MAI,fluorometer,mean,0.00001,in situ,not described,Not described,5,125,25,,1,monthly,1,8,2015,31,8,2015
-156,"Hydrological perturbations drive rapid shifts in phytoplankton biodiversity and population dynamics in Butte Lake (Lassen Volcanic National Park, California)","Howard, Kerry; Noble, Paula",2018,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,3,14,1,integrated,5,seasonally,8,8,2012,27,9,2014
-165,"The potential of Earth Observation in modelling nutrient loading and water quality in lakes of southern Quebec, Canada","Politi, Eirini; Prairie, Yves T.",2018,MAI,spectrophotometer,,,undescribed,undescribed,undescribed,,198,22,integrated,9,seasonally,1,5,2003,1,10,2005
-176,Cyanobacteria blooms before and during the restoration process of a shallow urban lake,"Rosinska, Joanna; Kozak, Anna; Dondajewska, Renata; Goldyn, Ryszard",2017,MAI,undescribed,,0.0001,undescribed,undescribed,undescribed,5,44,1,center,10,monthly,1,3,2011,1,12,2014
-181,Nitrogen and phosphorus colimitation of phytoplankton in Lake Baikal: Insights from a spatial survey and nutrient enrichment experiments,"O'Donnell, Daniel R.; Wilburn, Paul; Silow, Eugene A.; Yampolsky, Lev Y.; Litchman, Elena",2017,MAI,fluorometer,median,0.00001,in situ,surface,surface water sample ,1,312,26,,12,daily,1,8,2013,12,8,2013
-183,"Limnology and trophic status of glacial lakes in the tropical Andes (Cajas National Park, Ecuador)","Van Colen, Willem R.; Mosquera, Pablo; Vanderstukken, Maarten; Goiris, Koen; Carrasco, Maria-Cecilia; Decaestecker, Ellen; Alonso, Miguel; Leon-Tamariz, Fabian; Muylaert, Koenraad",2017,OM,HPLC,mean ,0.0001,in situ,integrated,,2,62,31,integrated,1,once,1,8,2011,12,12,2013
-195,Changes in CO2 dynamics related to rainfall and water level variations in a subtropical lake,"Tonetta, Denise; Staehr, Peter Anton; Petrucio, Mauricio Mello",2017,OM,spectrophotometer,mean,0.001,in situ,integrated,0.2 to 5.3,4,448,1,center,112,monthly ,1,3,2007,30,6,2016
-199,Restoration of Eutrophic Lakes with Fluctuating Water Levels: A 20-Year Monitoring Study of Two Inter-Connected Lakes,"Beklioglu, Meryem; Bucak, Tuba; Coppens, Jan; Bezirci, Gizem; Tavsanoglu, U. Nihan; Cakiroglu, A. Idil; Levi, Eti E.; Erdogan, Seyda; Filiz, Nur; Ozkan, Korhan; Ozen, Arda",2017,OM,spectophotometer,mean,0.0001,in situ,,,,,2,,,monthly,1,1,1995,31,12,2013
-205,"Remote estimation of cyanobacterial blooms using the risky grade index (RGI) and coverage area index (CAI): a case study in the Three Gorges Reservoir, China","Zhou, Botian; Shang, Mingsheng; Wang, Guoyin; Feng, Li; Shan, Kun; Liu, Xiangnan; Wu, Ling; Zhang, Xuerui",2017,OM,YSI,mean,0.0001,in situ,surface,,,,2,,,hourly ,1,8,2014,31,7,2016
-212,"Using fuzzy theory and variable weights for water quality evaluation in Poyang Lake, China",Li Bing; Yang Guishan; Wan Rongrong; Zhang Lu; Zhang Yanhui; Dai Xue,2017,OM,,mean,0.0001,in situ,,,,,15,,12,seasonally,1,1,2009,31,10,2012
-218,"Trophic state assessment of Bhindawas Lake, Haryana, India","Saluja, Ridhi; Garg, J. K.",2017,OM,spectrophotometer,mean,0.0001,in situ,,,1,54,18,integrated,3,seasonally,1,4,2014,31,12,2014
-223,"Influence of invasive quagga mussels, phosphorus loads, and climate on spatial and temporal patterns of productivity in Lake Michigan: A biophysical modeling study","Rowe, Mark D.; Anderson, Eric J.; Vanderploeg, Henry A.; Pothoven, Steven A.; Elgin, Ashley K.; Wang, Jia; Yousef, Foad",2017,OM,modelled,,0.0001,modelled,,,,,,,,,,,,,,
-225,"Consequences of eutrophication in the management of water resources in Mediterranean reservoirs: A case study of Lake Cedrino (Sardinia, Italy)","Padedda, Bachisio Mario; Sechi, Nicola; Lai, Giuseppina Grazia; Mariani, Maria Antonietta; Pulina, Silvia; Sarria, Marco; Satta, Cecilia Teodora; Virdis, Tomasa; Buscarinu, Paola; Luglie, Antonella",2017,OM,YSI,mean,0.001,in situ,integrated,0 to 30,9,99,1,integrated,11,seasonally,1,9,2010,31,8,2011
-226,Top-down effects of an invasive omnivore: detection in long-term monitoring of large-river reservoir chlorophyll-a,"Tumolo, Benjamin B.; Flinn, Michael B.",2017,OM,pigment extraction,mean,0.0001,in situ,surface,,1,2100,14,integrated,6,summer,1,4,1989,30,6,2013
-227,Concentration and biochemical gradients of seston in Lake Ontario,"Kelly, Patrick T.; Weidel, Brian C.; Paufve, Matthew R.; O'Malley, Brian P.; Watkins, James M.; Rudstam, Lars G.; Jones, Stuart E.",2017,OM,fluorometer,mean,0.0001,in situ,integrated,5 to 200,5,175,5,integrated ,7,monthly,1,4,2013,31,10,2013
-228,Chronic nutrient loading from Lake Erie affecting water quality and nuisance algae on the St. Catharines shores of Lake Ontario,"Howell, E. Todd; Dove, Alice",2017,OM,,,0.0001,,specific depth,,,,,,4,,1,5,2013,31,10,2013
-229,Integrating multisensor satellite data merging and image reconstruction in support of machine learning for better water quality management,"Chang, Ni-Bin; Bai, Kaixu; Chen, Chi-Farn",2017,OM,satellite,,0.0001,modelled,surface,,,,,,,,,,,,,
-235,"Optical properties and spatial distribution of chromophoric dissolved organic matter (CDOM) in Poyang Lake, China","Xu, Jian; Wang, Yeqiao; Gao, Dan; Yan, Zheren; Gao, Chen; Wang, Lili",2017,OM,spectrophotometer,mean,0.0001,in situ,surface,0 to 0.5,1,16,4,integrated,4,seasonally,14,4,2015,5,8,2015
-239,"Nutrients and Phytoplankton in a Shallow, Hypereutrophic Urban Lake: Prospects for Restoration","Norris, Brianne; Laws, Edward A.",2017,OM,HPLC,mean,0.001,in situ,surface,0.3,1,156,3,integrated,52,weekly,23,2,2011,15,2,2012
-240,The influence of environmental factors on the carbon dioxide flux across the water-air interface of reservoirs in south-eastern Poland,"Gruca-Rokosz, Renata; Bartoszek, Lilianna; Koszelnik, Piotr",2017,OM,spectrophotometer,mean,0.0001,in situ,surface,0.5 to 1,1,,12,integrated,,,1,9,2009,31,12,2011
-241,"Variations in Spectral Absorption Properties of Phytoplankton, Non-Algal Particles and Chromophoric Dissolved Organic Matter in Lake Qiandaohu","Shi, Liangliang; Mao, Zhihua; Wu, Jiaping; Liu, Mingliang; Zhang, Yiwei; Wang, Zheng",2017,OM,fluorometer,mean,0.001,in situ,,,,,90,integrated,4,seasonally,1,8,2015,31,3,2016
-254,Microbial - Planktonic foodweb dynamics of a eutrophic Area of Concern: Hamilton Harbour,"Munawar, M.; Fitzpatrick, M.",2017,OM,pigment extraction,mean,0.0001,in situ,specific depth,24,,,1,integrated,144,bi-weekly,1,5,2004,31,10,2006
-255,"Relationships among cyanobacteria, zooplankton and fish in sub-bloom conditions in the Sulejow Reservoir","Kaczkowski, Zbigniew; Wojtal-Frankiewicz, Adrianna; Gagala, Ilona; Mankiewicz-Boczek, Joanna; Jaskulska, Aleksandra; Frankiewicz, Piotr; Izydorczyk, Katarzyna; Jurczak, Tomasz; Godlewska, Malgorzata",2017,OM,fluorometer,mean,0.0001,in situ,,,,,14,integrated,4,4,16,7,2013,25,9,2013
-265,Uptake rates of ammonium and nitrate by phytoplankton communities in two eutrophic tropical reservoirs,"Fernandes Cunha, Davi Gasparini; de Melo Lima, Vitoria Fernandes; Neri, Amanda Menegante; Marafao, Gabriela Albino; Poli Miwa, Adriana Cristina; Calijuri, Maria do Carmo; Bendassoli, Jose Albertino; Tromboni, Flavia; Maranger, Roxane",2017,OM,,mean,0.0001,in situ,,,,,2,integrated,8,monthly,1,10,2013,31,7,2015
-266,Where's the Grass? Disappearing Submerged Aquatic Vegetation and Declining Water Quality in Lake Mattamuskeet,"Moorman, Michelle C.; Augspurger, Tom; Stanton, John D.; Smith, Adam",2017,OM,fluorometer,mean,0.0001,in situ,surface,0.15,,,2,integrated,8,summer,1,1,1981,31,12,2012
-279,"Applying trait-based method to investigate the relationship between macrophyte communities and environmental conditions in a eutrophic freshwater lake, China","Pan, Yingji; Zhang, Xijin; Song, Kun; Da, Liangjun",2017,OM,,mean,0.0001,in situ,surface,,1,90,30,integrated,3,seasonally,1,5,2009,30,9,2009
-290,A decline in benthic algal production may explain recent hypoxic events in Lake Erie's central basin,"Brothers, Soren; Vadeboncoeur, Yvonne; Sibley, Paul",2017,OM,,mean,0.0001,in situ,,,,,,,,,1,4,1970,31,7,2009
-292,Virus morphological diversity and relationship to bacteria and chlorophyll across a freshwater trophic gradient in the Lake Michigan watershed,"Hanson, Alicia M.; Berges, John A.; Young, Erica B.",2017,OM,spectrophotometer,mean,0.0001,in situ,surface,1,1,51,3,integrated,17,monthly,1,1,2008,31,5,2009
-306,Characterizations of calcite particles and evaluations of their light scattering effects in lacustrine systems,"Peng, Feng; Effler, Steven W.",2017,OM,fluorometer,mean,0.0001,in situ,surface,2,1,,12,integrated,9,seasonally,15,7,1999,3,9,2013
-318,Eutrophication research of Dongting Lake: an integrated ML-SEM with neural network approach,"Li, Xiaodong; Gao, Zhihua; Chen, Zuo; Zeng, Guangming; Leon, Tomas; Liang, Jie; Li, Fei; Liu, Wu; Wu, Haipeng; Du, Chungyan; Chen, Ren",2017,OM,,,,,,,,,,,,,,,,,,
-320,Zooplankton communities and Bythotrephes longimanus in lakes of the montane region of the northern Alps,"Horvath, Zsofia; Vad, Csaba F.; Preiler, Christian; Birtel, Julia; Matthews, Blake; Ptacnikova, Radka; Ptacnik, Robert",2017,OM,spectophotometer,mean,0.0001,in situ,surface,1,,,54,integrated,,seasonally,1,1,2011,31,12,2012
-323,Dynamics of Chlorophyll a Concentration in the South Baikal Pelagic during the Direct Temperature Stratification Period,"Shimaraeva, S. V.; Pislegina, E. V.; Krashchuk, L. S.; Shchapov, K. S.; Silow, E. A.",2017,OM,spectrophotometer,mean,0.0001,in situ,integrated,0 to 250,9,576,1,integrated,64,weekly,1,7,2009,31,10,2011
-326,Association of a Specific Algal Group with Methylmercury Accumulation in Periphyton of a Tropical High-Altitude Andean Lake,"Lanza, William G.; Acha, Dario; Point, David; Masbou, Jeremy; Alanoca, Lucia; Amouroux, David; Lazzaro, Xavier",2017,OM,spectrophotometer,mean,0.0001,in situ,,,,,3,integrated,,,1,5,2011,31,5,2011
-327,Multi-wavelength Pulse Amplitude Modulated fluorometry (Phyto-PAM) reveals differential effects of ultraviolet radiation on the photosynthetic physiology of phytoplankton pigment groups,"Beecraft, Laura; Watson, Sue B.; Smith, Ralph E. H.",2017,OM,fluorometer,mean,0.0001,in situ,surface,1,1,8,1,center,8,monthly,1,4,2012,31,10,2013
-329,"Trophic Status Assessment of Saguling Reservoir, Upper Citarum Basin, Indonesia","Marselina, Mariana; Burhanudin, Muhamad",2017,OM,,mean,0.0001,in situ,,,,,11,integrated,16,seasonally,1,1,1999,31,12,2013
-331,Occurrence and seasonal dynamics of metalimnetic Deep Chlorophyll Maximum (DCM) in a stratified meromictic tropical lake and its implications for zooplankton community distribution,"Sanful, Peter O.; Otu, Megan K.; Kling, Hedy; Hecky, Robert. E.",2017,OM,fluorometer,mean,0.0001,in situ,integrated,0 to 15,8,896,1,integrated,112,bi-weekly,1,4,2005,31,7,2006
-336,Molecular and ecological characterization of toxic cyanobacteria from the Bay of Quinte (Lake Ontario) and Maumee Bay (Lake Erie),"Mueller, Kirsten M.; Chhun, Aline; Guildford, Stephanie J.; Yakobowski, Sarah J.; Jonlija, Miroslava",2017,OM,fluorometer,mean,0.0001,in situ,integrated,0 to 2,4,48,2,integrated,6,twice,4,7,2006,22,9,2006
-342,"Effect of organic and inorganic turbidity on the zooplankton community structure of a shallow waterbody in Central Mexico (Lake Xochimilco, Mexico)","Gayosso-Moralesl, M. A.; Nandini, S.; Martinez-Jeronimo, F. F.; Sarma, S. S. S.",2017,OM,spectrophotometer,,,in situ,surface,,,,,,,,,,,,,
-344,"The identification of nutrient limitations on eutrophication in Dianchi Lake, China","Liu, Xujun",2017,OM,,mean,0.0001,in situ,specific depth,1.5m,1,1195,10,integrated,,monthly,1,1,1999,31,12,2012
-345,"Seasonal variations of rotifers from a high altitude urban shallow water body, La Cantera Oriente (Mexico City, Mexico)","Gonzalez Gutierrez, Sergio; Sarma, S. S. S.; Nandini, S.",2017,OM,,mean,0.0001,in situ,surface,,1,60,5,integrated,12,monthly,1,9,2013,31,8,2014
-351,Developing a two-step method for retrieving cyanobacteria abundance from inland eutrophic lakes using MERIS data,"Jin, Qi; Lyu, Heng; Shi, Lei; Miao, Song; Wu, Zhiming; Li, Yunmei; Wang, Qiao",2017,OM,fluorometer,mean,0.0001,in situ,surface,,,129,,,,,1,5,2013,31,8,2016
-352,Trophic state indicators are a better predictor of Florida bass condition compared to temperature in Florida's freshwater bodies,"Boucek, Ross; Barrientos, Christian; Bush, Michael R.; Gandy, David A.; Wilson, Kyle L.; Young, Joy M.",2017,OM,metadata,mean,0.0001,in situ,,,,,23,,,,1,1,2010,31,12,2012
-353,Characteristics of phosphorus components in surface sediments from a Chinese shallow eutrophic lake (Lake Taihu): new insights from chemical extraction and P-31 NMR spectroscopy,"Zhang, Runyu; Chen, Jingan; Wang, Liying; Wu, Fengchang",2017,OM,YSI,mean,0.001,in situ,surface,0.5,1,11,11,integrated,1,once,1,8,2014,31,8,2014
-357,"Phytoplankton dynamics in relation to physicochemical conditions in large, stratified Lake Charzykowskie (Northern Poland)","Wisniewska, Marzenna; Dembowska, Ewa A.",2017,OM,,,0.0001,in situ,,,,,,,,,1,1,1987,31,12,2005
-359,Effects of Climate Change on Lake Thermal Structure and Biotic Response in Northern Wilderness Lakes,"Edlund, Mark B.; Almendinger, James E.; Fang, Xing; Hobbs, Joy M. Ramstack; VanderMeulen, David D.; Key, Rebecca L.; Engstrom, Daniel R.",2017,OM,fluorometer,mean,0.0001,in situ,,,,,8,integrated,18,seasonally,1,1,2006,31,12,2011
-362,Understanding Abiotic and Biotic Conditions in Post-Mining Pit Lakes for Efficient Management: A Case Study (Poland),"Marszelewski, Wlodzimierz; Dembowska, Ewa A.; Napiorkowski, Pawel; Solarczyk, Adam",2017,OM,spectrophotometer,mean,0.001,in situ,integrated,,,,3,deepest,4,seasonally,15,8,2011,30,4,2012
-370,Content of total free nucleotides in the plankton of the Rybinsk reservoir (Upper Volga),"Mineeva, N. M.; Andreeva, A. M.; Ryabtseva, I. P.; Kopylov, A. I.; Sokolova, E. A.; Mitropol'skaya, I. V.",2017,OM,spectrophotometer,mean,0.0001,in situ,integrated,0 to bottom,,,14,integrated,3,,1,5,2006,31,10,2006
-385,Heterotrophic Activity of Bacterioplankton along the Gradients of the Chlorophyll a Concentration and Water Temperature in Marine and Limnetic Ecosystems,"Boulion, V. V.",2017,OM,,,0.0001,in situ,,,,,33,,,,,,,,,
-388,"Trophic state categorisation and assessment of water quality in Manjirenji Dam, Zimbabwe, a shallow reservoir with designated multi-purpose water uses","Utete, Beaven; Tsamba, Joshua",2017,OM,YSI,mean,0.0001,in situ,integrated,1 to 3,2,918,17,integrated,27,monthly,1,8,2013,30,4,2014
-394,Optical response associated with changing summer biogeochemical conditions in a turbid lake,"Cherukuru, Nagur; Malthus, Tim J.; Sherman, Brad S.; Hestir, Erin L.; Devilla, Rosangela A.",2017,OM,HPLC,mean,0.0001,in situ,surface,,1,15,5,integrated,3,three ,7,1,2010,4,3,2010
-401,Structure and distribution of ciliate epibiont communities in a tropical floodplain,"Cabral, Adalgisa Fernanda; Pinto Utz, Laura Roberta; Machado Velho, Luiz Felipe",2017,OM,,,0.0001,in situ,surface,,1,120,30,integrated,4,twice,1,12,2010,1,6,2011
-411,Spatial distribution of crustacean zooplankton in a large river-connected lake related to trophic status and fish,"Wei, Wenzhi; Chen, Riming; Wang, Liufu; Fu, Lixia",2017,OM,,mean,0.0001,in situ,surface,0.5,1,20,5,,4,seasonally,1,4,2013,1,1,2014
-412,"Diversity of Intestinal Microbiota in Coilia ectenes from Lake Taihu, China","Duan, Jinrong; Xu, Dongpo; Liu, Kai; Zhou, Yanfeng; Xu, Pao",2017,OM,,,0.0001,in situ,,,,,5,integrated,,,,,,,,
-417,"Assessment of long-term trends for management of Candlewood Lake, Connecticut, USA","Kohli, P.; Siver, P. A.; Marsicano, L. J.; Hamer, J. S.; Coffin, A. M.",2017,OM,spectophotometer,mean,0.0001,in situ,integrated,0 to bottom,3,1680,4,integrated,140,monthly,1,5,1985,31,10,2012
-418,"Pollution, source, and ecological risk assessment of trace elements in surface sediments of Lake Aktas, NE Turkey","Kukrer, Serkan",2017,OM,,,,,,,,,,,,,,,,,,
-425,Autotrophic picoplankton assemblages in subtropical reservoir: temporal and vertical dynamics in abundance and biomass,"Pantoja-Agreda, Fernando; Otero-Morales, Ernesto",2017,OM,fluorometer,mean,0.0001,in situ,integrated,0 to 25,,,1,center,12,monthly,1,1,2013,31,12,2013
-446,Spatial and seasonal changes of arsenic species in Lake Taihu in relation to eutrophication,"Yan, Changzhou; Che, Feifei; Zeng, Liqing; Wang, Zaosheng; Du, Miaomiao; Wei, Qunshan; Wang, Zhenhong; Wang, Dapeng; Zhen, Zhuo",2016,OM,spectrophotometer,mean,0.0001,in situ,surface,0.2,1,432,36,integrated,12,seasonally,18,9,2013,8,5,2015
-457,"Using time scales to characterize phytoplankton assemblages in a deep subalpine lake during the thermal stratification period: Lake Iseo, Italy","Marti, Clelia Luisa; Imberger, Joerg; Garibaldi, Letizia; Leoni, Barbara",2016,OM,,mean,0.0001,in situ,integrated,0 to 19,3,21,7,integrated,1,once,13,7,2010,27,7,2010
-470,Physiological effects of the herbicide glyphosate on the cyanobacterium Microcystis aeruginosa,"Wu, Liang; Qiu, Zhihao; Zhou, Ya; Du, Yuping; Liu, Chaonan; Ye, Jing; Hu, Xiaojun",2016,OM,,,,,,,,,,,,,,,,,,
-475,The potential of high-frequency profiling to assess vertical and seasonal patterns of phytoplankton dynamics in lakes: an extension of the Plankton Ecology Group (PEG) model,"Brentrup, Jennifer A.; Williamson, Craig E.; Colom-Montero, William; Eckert, Werner; de Eyto, Elvira; Grossart, Hans-Peter; Huot, Yannick; Isles, Peter D. F.; Knoll, Lesley B.; Leach, Taylor H.; McBride, Chris G.; Pierson, Don; Pomati, Francesco; Read, Jordan S.; Rose, Kevin C.; Samal, Nihar R.; Staehr, Peter A.; Winslow, Luke A.",2016,OM,fluorometer,mean,0.0001,in situ,surface,0 to 39,,,11,integrated,,seasonally,1,6,2010,31,12,2014
-478,"Advancing two-component partitioning of light scattering in Cayuga Lake, New York","Peng, Feng; Effler, Steven W.",2016,OM,fluorometer,mean,0.0001,in situ,surface,0.5,,151,5,integrated,,bi-weekly,1,4,2013,31,10,2013
-481,Massive fish mortality and Cylindrospermopsis raciborskii bloom in Aleksandrovac Lake,"Svircev, Zorica; Obradovic, Vesna; Codd, Geoffrey A.; Marjanovic, Prvoslav; Spoof, Lisa; Drobac, Damjana; Tokodi, Nada; Petkovic, Andelka; Nenin, Tanja; Simeunovic, Jelica; Vazic, Tamara; Meriluoto, Jussi",2016,OM,,mean,0.0001,in situ,,,,,3,integrated,,,1,1,2012,31,12,2013
-491,"Impact of particulate and dissolved material on light absorption properties in a High-Altitude Lake in Tibet, China","Nima, Ciren; Hamre, Borge; Frette, Oyvind; Erga, Svein Rune; Chen, Yi-Chun; Zhao, Lu; Sorensen, Kai; Norli, Marit; Lu, Da-Ren; Xing, Qian-Guo; Ma, Yao-Ming; Gelsor, Norsang; Stamnes, Jakob J.",2016,OM,spectophotometer,mean,0.0001,in situ,surface,,1,15,15,integrated,1,once,14,8,2012,16,8,2014
-496,"The influence of a severe reservoir drawdown on springtime zooplankton and larval fish assemblages in Red Willow Reservoir, Nebraska","DeBoer, Jason A.; Webber, Christa M.; Dixon, Taylor A.; Pope, Kevin L.",2016,OM,,mean,0.0001,in situ,integrated,0 to 2,,,,integrated,18,weekly,1,1,2008,31,12,2011
-501,"Carbon, nitrogen, phosphorus, and sediment sources and retention in a small eutrophic tropical reservoir","Nemery, J.; Gratiot, N.; Doan, P. T. K.; Duvert, C.; Alvarado-Villanueva, R.; Duwig, C.",2016,OM,,mean,0.01,in situ,integrated,0.1 to 20,,,15,integrated,,,1,1,2009,31,12,2009
-507,Ciliate community structure and interactions within the planktonic food web in two alpine lakes of contrasting transparency,"Kammerlander, Barbara; Koinig, Karin A.; Rott, Eugen; Sommaruga, Ruben; Tartarotti, Barbara; Trattner, Florian; Sonntag, Bettina",2016,OM,spectrophotometer,mean,0.0001,in situ,integrated,0 to 14,9,234,6,integrated,6,monthly,1,7,2010,31,8,2011
-514,Thermal stratification in small arctic lakes of southwest Greenland affected by water transparency and epilimnetic temperatures,"Saros, Jasmine E.; Northington, Robert M.; Osburn, Christopher L.; Burpee, Benjamin T.; Anderson, Nicholas John",2016,OM,spectophotometer,mean,0.001,in situ,integrated,0 to bottom,,,22,integrated,,,10,6,2013,30,7,2014
-519,"Water quality in the St. Louis River Area of Concern, Lake Superior: Historical and current conditions and delisting implications","Bellinger, Brent J.; Hoffman, Joel C.; Angradi, Theodore R.; Bolgrien, David W.; Starry, Matthew; Elonen, Colleen; Jicha, Terri M.; Lehto, LaRae P.; Seifert-Monson, Lindsey R.; Pearson, Mark S.; Anderson, Leroy; Hill, Brian H.",2016,OM,fluorometer,mean,0.001,in situ,surface,,,150,,integrated,,,1,5,2012,30,9,2013
-521,Risk Assessment of Urban Lake Water Quality Based on in-situ Cyanobacterial and Total Chlorophyll-a Monitoring,"Kalaji, Hazem Mohamed; Sytar, Oksana; Brestic, Marian; Samborska, Izabela Anna; Cetner, Magdalena Danuta; Carpentier, Corina",2016,OM,fluorometer,mean,0.0001,in situ,surface,0.2,1,200,20,integrated,10,weekly,1,5,2012,31,7,2012
-524,Sensitivity of plankton indices to lake trophic conditions,"Ochocka, A.; Pasztaleniec, A.",2016,OM,spectrophotometer,mean,0.0001,in situ,surface,,1,20,10,integrated,2,twice,1,7,2012,31,8,2013
-527,Critical nutrient thresholds needed to control eutrophication and synergistic interactions between phosphorus and different nitrogen sources,"Zeng, Qinghui; Qin, Lihuan; Bao, Linlin; Li, Yayong; Li, Xuyong",2016,OM,spectrophotometer,mean,0.0001,in situ,surface,0.2,1,56,7,integrated,8,monthly,1,4,2015,30,11,2015
-530,"Morphological plasticity in Zostera muelleri across light, sediment, and nutrient gradients in Australian temperate coastal lakes","Ferguson, Angus J. P.; Gruber, Renee K.; Orr, Michael; Scanes, Peter",2016,OM,,,,,,,,,,,,,,,,,,
-535,Macrozoobenthic community structure in a large shallow lake: Disentangling the effect of eutrophication and wind-wave disturbance,"Cai, Yongjiu; Lu, Yongjiu; Liu, Jingsong; Dai, Xiaoling; Xu, Hao; Lu, Yan; Gong, Zhijun",2016,OM,,mean,0.0001,in situ,surface,,1,120,10,integrated,12,monthly,1,12,2012,30,11,2013
-537,"Temporal dynamics of microcystins in Limnodrilus hoffmeisteri, a dominant oligochaete of hypereutrophic Lake Taihu, China","Xue, Qingju; Steinman, Alan D.; Su, Xiaomei; Zhao, Yanyan; Xie, Liqiang",2016,OM,,mean,0.001,in situ,surface,0 to 0.5,1,12,1,integrated,12,monthly,1,7,2013,31,6,2014
-558,Restoration of Shallow Lakes in Subtropical and Tropical China: Response of Nutrients and Water Clarity to Biomanipulation by Fish Removal and Submerged Plant Transplantation,"Yu, Jinlei; Liu, Zhengwen; Li, Kuanyi; Chen, Feizhou; Guan, Baohua; Hu, Yaohui; Zhong, Ping; Tang, Yali; Zhao, Xuefeng; He, Hu; Zeng, Haiyi; Jeppesen, Erik",2016,OM,spectrophotometer,mean,0.001,in situ,integrated,0.5 to 1.5,3,,3,integrated ,,monthly,1,4,2010,30,2,2014
-560,Comparing microscopic counts and pigment analyses in 46 phytoplankton communities from lakes of different trophic state,"Schluter, Louise; Behl, Stephan; Striebel, Maren; Stibor, Herwig",2016,OM,HPLC,mean,0.001,in situ,surface,0.5 m,1,46,42,integrated,,,1,9,2005,30,9,2005
-568,Unexpected predominance of photosynthetic picoeukaryotes in shallow eutrophic lakes,"Li, Shengnan; Shi, Xiaoli; Lepere, Cecile; Liu, Mixue; Wang, Xiujuan; Kong, Fanxiang",2016,OM,spectrophotometer,mean,0.0001,in situ,,,,,17,,12,monthly,1,8,2014,30,7,2015
-569,Spatiotemporal Variability in the Water Quality of Poyang Lake and Its Associated Responses to Hydrological Conditions,"Li, Bing; Yang, Guishan; Wan, Rongrong; Zhang, Yanhui; Dai, Xue; Chen, Yuwei",2016,OM,spectrophotometer,mean,0.0001,in situ,surface,0 to 0.5,1,360,15,,24,seasonally,1,1,2009,31,12,2014
-570,Applications of Geographic Information System (GIS) analysis of Lake Uluabat,"Hacisalihoglu, Saadet; Karaer, Feza; Katip, Aslihan",2016,OM,,mean,0.0001,in situ,surface,0.5,1,96,8,integrated,12,monthly,1,6,2008,31,5,2009
-577,Multivariate approach for chlorophyll-a and suspended matter retrievals in Case II type waters using hyperspectral data,"Ali, Khalid A.; Ortiz, Joseph D.",2016,OM,spectophotometer,mean,0.0001,in situ,surface,0.5,1,90,18,integrated,5,,1,6,2012,31,7,2012
-582,Response of boreal lakes to episodic weather-induced events,"Kuha, Jonna; Arvola, Lauri; Hanson, Paul C.; Huotari, Jussi; Huttula, Timo; Juntunen, Janne; Jarvinen, Marko; Kallio, Kari; Ketola, Mirva; Kuoppamaki, Kirsi; Lepisto, Ahti; Lohila, Annalea; Paavola, Riku; Vuorenmaa, Jussi; Winslow, Luke; Karjalainen, Juha",2016,OM,fluorometer,mean,0.001,in situ,integrated,1 to 1.5,,,8,integrated,,monthly,9,6,2009,8,8,2014
-591,"ACCUMULATION OF METALS IN ZOOPLANKTON FROM KARST PLATEAU RESERVOIRS WITH DIFFERENT EUTROPHIC STATUS IN GUIZHOU PROVINCE, P. R. CHINA","Long, Sheng Xing; Yang, Yang; Xia, Ping Hua; Chen, Chuan; Liu, Zhi Wei; Ma, Jian Rong; Dong, Xian; He, Tian Rogn; Yun, Guo",2016,OM,spectrophotometer,mean,0.0001,in situ,surface,0 to bottom,,,12,integrated,4,seasonally,1,4,2014,31,1,2014
-600,Phosphorus partitioning in sediments from a tropical reservoir during a strong period of drought,"dos Santos, Janaina Andrade; de Oliveira, Karen Figueiredo; da Silva Araujo, Isabel Cristina; Ferreira Avelino, Izaura Izadora; de Sousa Cajui, Karla Nayara; de Lacerda, Luiz Drude; Marins, Rozane Valente",2016,OM,spectophotometer,mean,0.0001,in situ,integrated,0.1 to bottom,,,5,integrated,,,1,1,2013,31,8,2014
-608,"Monitoring Eutrophication Trends in Bolgoda North Lake, Sri Lanka by Satellite Remote Sensing","Dahanayaka, Dahanayakage Don Gihan Lakmal; Perera, Bdc; Wijeyaratne, Mudiyanselage Jayantha Sisirakumara; Tonooka, Hideyuki",2016,OM,spectophotometer,mean,0.0001,in situ,surface,,1,105,5,integrated,21,monthly,1,4,2013,31,10,2013
-614,Modelling Primary Producers in Some Shallow Spanish Lakes,"Blanco, Saul; Romo, Susana; Cejudo-Figueiras, Cristina; Goma, Joan; Fernandez-Alaez, Camino; Fernandez-Alaez, Margarita",2016,OM,spectrophotometer,mean,0.001,in situ,integrated,,,,31,,,once,1,7,2003,31,7,2003
-621,"Associating spatial patterns of zooplankton abundance with water temperature, depth, planktivorous fish and chlorophyll","Voutilainen, Ari; Jurvelius, Juha; Lilja, Juha; Viljanen, Markku; Rahkola-Sorsa, Minna",2016,OM,,mean,0.0001,in situ,integrated,0 to bottom,6,162,9,integrated,3,,27,7,2010,2,8,2010
-630,Epipelon dynamics in a shallow lake through a turbid-and a clear- water regime,"Cano, Maria G.; Casco, Maria A.; Claps, Maria C.",2016,OM,,mean,0.0001,in situ,integrated,0.1 to bottom,5,240,4,integrated,12,monthly,1,7,2001,30,6,2002
-637,"Influence of a carp invasion on the zooplankton community in Laguna Medina, a Mediterranean shallow lake","Florian, Norbert; Lopez-Luque, Raquel; Ospina-Alvarez, Natalia; Hufnagel, Levente; Green, Andy J.",2016,OM,spectrophotometer,mean,0.001,in situ,integrated,,,,8,integrated,19,monthly,1,1,2008,31,12,2012
-646,"Phytoplankton Variation in Four Shallow High-elevation Lakes in the Upper North Fork Nooksack River Watershed of the North Cascades, Washington (USA)","Wong, Siana W.; Matthews, Robin A.; Bruun, Karl",2016,OM,,,,,,,,,,,,,,,,,,
-649,"The effects of physicochemical parameters on fish distribution in Egirdir Lake, Turkey","Yagci, A.; Yagci, Apaydin M.; Bilgin, F.; Erbatur, I",2016,OM,spectrophotometer,mean,0.001,in situ,surface,,1,,4,integrated,12,monthly,1,1,2010,31,12,2010
-654,"Interannual and long-term changes in the trophic state of a multibasin lake: effects of morphology, climate, winter aeration, and beaver activity","Robertson, Dale M.; Rose, William J.; Reneau, Paul C.",2016,OM,,mean,0.0001,in situ,surface,,1,552,6,integrated,92,summer,1,5,1991,31,8,2013
-669,Long-term trends of nutrients and trophic response variables for the Great Lakes,"Dove, Alice; Chapra, Steven C.",2015,OM,,mean,0.001,in situ,integrated,0 to bottom,,,,,,summer,1,1,1966,31,12,2013
-671,"Development of early-warning protocol for predicting chlorophyll-a concentration using machine learning models in freshwater and estuarine reservoirs, Korea","Park, Yongeun; Cho, Kyung Hwa; Park, Jihwan; Cha, Sung Min; Kim, Joon Ha",2015,OM,,mean,0.0001,in situ,surface,,1,728,2,integrated,364,weekly,1,1,2006,31,12,2012
-682,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,"Poste, Amanda E.; Muir, Derek C. G.; Guildford, Stephanie J.; Hecky, Robert E.",2015,OM,fluorometer,mean,0.01,in situ,integrated,0.15 to bottom,,,9,integrated,,monthly,1,4,2007,30,2,2009
-688,Application of remote sensing for the optimization of in-situ sampling for monitoring of phytoplankton abundance in a large lake,"Kiefer, Isabel; Odermatt, Daniel; Anneville, Orlane; Wueest, Alfred; Bouffard, Damien",2015,OM,spectrophotometer,mean,0.0001,in situ,surface,,1,240,2,integrated,120,monthly,1,1,2002,31,12,2012
-690,Integrated satellite data fusion and mining for monitoring lake water quality status of the Albufera de Valencia in Spain,"Dona, Carolina; Chang, Ni-Bin; Caselles, Vicente; Sanchez, Juan M.; Camacho, Antonio; Delegido, Jesus; Vannah, Benjamin W.",2015,OM,spectophotometer,mean,0.1,in situ,surface,,1,6,1,integrated,6,,1,7,2006,30,4,2011
-702,Role of terrestrial carbon in aquatic UV exposure and photoprotective pigmentation of meiofauna in subarctic lakes,"Nevalainen, Liisa; Luoto, Tomi P.; Rantala, Marttiina V.; Galkin, Annukka; Rautio, Milla",2015,OM,spectrophotometer,,0.001,in situ,surface,,,,25,,,,,,,,,
-718,Assessing Potential Algal Blooms in a Shallow Fluvial Lake by Combining Hydrodynamic Modelling and Remote-Sensed Images,"Pinardi, Monica; Fenocchi, Andrea; Giardino, Claudia; Sibilla, Stefano; Bartoli, Marco; Bresciani, Mariano",2015,OM,modelled,,0.01,satellite,surface,,,,,,4,,29,6,2008,21,9,2011
-721,"PHYTOPLANKTON, CULTURABLE BACTERIA AND THEIR RELATIONSHIPS ALONG ENVIRONMENTAL GRADIENTS IN A STRATIFIED EUTROPHIC LAKE","Messyasz, Beata; Gabka, Maciej; Barylski, Jakub; Nowicki, Grzegorz; Lamentowicz, Lukasz; Gozdzicka-Jozefiak, Anna; Rybak, Andrzej; Dondajewska, Renata; Burchardt, Lubomira",2015,OM,ISO 10260 method,mean,0.01,in situ,undescribed,0.5 to 15,9,84,1,integrated,,,1,6,2009,30,4,2010
-740,"The role of periphyton in phosphorus retention in shallow lakes with different trophic status, China","Pei, Guofeng; Wang, Qing; Liu, Guoxiang",2015,OM,spectrophotometer,mean,0.1,in situ,surface,,1,24,4,integrated,6,weekly,1,2,2012,31,3,2012
-761,Phytoplankton productivity and size composition in Lake Simcoe: The nearshore shunt and the importance of autumnal production,"Kim, T. Y.; North, R. L.; Guildford, S. J.; Dillon, P.; Smith, R. E. H.",2015,OM,fluorometer,mean,0.001,in situ,integrated,1,1,104,8,integrated,13,monthly,1,8,2010,31,8,2011
-771,"Diel patterns of total suspended solids, turbidity, and water transparency in a highly turbid, shallow lake (Laguna ChascomA(0)s, Argentina)","Lagomarsino, Leonardo; Diovisalvi, Nadia; Bustingorry, Jose; Escaray, Roberto; Zagarese, Horacio E.",2015,OM,,mean,0.001,in situ,surface,,1,51,1,center,51,daily,12,2,2012,28,2,2012
-773,Online forecasting chlorophyll a concentrations by an auto-regressive integrated moving average model: Feasibilities and potentials,"Chen, Qiuwen; Guan, Tiesheng; Yun, Liu; Li, Ruonan; Recknagel, Friedrich",2015,OM,,mean,0.0001,in situ,,,,,4,integrated,,1-3 days,6,4,2010,7,3,2011
-774,Lake Michigan: Nearshore variability and a nearshore-offshore distinction in water quality,"Yurista, Peder M.; Kelly, John R.; Cotter, Anne M.; Miller, Samuel E.; Van Alstine, Jon D.",2015,OM,fluorometer,mean,0.0001,in situ,integrated,2 to 25,,,15,integrated,,,9,9,2015,15,9,2010
-776,"A coupled modeling approach to predict water quality in Lake Taihu, China: linkage to climate change projections","Tang, Chunyan; Li, Yiping; Jiang, Peng; Yu, Zhongbo; Acharya, Kumud",2015,OM,,mean,0.0001,in situ,surface,0.5,1,720,30,integrated,24,monthly,15,1,2004,31,12,2005
-777,A dramatic recovery of Lake Spokane water quality following wastewater phosphorus reduction,"Welch, E. B.; Brattebo, S. K.; Gibbons, H. L.; Plotnikoff, R. W.",2015,OM,,mean,0.0001,in situ,integrated,0 to 9,,,6,,,seasonally,1,6,1972,31,10,2014
-780,Rapid field estimation of biochemical oxygen demand in a subtropical eutrophic urban lake with chlorophyll a fluorescence,"Xu, Zhen; Xu, Y. Jun",2015,OM,fluorometer,mean,0.0001,in situ,surface,0.3,1,120,6,integrated,20,bi-weekly,26,10,2012,29,9,2013
-781,Predicting productivity in tropical reservoirs: The roles of phytoplankton taxonomic and functional diversity,"Santos, Ana M. C.; Carneiro, Fernanda M.; Cianciaruso, Marcus V.",2015,OM,spectrophotometer,mean,0.0001,in situ,surface,0.4,1,66,19,integrated,,once,1,7,2009,31,7,2009
-782,Long-Term Agroecosystem Research in the Central Mississippi River Basin: Hyperspectral Remote Sensing of Reservoir Water Quality,"Sudduth, Kenneth A.; Jang, Gab-Sue; Lerch, Robert N.; Sadler, E. John",2015,OM,,mean,0.0001,in situ,surface,0.15 to 0.3,1,,51,,,,30,8,2004,5,5,2008
-787,A relationship between accumulation of heavy metals and microbiological parameters in the surface microlayer and subsurface water of a coastal Baltic lake,"Antonowicz, Jozef Piotr; Mudryk, Zbigniew; Zdanowicz, Marta",2015,OM,spectrophotometer,mean,0.0001,in situ,surface,0.15,1,9,1,integrated,9,seasonally,1,10,2005,31,7,2012
-793,Water quality monitoring of Al-Habbaniyah Lake using remote sensing and in situ measurements,"Al-Fahdawi, Ahmed A. H.; Rabee, Adel M.; Al-Hirmizy, Shaheen M.",2015,OM,,mean,0.0001,in situ,surface,,1,20,5,integrated,4,seasonally,1,11,2013,31,7,2013
-797,Spectral characterization of colored dissolved organic matter for productive inland waters and its source analysis,"Song Kaishan; Li Lin; Tedesco, Lenore; Clercin, Nicolas; Li Linhai; Shi Kun",2015,OM,fluorometer,mean,0.01,in situ,surface,0.25 to 1,3,90,3,integrated,10,,12,4,2010,21,10,2010
-805,Long-term changes in Lake Ontario rotifer abundance and composition: A response to Cercopagis predation?,"Makarewicz, Joseph C.; Lewis, Theodore W.",2015,OM,fluorometer,mean,0.0001,in situ,specific depth,3,1,88,8,integrated,11,seasonally,1,1,1984,31,12,2013
-809,Managing internal phosphorus loading and vertical entrainment in a weakly stratified eutrophic lake,"James, William F.; Sorge, Patrick W.; Garrison, Paul J.",2015,OM,fluorometer,mean,0.0001,in situ,integrated,0.5 to bottom,,,1,center,24,weekly,1,5,2009,31,10,2009
-811,Lake stratification in the Carpathian basin and its interesting biological consequences,"Borics, Gabor; Abonyi, Andras; Varbiro, Gabor; Padisak, Judit; T-Krasznai, Eniko",2015,OM,,mean,0.001,in situ,integrated,0 to bottom,,,13,integrated,,monthly,18,8,2007,4,9,2007
-814,"Preliminary Assessment of Cyanobacteria Diversity and Toxic Potential in Ten Freshwater Lakes in Selangor, Malaysia","Sinang, Som Cit; Poh, Keong Bun; Shamsudin, Syakirah; Sinden, Ann",2015,OM,spectophotometer,mean,0.0001,in situ,surface,0.15,1,10,10,integrated ,1,once,1,1,2013,30,2,2013
-815,Microcystins contamination of surface water supply sources in Zaria-Nigeria,"Chia, Mathias Ahii; Kwaghe, Mndepawe Jonah",2015,OM,spectrophotometer,mean,0.001,in situ,surface,,1,24,12,integrated,2,twice,1,3,2013,31,5,2013
-821,Seasonal patterns and responses to an extreme climate event of rotifers community in a shallow eutrophic Pampean lake,"Diovisalvi, Nadia; Salcedo Echeverry, Gladys E.; Lagomarsino, Leonardo; Zagarese, Horacio E.",2015,OM,,mean,0.0001,in situ,surface,,1,520,1,integrated,,bi-weekly,1,6,2005,31,5,2009
-823,"Spatial gradient and seasonal variation of trophic status in a large water supply reservoir for the South-to-North Water Diversion Project, China","Shen, Henglun; Cai, Qinghua; Zhang, Min",2015,OM,spectrophotometer,mean,0.001,in situ,surface,0.5,1,36,9,integrated,4,seasonally,1,7,2009,31,5,2008
-828,"Incidence of microcystin-producing cyanobacteria in Lake Tana, the largest waterbody in Ethiopia","Mankiewicz-Boczek, Joanna; Gagala, Ilona; Jurczak, Tomasz; Urbaniak, Magdalena; Negussie, Yohannes Zerihun; Zalewski, Maciej",2015,OM,spectrophotometer,mean,0.0001,in situ,surface,0.5,1,9,1,integrated,9,monthly,1,11,2010,30,11,2012
-829,"Variations in Optical Scattering and Backscattering by Organic and Inorganic Particulates in Chinese Lakes of Taihu, Chaohu and Dianchi",Lyu Heng; Wang Qiao; Wu Chuanqing; Zhu Li; Li Yunmei; Huang Jiazhu,2015,OM,spectrophotometer,mean,0.0001,in situ,surface,,1,119,3,integrated,,,10,11,2008,20,8,2009
-831,Pressure from top and bottom: Lower food web responses to changes in nutrient cycling and invasive species in western Lake Michigan,"Engevold, Paul M.; Young, Erica B.; Sandgren, Craig D.; Berges, John A.",2015,MAI,fluorometer,mean,0.001,in situ,integrated,integrated water sample,6,156,1,,26,yearly,1,6,1988,31,8,2009
-833,Reservoir water quality monitoring using remote sensing with seasonal models: case study of five central-Utah reservoirs,"Hansen, Carly Hyatt; Williams, Gustavious P.; Adjei, Zola; Barlow, Analise; Nelson, E. James; Miller, A. Woodruff",2015,MAI,modelled,,,modelled,undescribed,undescribed,,,,,,,,,,,,
-844,Periphytic and planktonic bacterial community structure in turbid and clear shallow lakes of the Pampean Plain (Argentina): a CARD-FISH approach,"Maria Sanchez, Laura; Romina Schiaffino, Maria; Pizarro, Haydee; Izaguirre, Irina",2015,MAI,spectrophotometer,,,in situ,not described,Not described,2,,3,,4,,,,,,,
-847,"Phytoplankton composition and microcystin concentrations in open and closed bays of Lake Victoria, Tanzania","Mbonde, Athanasio S.; Sitoki, Lewis; Kurmayer, Rainer",2015,MAI,undescribed,mean,0.0001,undescribed,integrated,integrated water sample,1,32,16,integrated,2,monthly,1,11,2009,31,12,2009
-856,"Water quality and trophic state of a tropical urban reservoir for drinking water supply (Juiz de Fora, Brazil)","Heidenreich Silva Bucci, Maria Magaly; da Fonseca Delgado, Francisco Eduardo; Cappa de Oliveira, Luiz Fernando",2015,MAI,Standard Methods for the Examination of Water and Wastewater (APHA 1998),mean,0.001,in situ,undescribed,undescribed,3,120,5,integrated,8,seasonally,27,7,2011,14,3,2013
-858,Distribution of dissolved acidic polysaccharides (dAPS) during cyanobacteria blooms in northern Lake Taihu,"Liu, Lizhen; Qin, Boqiang; Zhu, Guangwei; Zhang, Yunlin; Gao, Guang; Gong, Zhijun; Huang, Qi",2015,MAI,spectrophotometer,mean,0.0001,in situ,specific depth,2m,1,40,8,integrated,5,monthly,1,7,2012,31,10,2012
-860,Temporal variation of phytophilous Chironomidae over a 11-year period in a shallow Neotropical lake in southern Brazil,"Silva, Juliana Souza da; Albertoni, Edelti Faria; Palma-Silva, Cleber",2015,MAI,undescribed,mean,0.00001,undescribed,undescribed,undescribed,1,166,3,,10,yearly,20,,2000,20,,2010
-866,Laboratory and greenhouse response of monoecious hydrilla to fluridone,"Netherland, Michael D.",2015,MAI,fluorometer,,,in situ,undescribed,undescribed,,,,,,,,,,,,
-876,Nutrient dynamics and phytoplankton resource limitation in a deep tropical mountain lake,"Corman, Jessica R.; Carlson, Emily; Dix, Margaret; Giron, Nancy; Roegner, Amber; Vesela, Jana; Chandra, Sudeep; Elser, James J.; Rejmankova, Eliska",2015,MAI,spectrophotometer,mean,0.001,in situ,integrated,integrated water sample,18,232,5,integrated,4,seasonally,1,4,2010,31,12,2010
-888,Survey of cyanomyovirus abundance in Shantou coastal waters by g20,Li Chuanbiao; Ding Jun; Zhou Lizhen; Zhang Zhao; Li Shengkang; Liu Wenhua; Wen Xiaobo,2015,MAI,spectrophotometer,mean,0.00001,in situ,not described,Not described,2,24,4,integrated,1,once,16,6,2012,21,6,2012
-947,The relative importance of viral lysis and nanoflagellate grazing for prokaryote mortality in temperate lakes,"Ram, Angia Sriram Pradeep; Palesse, Stephanie; Colombet, Jonathan; Thouvenot, Antoine; Sime-Ngando, Telesphore",2014,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,9,19,center,3,monthly,1,6,2010,31,8,2010
-952,"Taxonomic assessment of a toxic cyanobacteria shift in hypereutrophic Grand Lake St. Marys (Ohio, USA)","Steffen, Morgan M.; Zhu, Zhi; McKay, Robert Michael L.; Wilhelm, Steven W.; Bullerjahn, George S.",2014,MAI,fluorometer,mean,0.1,in situ,undescribed,undescribed,3,33,1,,11,seasonally,1,4,2010,31,11,2010
-955,Sea water chlorophyll-a estimation using hyperspectral images and supervised Artificial Neural Network,"Awad, Mohamad",2014,MAI,modelled,,0.00001,modelled,not described,Not described,1,17,11,integrated,2,yearly,1,6,2006,31,7,2008
-960,Partitioning the contributions of minerogenic particles and bioseston to particulate phosphorus and turbidity,"Effler, Steven W.; Prestigiacomo, Anthony R.; Peng, Feng; Gelda, Rakesh; Matthews, David A.",2014,MAI,undescribed,,,undescribed,surface,surface water sample ,,,,,,,,,,,,
-974,"Environmental monitoring of Micro Prespa Lake basin (Western Macedonia, Greece): hydrogeochemical characteristics of water resources and quality trends","Tziritis, Evangelos P.",2014,MAI,undescribed,mean,0.0001,undescribed,specific depth,1.5m,1,12,1,integrated,12,daily,1,1,2012,31,10,2013
-979,"Phytoplankton chlorophyll a in Lake Poyang and its tributaries during dry, mid-dry and wet seasons: a 4-year study","Wu, Z.; Lai, X.; Zhang, L.; Cai, Y.; Chen, Y.",2014,MAI,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,1,277,24,integrated,6,seasonally,1,1,2009,31,1,2013
-983,Impacts of meteorological variations on urban lake water quality: a sensitivity analysis for 12 urban lakes with different trophic states,"Wu, Qiong; Xia, Xinghui; Li, Xiaohan; Mou, Xinli",2014,MAI,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,27,12,center,27,monthy,1,1,2009,31,12,2011
-989,Phytoplankton functional groups provide a quality assessment method by the Q assemblage index in Lake Mogan (Turkey),"Demir, Ayse Nilsun; Fakioglu, Ozden; Dural, Berrin",2014,MAI,spectrophotometer,mean,0.00001,in situ,integrated,integrated water sample,1,36,3,integrated,12,monthly,1,2,2008,31,1,2009
-1009,A floodplain-scale lake classification based on characteristics of macroinvertebrate assemblages and corresponding environmental properties,"Pan, Baozhu; Wang, Hongzhu; Wang, Haijun",2014,MAI,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,2,8,31,integrated,4,seasonally,1,4,2004,31,1,2005
-1044,"Urgency for sustainable development in coastal urban areas with reference to weather pattern, land use, and water quality","Sheela, A. M.; Letha, J.; Swarnalatha, K.; Baiju, K. V.; Sankar, Divya",2014,MAI,undescribed,mean,0.01,undescribed,not described,sampling station,1,196,7,integrated,28,seasonally,1,6,2008,30,10,2012
-1047,"Natural dimictic and polymictic lakes: similarities and differences in relationships among chlorophyll, nutrients, Secchi depth, and aquatic macrophytes","Grzybowski, Miroslaw",2014,MAI,spectrophotometer,mean,0.00001,in situ,specific depth,1 m,3,60,14,center,20,biyearly,,,2000,,,2010
-1061,Impact of epilimnetic phosphorus supply and food web structure on phosphorus binding forms in settling material and sediments in a thermally stratified lake,"Rychla, Anna; Gonsiorczyk, Thomas; Hupfer, Michael; Kasprzak, Peter",2014,MAI,undescribed,mean,0.001,undescribed,surface,surface water sample ,1,11,4,center,15,yearly,1,6,1993,31,8,2007
-1079,"Temporal and Spatial Dynamics of Ice-Covered Upper Dumbell Lake (Ellesmere Island, Arctic Canada) during the Summer of 1959","Apollonio, Spencer; Saros, Jasmine E.",2014,MAI,spectrophotometer,raw,0.00005,in situ,specific depth,1-2m (epilimnion,6,126,1,center,21,weekly,4,7,1995,2,9,1995
-1147,Eutrophication development and its key regulating factors in a water-supply reservoir in North China,"Wang, Liping; Liu, Lusan; Zheng, Binghui",2013,MAI,spectrophotometer,mean,0.00001,in situ,undescribed,undescribed,1,96,4,integrated,24,semimonthly,1,5,2010,31,10,2011
-1159,"Occurrence of toxic cyanobacterial blooms for the first time in Lake Karaoun, Lebanon","Atoui, Ali; Hafez, Hala; Slim, Kamal",2013,MAI,spectrophotometer,raw,0.00001,in situ,specific depth,epilimnion ,1,13,1,center,13,monthly,1,6,2010,31,6,2011
-1172,Influence of substrate type on periphyton biomass and nutrient state at contrasting high nutrient levels in a subtropical shallow lake,"Zhang, Na; Li, Hongjing; Jeppesen, Erik; Li, Wei",2013,MAI,undescribed,mean,0.1,undescribed,not described,Not described,1,10,5,shoreline,2,monthly,24,4,2007,18,5,2007
-1220,Vertical distribution of epiphyton biomass and diversity in a shallow lake during contrasting ecosystem regimes,"Gabriela Cano, Maria; Adela Casco, Maria; Cristina Claps, Maria",2013,MAI,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,3,72,2,integrated,12,monthly,1,7,2001,31,6,2002
-1224,Planktonic community metabolism in two stratified Mediterranean reservoirs with different trophic status,"Romero-Martinez, Leonardo; Morales-Pineda, Maria; Ubeda, Barbara; Loiselle, Steven A.; Cozar, Andres; Galvez, Jose A.",2013,MAI,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,1,24,2,integrated,24,biweekly,1,5,2009,31,10,2010
-1231,The structure and species composition of the diatom communities in tropical volcanic lakes of eastern Mexico,"Vazquez, Gabriela; Caballero, Margarita",2013,MAI,spectrophotometer,mean,0.01,in situ,integrated,integrated water sample,2,2,6,integrated,1,once,1,6,2003,31,6,2003
-1237,Growth of rainbow trout (Oncorhynchus mykiss) in warm-temperate lakes: implications for environmental change,"Blair, Jennifer M.; Ostrovsky, Ilia; Hicks, Brendan J.; Pitkethley, Robert J.; Scholes, Paul",2013,MAI,standard methods (Eaton and Franson 2005),mean,0.1,in situ,specific depth,epilimnion ,2,324,9,integrated,18,seasonally,1,5,2002,30,9,2010
-1243,Ecological similarities between two Mediterranean wetlands: Sidi Boughaba (North-West Morocco) and the Donana National Park (South-West Spain),"Elkhiati, Najat; Ramdani, Mohamed; Espinar, Jose L.; Fahd, Khalid; Serrano, Laura",2013,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,2,32,4,integrated,4,seasonally,1,4,2009,30,9,2009
-1246,"Year-round patterns in bacterial production and biomass in Lake Simcoe, Ontario, Canada: are heterotrophic bacteria a significant contributor to low hypolimnetic oxygen?","Quinn, C. J.; North, R. L.; Dillon, P. J.",2013,MAI,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,220,11,integrated,20,monthly,1,6,2010,30,6,2011
-1257,"Annual variation in biomass and the community structure of crustacean zooplankton over 5 years in Lake Toya, Japan","Ban, Syuhei; Makino, Wataru; Sakano, Hiroyuki; Haruna, Hiroyuki; Ueda, Hiroshi",2013,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,9,1620,1,,180,monthly,27,5,1992,29,5,1997
-1261,Phytoplankton assemblages of two intermittently open and closed coastal lakes in SE Australia,"Liu, Dongyan; Morrison, R. John; West, Ronald J.",2013,MAI,spectrophotometer,mean,0.00001,in situ,not described,Not described,1,33,6,integrated,11,bimonthly,1,4,2005,31,4,2007
-1283,Current State of Heterotrophic Bacterioplankton in the Kosinskie Lakes,"Il'inskii, V. V.; Mosharova, I. V.; Akulova, A. Yu.; Mosharov, S. A.",2013,MAI,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,20,2,shoreline,10,monthly,9,12,2009,6,12,2010
-1285,Spatial distribution of penetration depth in Taihu Lake (China) during spring and autumn,Zhao Qiaohua; Wei Yingzhu; Ouyang Xiaoran,2013,MAI,gravimeter ,raw,0.0001,in situ,surface,surface water sample ,1,50,25,integrated,2,seasonally,2,5,2010,6,10,2010
-1287,"Effects of trophic levels (chlorophyll and phosphorous content) in three different water bodies (urban lake, reservoir and aquaculture facility) on gill morphology of Nile tilapia (Oreochromis niloticus)","Shimada Borges, J. C.; Salimbeni Vivai, A. B. B.; Branco, P. C.; Silva Oliveira, M.; Machado Cunha da Silva, J. R.",2013,MAI,undescribed,mean,0.00001,undescribed,surface,surface water sample ,3,,3,,,,,,,,,
-1289,The relationship between shoreline development and resident fish communities in a southeastern US reservoir,"Purcell, Thomas R.; DeVries, Dennis R.; Wright, Russell A.",2013,MAI,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,240,15,integrated,16,biweekly,1,4,2009,31,7,2010
-1297,Seasonal periodicity of plankton and benthic fauna community structure and diversity in a small North African reservoir,"Iskaros, Isaac A.; El-Otify, Ahmed M.",2013,MAI,procedures described by the American Public Health Association,mean,0.01,in situ,surface,surface water sample ,3,24,2,integrated,4,seasonally,20,4,2004,20,4,2004
-1301,"Use of EO-1 Advanced Land Imager (ALI) multispectral image data and real-time field sampling for water quality mapping in the HirfanlA +/- Dam Lake, Turkey","Kavurmaci, Murat; Ekercin, Semih; Altas, Levent; Kurmac, Yakup",2013,MAI,modelled,,0.0001,modelled,surface,surface water sample ,1,20,20,integrated,,biweekly,,,,,,
-1302,The status of the southernmost part (Lake Pihkva) of large Lake Peipsi: A purification pond or polluter?,"Haberman, Juta; Haldna, Marina; Laugaste, Reet",2013,MAI,undescribed,mean,0.1,undescribed,integrated,integrated water sample,3,120,15,integrated,8,yearly,1,8,2003,31,8,2010
-1314,"Algae community and trophic state of subtropical reservoirs in southeast Fujian, China","Yang, Jun; Yu, Xiaoqing; Liu, Lemian; Zhang, Wenjing; Guo, Peiyong",2012,MAI,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,33,11,integrated,3,seasonally,15,5,2010,15,10,2010
-1315,An analysis of MODIS-derived algal and mineral turbidity in Lake Erie,"Binding, C. E.; Greenberg, T. A.; Bukata, R. P.",2012,MAI,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,119,39,integrated,6,seasonally,1,9,2004,31,6,2008
-1319,A 200-year perspective on alternative stable state theory and lake management from a biomanipulated shallow lake,"Hobbs, William O.; Hobbs, Joy M. Ramstack; LaFrancois, Toben; Zimmer, Kyle D.; Theissen, Kevin M.; Edlund, Mark B.; Michelutti, Neal; Butler, Malcolm G.; Hanson, Mark A.; Carlson, Thomas J.",2012,MAI,undescribed,mean,0.00001,undescribed,specific depth,epilimnion ,1,912,7,integrated,168,monthly,21,4,1985,31,10,2009
-1320,Physical and chemical characteristics of the nearshore zone of Lake Ontario,"Makarewicz, Joseph C.; Lewis, Theodore W.; Pennuto, Christopher M.; Atkinson, Joseph F.; Edwards, William J.; Boyer, Gregory L.; Howell, E. Todd; Thoma, George",2012,MAI,undescribed,mean,0.0001,undescribed,surface,surface water sample ,1,849,38,integrated,6,yearly,1,5,2003,31,10,2009
-1321,The Effect of an Extreme Rain Event on the Biogeochemistry and Ecosystem Metabolism of an Oligotrophic High-Elevation Lake,"Sadro, Steven; Melack, John M.",2012,MAI,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,4,20,1,integrated,5,monthly,1,6,2009,15,10,2009
-1325,"Eutrophication in the Yunnan Plateau lakes: the influence of lake morphology, watershed land use, and socioeconomic factors","Liu, Wenzhi; Li, Siyue; Bu, Hongmei; Zhang, Quanfa; Liu, Guihua",2012,MAI,undescribed,mean,0.01,undescribed,undescribed,undescribed,,350,35,integrated,10,seasonally,1,1,2009,28,2,2011
-1334,Hyperspectral determination of eutrophication for a water supply source via genetic algorithm-partial least squares (GA-PLS) modeling,"Song, Kaishan; Li, Lin; Tedesco, Lenore P.; Li, Shuai; Clercin, Nicolas A.; Hall, Bob E.; Li, Zuchuan; Shi, Kun",2012,MAI,modelled,mean,0.0001,modelled,undescribed,undescribed,3,259,29,integrated,14,seasonally,1,9,2005,31,10,2010
-1340,Patterns in water quality on Canadian shores of Lake Ontario: Correspondence with proximity to land and level of urbanization,"Howell, Edward T.; Chomicki, Krista M.; Kaltenecker, Georgina",2012,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,119,8,integrated,5,monthly,1,4,2008,31,11,2008
-1342,Dreissena population status in nearshore Lake Ontario,"Pennuto, C. M.; Howell, E. T.; Lewis, T. W.; Makarewicz, J. C.",2012,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,4,56,7,integrated,2,seasonally,1,5,2008,31,8,2008
-1346,Implications of nitrogen-rich glacial meltwater for phytoplankton diversity and productivity in alpine lakes,"Slemmons, Krista E. H.; Saros, Jasmine E.",2012,MAI,undescribed,mean,0.0001,undescribed,not described,Not described,3,,6,integrated,1,once,1,8,2010,31,8,2010
-1350,A semi-analytical algorithm for remote estimation of phycocyanin in inland waters,"Li, Linhai; Li, Lin; Shi, Kun; Li, Zuchuan; Song, Kaishan",2012,MAI,modelled,mean,0.1,modelled,not described,Not described,1,151,3,integrated,10,once,,,2010,,,2010
-1355,Distribution of seston and nutrient concentrations in the eastern basin of Lake Erie pre- and post-dreissenid mussel invasion,"North, Rebecca L.; Smith, Ralph E. H.; Hecky, Robert E.; Depew, David C.; Leon, Luis F.; Charlton, Murray N.; Guildford, Stephanie J.",2012,MAI,undescribed,mean,0.0001,undescribed,surface,surface water sample ,1,310,31,integrated,10,yearly,,,1973,,,2003
-1361,Iron plays a role in nitrate drawdown by phytoplankton in Lake Erie surface waters as observed in lake-wide assessments,"Havens, Sonya M.; Hassler, Christel S.; North, Rebecca L.; Guildford, Stephanie J.; Silsbe, Greg; Wilhelm, Steven W.; Twiss, Michael R.",2012,MAI,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,200,100,integrated,3,monthly,11,7,2005,20,9,2005
-1365,Assessment of phytoplankton distribution in the nearshore zone using continuous in situ fluorometry,"Pavlac, Margaret M.; Smith, Travis T.; Thomas, Sean P.; Makarewicz, Joseph C.; Edwards, William J.; Pennuto, Christopher M.; Boyer, Gregory L.",2012,MAI,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,170,3,integrated,6,monthly,28,5,2001,15,8,2008
-1373,Nutrient status of phytoplankton across a trophic gradient in Lake Erie: evidence from new fluorescence methods,"Rattan, Kim J.; Taylor, William D.; Smith, Ralph E. H.",2012,MAI,fluorometer,mean,0.0001,in situ,specific depth,2m,1,51,17,integrated,3,seasonally,1,5,2005,16,9,2005
-1376,Quantification of microcystin-producing and non-microcystin producing Microcystis populations during the 2009 and 2010 blooms in Lake Taihu using quantitative real-time PCR,"Li, Daming; Kong, Fanxiang; Shi, Xiaoli; Ye, Linlin; Yu, Yang; Yang, Zhen",2012,MAI,spectrophotometer,raw,0.0001,in situ,integrated,integrated water sample,1,16,8,integrated,2,yearly,1,8,2009,31,8,2009
-1377,A novel support vector regression model to estimate the phycocyanin concentration in turbid inland waters from hyperspectral reflectance,"Sun, Deyong; Li, Yunmei; Wang, Qiao; Le, Chengfeng; Lv, Heng; Huang, Changchun; Gong, Shaoqi",2012,MAI,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,132,92,integrated,1,yearly,1,6,2009,31,8,2010
-1390,"Spatial heterogeneity of cyanobacterial communities and genetic variation of Microcystis populations within large, shallow eutrophic lakes (Lake Taihu and Lake Chaohu, China)","Cai, Yuanfeng; Kong, Fanxiang; Shi, Limei; Yu, Yang",2012,MAI,undescribed,raw,0.00001,undescribed,surface,surface water sample ,1,16,16,integrated,8,once,1,9,2010,30,9,2010
-1391,Patterns in the limnology of lakes and ponds across multiple local and regional environmental gradients in the eastern Canadian Arctic,"Medeiros, A. S.; Biastoch, R. G.; Luszczek, C. E.; Wang, X. A.; Muir, D. C. G.; Quinlan, R.",2012,MAI,undescribed,raw,0.0001,undescribed,surface,0.5 m,1,565,113,integrated,5,yearly,14,7,2006,15,8,2010
-1403,Between-lake variation in the elemental composition of roach (Rutilus rutilus L.),"Boros, Gergely; Jyvasjarvi, Jussi; Takacs, Peter; Mozsar, Attila; Tatrai, Istvan; Sondergaard, Martin; Jones, Roger I.",2012,MAI,undescribed,mean,0.0001,undescribed,not described,Not described,1,,6,,,yearly,1,5,2007,30,9,2009
-1405,"Parameterization of chlorophyll a-specific absorption coefficients and effects of their variations in a highly eutrophic lake: a case study at Lake Kasumigaura, Japan","Yoshimura, Kazuya; Zaitsu, Nobuhiro; Sekimura, Yuta; Matsushita, Bunkei; Fukushima, Takehiko; Imai, Akio",2012,MAI,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,42,26,integrated,12,seasonally,1,9,2009,18,5,2010
-1420,Deep underwater seismic explosion experiments and their possible ecological impact - The case of Lake Arenguade-Central Ethiopian highlands,"Girma, Misgina Belachew; Kifle, Demeke; Jebessa, Habte",2012,MAI,spectrophotometer,mean,0.001,in situ,not described,Not described,4,22,6,integrated,11,yearly,,,1963,,,2007
-1436,Grazing rates of crustacean zooplankton communities on intact phytoplankton communities in Canadian Subarctic lakes and ponds,"Symons, Celia C.; Arnott, Shelley E.; Sweetman, Jon N.",2012,MAI,undescribed,raw,0.00001,undescribed,surface,surface water sample ,1,12,12,integrated,1,once,25,7,2010,31,7,2010
-1440,Nutrient and algal responses to winterkilled fish-derived nutrient subsidies in eutrophic lakes,"Schoenebeck, Casey W.; Brown, Michael L.; Chipps, Steven R.; German, David R.",2012,MAI,undescribed,mean,0.0001,undescribed,not described,Not described,1,41,4,center,41,monthly,1,1,1987,30,9,2001
-1474,The current state of phytoplankton in Lake Ladoga (2005-2009),"Letanskaya, G. I.; Protopopova, E. V.",2012,MAI,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,6,280,105,integrated,4,yearly,,,1992,,,2009
-1476,SEASONAL VARIATIONS IN THE LENGTH OF ZOOPLANKTON RELATED TO CERTAIN PHYSICOCHEMICAL VARIABLES IN TWO FRESHWATER RESERVOIRS,"Bozkurt, Ahmet; Celik, Kemal; Sevindik, Tugba Ongun",2012,MAI,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,1,36,6,integrated,12,seasonally,1,2,2007,31,3,2008
-1478,Can free-floating and emerged macrophytes influence the density and diversity of phytoplankton in subtropical reservoirs?,"Fernandes Cunha, Davi Gasparini; Bottino, Flavia; Calijuri, Maria do Carmo",2012,MAI,multiparameter probe,mean,0.0001,in situ,undescribed,undescribed,1,12,4,integrated,3,seasonally,1,8,2009,28,2,2010
-1490,Reconstructing the various facets of dissolved organic carbon bioavailability in freshwater ecosystems,"Guillemette, Francois; del Giorgio, Paul A.",2011,MAI,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,54,18,integrated,3,monthly,1,6,2005,31,8,2005
-1496,Carbon gas fluxes from a brown-water and a clear-water lake in the boreal zone during a summer with extreme rain events,"Ojala, Anne; Bellido, Jessica Lopez; Tulonen, Tiina; Kankaala, Paula; Huotari, Jussi",2011,MAI,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,5,120,1,integrated,24,weekly,1,5,2004,31,10,2004
-1499,Application of a 3D hydrodynamic-biological model for seasonal and spatial dynamics of water quality and phytoplankton in Lake Erie,"Leon, Luis F.; Smith, Ralph E. H.; Hipsey, Matthew R.; Bocaniov, Serghei A.; Higgins, Scott N.; Hecky, Robert E.; Antenucci, Jason P.; Imberger, Jorg A.; Guildford, Stephanie J.",2011,MAI,undescribed,mean,0.1,undescribed,undescribed,undescribed,,48,16,,3,once,1,4,1973,8,8,2002
-1501,An assessment of MERIS algal products during an intense bloom in Lake of the Woods,"Binding, C. E.; Greenberg, T. A.; Jerome, J. H.; Bukata, R. P.; Letourneau, G.",2011,MAI,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,28,28,integrated,1,once,15,9,2004,24,9,2004
-1513,"Distribution of nuisance Cladophora in the lower Great Lakes: Patterns with land use, near shore water quality and dreissenid abundance","Depew, David C.; Houben, Adam J.; Guildford, Stephanie J.; Hecky, Robert E.",2011,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,3,71,20,integrated,28,yearly,29,4,2002,8,8,2005
-1540,"Cyanobacterial blooms in Lake Atitlan, Guatemala","Rejmankova, Eliska; Komarek, Jiri; Dix, Margaret; Komarkova, Jaroslava; Giron, Nancy",2011,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,31,31,integrated,5,irregular,1,3,2008,30,11,2009
-1566,Development of optical criteria to discriminate various types of highly turbid lake waters,"Sun, Deyong; Li, Yunmei; Wang, Qiao; Le, Chengfeng; Huang, Changchun; Shi, Kun",2011,MAI,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,30,124,integrated,4,monthly,1,4,2009,30,9,2009
-1570,Water quality parameters of a Nebraska reservoir differ between drought and normal conditions,"Olds, Brett P.; Peterson, Brian C.; Koupal, Keith D.; Farnsworth-Hoback, Kerri M.; Schoenebeck, Casey W.; Hoback, W. Wyatt",2011,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,2,3540,15,integrated,118,biweekly,1,4,2003,31,10,2009
-1575,"Increased abundance of the non-indigenous zooplanktivore, Bythotrephes longimanus, is strongly correlated with greater spring prey availability in Canadian Shield lakes","Young, Joelle D.; Strecker, Angela L.; Yan, Norman D.",2011,MAI,metadata,mean,0.00001,in situ,integrated,integrated water sample,1,9,9,integrated,1,yearly,14,7,1994,14,7,2004
-1577,"Contrasting Zooplankton Assemblages in Two Oxbow Lakes with Low Transparencies and Narrow Emergent Macrophyte Belts (Krapina River, Croatia)","Spoljar, Maria; Drazina, Tvrtko; Habdija, Ivan; Meseljevic, Matija; Grcic, Zlatko",2011,MAI,spectrophotometer,mean,0.01,in situ,not described,Not described,1,18,4,integrated,9,seasonally,1,4,2008,30,9,2008
-1579,"The relative importance of autotrophic and heterotrophic microbial communities in the planktonic food web of the Bay of Quinte, Lake Ontario 2000-2007","Munawar, M.; Fitzpatrick, M.; Niblock, H.; Lorimer, J.",2011,MAI,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,192,2,integrated,96,biweekly,1,5,2000,31,10,2007
-2232,"Nutrient bioassays of plankton biomass and metabolism in an urbanized drowned river-mouth lake (Mona Lake, Michigan)","Biddanda, Bopi; Steinman, Alan; Nemeth, Lori; Rediske, Richard; Hong, Ying; Kendall, Scott",2008,MAI,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,3,1,center,3,seasonally,1,5,2003,30,9,2003
-2233,Limnological studies on the transboundary Turkish soda lake: Lake Aktas,"Ozbay, Hanife; Kilinc, Sabri",2008,MAI,spectrophotometer,,0.001,in situ,undescribed,undescribed,1,30,5,integrated,6,monthly,1,7,2004,30,6,2005
-2256,Photosynthetic pigments of plankton in some karst lakes of central Russia,"Gusev, E. S.",2008,MAI,undescribed,mean,0.0001,undescribed,not described,Not described,1,9,7,center,9,yearly,1,5,2004,31,10,2004
-2258,Occurrence of aquatic macrophytes in a eutrophic subtropical lake in relation to toxic wastewater and fish overstocking,"Liu, Gui-hua; Li, En-hua; Yuan, Long-yi; Li, Wei",2008,MAI,spectophotometer,mean,0.00001,in situ,surface,0.5m below water surface,10,600,20,integrated,3,seasonally,1,9,2000,31,7,2004
-2283,"A study of absorption characteristics of chromophoric dissolved organic matter and particles in Lake Taihu, China","Zhang, Yunlin; Zhang, Bing; Wang, Xin; Li, Junsheng; Feng, Sheng; Zhao, Qiaohua; Liu, Mingliang; Qin, Boqiang",2007,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,100,50,integrated,2,seasonally,7,1,2006,1,8,2006
-2286,Zooplankton biodiversity and lake trophic state: Explanations invoking resource abundance and distribution,"Barnett, Allain; Beisner, Beatrdl E.",2007,MAI,fluorometer,mean,0.00001,in situ,specific depth,hypolimnion,1,3,18,center,3,monthly,1,6,2004,31,8,2004
-2308,"Hatch dates, growth, survival, and overwinter mortality of age-0 alewives in Lake Michigan: Implications for habitat-specific recruitment success","Hook, Tomas O.; Rutherford, Edward S.; Mason, Doran M.; Carter, Glenn S.",2007,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,256,8,integrated,32,weekly,14,5,2001,31,10,2002
-2309,Macroinvertebrate production and food web energetics in an industrially contaminated stream,"Runck, Clay",2007,MAI,undescribed,mean,0.01,undescribed,undescribed,undescribed,16,136,2,integrated,19,monthly,15,2,1995,21,2,1996
-2312,Physical and chemical limnology of alpine lakes and pools in the Rwenzori Mountains (Uganda-DR Congo),"Eggermont, Hilde; Russell, James M.; Schettler, Georg; Van Damme, Kay; Bessems, Ilse; Verschuren, Dirk",2007,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,17,17,center,1,yearly,1,7,2005,31,7,2005
-2313,Meteorological influences on algal bloom potential in a nutrient-rich blackwater river,"Phlips, Edward J.; Hendrickson, John; Quinlan, Erin L.; Cichra, M.",2007,MAI,undescribed,,,undescribed,undescribed,undescribed,3,360,3,integrated,120,monthly,1,11,1993,31,10,2003
-2329,Exploration of relationships between phytoplankton biomass and related environmental variables using multivariate statistic analysis in a eutrophic shallow lake: A 5-year study,Wang Xiao-long; Lu Yong-long; He Gui-zhen; Han Jing-yi; Wang Tie-yu,2007,MAI,freeze-thaw method ,mean,0.0001,in situ,surface,surface water sample ,1,240,4,integrated,60,monthly,1,1,1999,31,12,2003
-2376,Spatial patterns of seston concentration and biochemical composition between nearshore and offshore waters of a Great Lake,"Smith, Ralph E. H.; Parrish, Christopher C.; Depew, David C.; Ghadouani, Anas",2007,MAI,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,30,6,integrated,5,seasonally,30,4,2001,11,7,2002
-2397,A catastrophe model for water bloom prediction: A case study of China's Lake Chaohu,Chen Yun-feng; Yin Fu-cai; Lu Gen-fa,2007,MAI,modelled,,0.1,modelled,undescribed,undescribed,,12,,,12, monthly,1,1,2004,31,12,2004
-2412,Relationship between bacterial and primary production in a newly filled reservoir: temporal variability over 2 consecutive years,"Jugnia, Louis-B.; Sime-Ngando, T.; Devaux, J.",2007,MAI,spectrophotometer,mean,0.00001,in situ,specific depth,1-15m,4,132,1,center,33,biweekly,1,1,1996,31,9,1997
-2679,Estimate of the eutrophication process in the Gruza Reservoir (Serbia and Montenegro),"Ostojic, A; Curcic, S; Comic, L; Topuzovic, M",2005,MAI,spectrophotometer,mean,0.0001,in situ,specific depth,25-30m,1,78,3,integrated,26,monthly,1,10,1996,31,5,2001
-2692,"Trophic classification of non-perennial reservoirs utilized for the development of culture-based fisheries, Sri Lanka","Jayasinghe, UAD; Amarasinghe, US; De Silva, SS",2005,MAI,spectrophotometer,mean,0.01,in situ,surface,0.3-0.6 m,1,360,45,center,8,bi-monthly,1,11,2001,31,1,2004
-2775,Establishment of a metalimnetic oxygen refuge for zooplankton in a productive Lake Ontario embayment,"Klumb, RA; Bunch, KL; Mills, EL; Rudstam, LG; Brown, G; Knauf, C; Burton, R; Arrhenius, F",2004,MAI,spectrophotometer,mean,0.0001,in situ,surface,0.5m below water surface,3,117,1,integrated,39,weekly,5,6,1996,1,10,1997
-2793,Distribution and dynamics of nitrogen and microbial plankton in southern Lake Michigan during spring transition 1999-2000,"Gardner, WS; Lavrentyev, PJ; Cavaletto, JF; McCarthy, MJ; Eadie, BJ; Johengen, TH; Cotner, JB",2004,MAI,fluorometer,mean,0.00001,in situ,undescribed,undescribed,1,35,10,integrated,4,seasonally,1,3,1999,20,5,2000
-2815,"Distribution, abundance and life history of Mysis relicta (LOVEN) in the Feldberg Lake District, Germany","Scharf, J; Koschel, R",2004,MAI,spectrophotometer,mean,0.0005,in situ,specific depth,25m,3,51,17,integrated,17,monthly,1,7,2001,31,11,2002
-2826,Some notes on water color in Keweenaw Bay (Lake Superior),"Gons, HJ; Auer, MT",2004,MAI,fluorometer,mean,0.01,in situ,surface,surface water sample ,2,12,12,integrated,1,once,14,8,2003,14,8,2003
-2839,Geostatistical analysis of chlorophyll a in freshwater ecosystems,"Zhao, B; Cai, QH",2004,MAI,spectrophotometer,mean,,in situ,surface,surface water sample ,1,129,43,integrated,3,monthly,1,5,1997,31,6,1997
-2950,"Responses of crustacean zooplankton to seasonal and tidal salinity changes in the coastal Lake Waihola, New Zealand","Hall, CJ; Burns, CW",2003,MAI,undescribed,mean,0.0001,undescribed,undescribed,undescribed,1,22,10,integrated,22,seasonally,1,6,1999,31,5,2001
-2956,"Limnology of Lakes in Gates of the Arctic National Park and Preserve, Alaska","LaPerriere, JD; Jones, JR; Swanson, DK",2003,MAI,fluorometer,mean,0.0001,in situ,specific depth,2 m,1,,16,integrated,,seasonally,14,7,1992,8,7,1993
-2960,"Lake Chapo: a baseline study of a deep, oligotrophic North Patagonian lake prior to its use for hydroelectricity generation: II. Biological properties","Villalobos, L; Woelfl, S; Parra, O; Campos, H",2003,MAI,spectrophotometer,mean,0.00001,in situ,specific depth,40m below water surface,8,96,1,center,12,monthly,1,9,1986,30,1,1987
-2965,Monitoring chlorophyll-a as a measure of algae in Lake Texoma marinas,"An, YJ; Kampbell, DH",2003,MAI,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,2,19,5,integrated,,monthly,1,3,2000,21,10,2001
-2979,Using abiotic and biotic factors to predict the range expansion of white perch in Lake Champlain,"Hawes, EJ; Parrish, DL",2003,MAI,spectrophotometer,mean,0.01,in situ,integrated,integrated water sample,2,224,8,integrated,14,monthly,1,6,1994,30,8,1995
-2981,"Divergence of carbon dioxide fluxes in different trophic areas of Taihu Lake, China","Fan, CX; Ford, PW; Hu, WP; Qin, BQ",2003,MAI,undescribed,,,undescribed,surface,surface water sample ,,,,,,,,,,,,
-2982,Comparative limnology of some lakes in Interior Alaska,"LaPerriere, JD; Simpson, TD; Jones, JR",2003,MAI,spectrophotometer,mean,0.0001,in situ,not described,Not described,1,3,15,integrated,3,monthly,15,5,1993,10,9,1994
-2983,Factors affecting Iowa lake and reservoir water quality,"Hatch, LK",2003,MAI,spectrophotometer,mean,0.001,in situ,not described,Not described,2,198,22,,9,yearly,1,5,1990,31,8,1992
-2987,"Limnology of Harding Lake, Alaska: A deep, subarctic lake","LaPerriere, JD",2003,MAI,fluorometer,raw,0.1,in situ,undescribed,undescribed,1,18,1,center,18,monthly,1,4,1973,31,11,1975
-2993,"The potential impact of water reallocation on retention and chlorophyll a in Weiss Lake, Alabama","Maceina, MJ; Bayne, DR",2003,MAI,undescribed,mean,0.0001,undescribed,integrated,integrated water sample,1,141,7,integrated,,irregular,1,4,1989,10,10,2000
-2997,"Spatial and temporal variability of TOC concentrations in a shallow and eutrophicated lake ecosystem (Lake Jaroslawieckie, Wielkopolski National Park, Western Poland)","Pelechaty, M; Pelechata, A; Niedzielski, P",2003,MAI,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,55,11,integrated,5,seasonally,1,11,2000,31,7,2001
-3005,Synchronous variation of dissolved organic carbon and color in lakes,"Pace, ML; Cole, JJ",2002,MAI,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,480,20,,24,monthly,1,5,1995,31,8,2000
-3029,"Particle transport, nutrient cycling, and algal community structure associated with a major winter-spring sediment resuspension event in Southern Lake Michigan","Eadie, BJ; Schwab, DJ; Johengen, TH; Lavrentyev, PJ; Miller, GS; Holland, RE; Leshkevich, GA; Lansing, MB; Morehead, NR; Robbins, JA; Hawley, N; Edgington, DN; Van Hoof, PL",2002,MAI,fluorometer,mean,0.0001,in situ,surface,surface water sample ,5,6,3,integrated,2,twice,25,3,1996,10,4,1996
-3032,"Limnological characteristics of 38 lakes and ponds on Axel Heiberg Island, High Arctic Canada","Michelutti, N; Douglas, MSV; Muir, DCG; Wang, XW; Smol, JP",2002,MAI,undescribed,mean,0.0001,undescribed,not described,Not described,1,38,38,integrated,1,once,19,7,1998,23,7,1998
-3041,Indirect influence of the summer monsoon on chlorophyll - total phosphorus models in reservoirs: a case study,"An, KG; Park, SS",2002,MAI,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,456,19,integrated,24,biweekly,,,1993,,,1994
-3042,"Determining trophic state in Lake Whatcom, Washington (USA), a soft water lake exhibiting seasonal nitrogen limitation","Matthews, R; Hilles, M; Pelletier, G",2002,MAI,multiparameter probe,mean,0.0001,in situ,specific depth,hypolimnion,1,480,4,integrated,120,monthly,,,1988,,,1998
-3046,"The annual patterns of photosynthesis in two large, freshwater, ultra-oligotrophic Antarctic lakes","Henshaw, T; Laybourn-Parry, J",2002,MAI,spectrophotometer,mean,0.00001,in situ,integrated,integrated water sample,8,150,3,integrated,15,monthly,1,12,1998,1,2,2000
-repo1,Ecology Under Lake Ice,Hampton et al. ,2016,AF,metadata,mean,0.0001,in situ,not described,integrated water sample,1,2500,135,integrated,120,semi-annually,,,1940,,,2015
-repo10,Cascade Project at North Temperate Lakes LTER High Frequency Sonde Data from Food Web Resilience Experiment 2008 - 2011,"Stephen Carpenter, Mike Pace, Jon Cole, Ryan Batt, Cal Buelo, et al.",2012,AF,metadata,mean,0.00001,in situ,not described,metadata,1,254527,5,integrated,50905,every five-minutes,13,5,2008,3,9,2011
-repo11,Lake Metabolism at North Temperate Lakes LTER 2000,"Darren Bade, Stephen Carpenter, and Paul Hanson",2003,AF,metadata,mean,0.0001,in situ,not described,0.5 m,1,1,25,center,1,once,1,7,2000,31,8,2000
-repo12,Landscape Position Project at North Temperate Lakes LTER: Chlorophyll 1998 - 2000,"Ben Greenfield, Thomas Hrabik, Timothy Kratz, David Lewis, Amina Pollard, et al.",2005,AF,metadata,mean,0.0001,in situ,not described,integrated water sample,2,552,49,center,56,monthly,27,5,1998,21,7,2000
-repo13,"Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004",Thomas Dallaire,2017,AF,metadata,mean,0.0001,in situ,not described,integrated water sample,2,1143,175,integrated,3,every five years,21,6,1995,14,9,2004
-repo14,LAGOS-NE: a multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of US lakes,"Soranno, et al.",2017,AF,metadata,raw,0.0001,in situ,not described,metadata,,,,,,,,,,,,
-repo5,Water Quality Portal Database,Multi-author,2019,AF,metadata,mean,0.0001,in situ,not described,undescribed,,,,,,,,,,,,
-repo9,Lake Kasumigaura Database,Multi-author,2017,AF,metadata,mean,0.00001,in situ,not described,0.5 m,1,2778,6,integrated,463,monthly,1,5,1977,1,12,2016
-repo2,Limnological data and depth profile from Oneida Lake,"Rudstam, L",2017,AF,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,12,56988,13,integrated,1397,biweekly,28,5,1975,21,11,2017
-repo3,"Transparency, geomorphology, and mixing regime explain variability in trends in lake temperature and stratification across northeastern North America",Richardson et al.,2017,AF,metadata,median,0.0001,in situ,not described,metadata,,,,,,,,,,,,
-repo4,The European Multi-lake Survey (EMLS) Dataset,Mantzouki et al. ,2018,AF,multiple methods,mean,0.00001,in situ,undescribed,integrated water sample,,,369,,1,once,9,6,2015,5,10,2015
-repo6,The Lake Inventory Program (formerly known as the Lake Survey Program),"Scott, R., MacMichael, C., Fenton, G., Hard, W., Boxall, J.",2007,AF,metadata,mean,0.0001,in situ,not described,metadata,,,,,,,16,8,1942,31,7,1996
-repo7,National Aquatic Resource Surveys,Leech et al.,2018,AF,metadata,mean,0.0001,in situ,not described,integrated water sample,9,1163,1059,integrated,2,twice,31,7,2007,18,10,2007
-repo8,McMurdo Dry Valleys Chlorophyll-A Concentrations in Lakes,"Priscu, J., Chiuchiolo, A., Welch, K., Inigo, S.G., Brown, R.",2014,AF,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,15,4900,9,integrated,25,annually,27,10,1993,8,1,2018
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,
+StudyID,Title,Authors,Year,Chl.Method,MeasurementType,DetectionLimits,Survey.Type,Depth.qual,Depth.quant,Column.rep,Replicate,Spatial.rep,Spatial.qual,Temporal.rep,Temporal.qual,StartDay,StartMonth,StartYear,EndDay,EndMonth,EndYear,ShallowDepth,MeanDepth,DeepDepth,NumObs
+1,Hot and toxic: Temperature regulates microcystin release from cyanobacteria,"Walls, Jeremy T.; Wyatt, Kevin H.; Doll, Jason C.; Rubenstein, Eric M.; Rober, Allison R.",2018,spectrophotometer,mean,0.0001,in situ,undescribed,,1,165,11,integrated,15,monthly,1,5,2015,1,5,2016,undescribed,,,1
+2,Spatial and temporal variations in the relationship between lake water surface temperatures and water quality - A case study of Dianchi Lake,"Yang, Kun; Yu, Zhenyu; Luo, Yi; Yang, Yang; Zhao, Lei; Zhou, Xiaolu",2018,undescribed,mean,0.01,undescribed,integrated,,1,960,10,integrated,96,monthly,1,1,2005,31,12,2016,undescribed,,,1
+12,"Spatial differences in dissolved silicon utilization in Lake Baikal, Siberia: Examining the impact of high diatom biomass events and eutrophication","Panizzo, V. N.; Roberts, S.; Swann, G. E. A.; McGowan, S.; Mackay, A. W.; Vologina, E.; Pashley, V; Horstwood, M. S. A.",2018,spectrophotometer,mean,0.0001,in situ,integrated,1 to 180,8,120,15,integrated,1,once,30,7,2013,15,8,2013,1,90.5,180,15
+13,Phytoplankton limitation in Patagonian and Pampean shallow lakes: effect of phosphorus and light,"Torremorell, Ana; del Carmen Dieguez, Maria; Queimalinos, Claudia; Izaguirre, Irina; Zagarese, Horacio E.",2018,radiometer,raw,0.0001,in situ,surface,0.2,1,2,1,center,2,annually,10,11,2005,5,9,2006,0.2,0.2,,30
+14,"Evaluating the contamination of microcystins in Lake Taihu, China: The. application of equivalent total MC-LR concentration","Su, Xiaomei; Steinman, Alan D.; Xue, Qingju; Zhao, Yanyan; Xie, Liqiang",2018,spectrophotometer,mean,0.0001,in situ,surface,0.5,1,224,14,integrated,17,monthly,1,7,2013,1,12,2014,0.5,0.5,,1
+19,From Bacteria to Fish: Ecological Consequences of Seasonal Hypoxia in a Great Lakes Estuary,"Weinke, Anthony D.; Biddanda, Bopaiah A.",2018,ysi sensors,mean,0.0001,in situ,surface,,2,224,4,integrated,28,twice-monthly,6,5,2015,4,11,2015,undescribed,,,4
+20,Interactive effects of environmental factors on phytoplankton communities and benthic nutrient interactions in a shallow lake and adjoining rivers in China,"Rao, Ke; Zhang, Xiang; Yi, Xiang-Jun; Li, Zheng-Shan; Wang, Ping; Huang, Guang-Wei; Guo, Xiao-Xi",2018,spectrophotometer,mean,0.0001,in situ,undescribed,,1,48,12,integrated,4,seasonally,1,4,2016,1,12,2016,undescribed,,,1
+22,The structuring role of submerged macrophytes in a large subtropical shallow lake: Clear effects on water chemistry and phytoplankton structure community along a vegetated-pelagic gradient,"Ferreira, Tiago Finkler; Crossetti, Luciane O.; Motta Marques, David M. L.; Cardoso, Luciana; Fragoso, Carlos Ruberto, Jr.; van Nes, Egbert H.",2018,undescribed,mean,0.0001,undescribed,surface,0.15,1,40,8,integrated,5,seasonally,1,5,2007,1,3,2008,0.15,0.15,,1
+26,Gravel pit lakes in Denmark: Chemical and biological state,"Sondergaard, Martin; Lauridsen, Torben L.; Johansson, Liselotte S.; Jeppesen, Erik",2018,Not described,raw,0.001,undescribed,undescribed,0.5,1,1,1,center,1,once,6,6,2016,17,8,2016,0.5,0.5,,35
+29,Pelagic zonation of water quality and phytoplankton in the Great Lakes,"Cai, Meijun; Reavie, Euan D.",2018,fluorometer,mean,0.00001,in situ,integrated,0 to 20,4,1728,72,integrated,6,semi-annually,1,8,2007,1,12,2010,0,10,20,5
+33,"Sources of nutrients behind recent eutrophication of Lago de Tota, a high mountain Andean lake","Javier Aranguren-Riano, Nelson; Shurin, Jonathan B.; Pedroza-Ramos, Adriana; Liliana Munoz-Lopez, Claudia; Lopez, Ricardo; Cely, Omar",2018,spectrophotometer,mean,0.0001,in situ,specific depth,5 to 7,1,80,10,integrated,8,monthly,9,9,2014,3,9,2015,5,6,7,1
+42,Extreme drought decouples silicon and carbon geochemical linkages in lakes,"Li, Tianyang; Li, Siyue; Bush, Richard T.; Liang, Chuan",2018,calibrated electrodes - multiparameter meter,mean,0.0001,in situ,surface,10 to 30,1,491,13,integrated,38,monthly,1,4,2008,1,12,2012,10,20,30,2
+53,Differential bioaccumulation of mercury by zooplankton taxa in a mercury-contaminated reservoir Guizhou China,"Long, Sheng-Xing; Hamilton, Paul B.; Yang, Yang; Wang, Sai; Huang, Wen-da; Chen, Chuan; Tao, Ran",2018,spectrophotometer,mean,0.0001,in situ,integrated,5 to 13,3,48,4,integrated,4,seasonally,1,9,2015,1,8,2016,5,9,13,12
+54,"Influence of Environmental Conditions on the Phytoplankton Community Assemblages in Suloglu Reservoir (Edirne, Turkey)","Oterler, Burak; Elipek, Belgin Camur; Arat, Salih Murat",2018,Nusch method ,mean,0.0001,in situ,specific depth,1 to 15,3,89,3,center,11,monthly,1,1,2013,1,11,2013,1,8,15,11
+55,Habitat suitability evaluation of a benthic macroinvertebrate community in a shallow lake,"Yi, Yujun; Sun, Jie; Yang, Yufeng; Zhou, Yang; Tang, Caihong; Wang, Xuan; Yang, Zhifeng",2018,fluorometer,mean,0.00001,in situ,undescribed,,1,42,14,integrated,3,seasonally,1,4,2016,1,9,2016,undescribed,,,1
+56,Assessment of the efficiency of a trophic state index in determining the water quality of public water supply reservoirs,"Vieira Rego da Silva, Daniel Clemente; Queiroz, Lucas Goncalves; Alamino, Douglas Alvarez; Fernandes, Juliana Goncalves; da Silva, Sheila Cardoso; Brazil de Paiva, Teresa Cristina; Martins Pompeo, Marcelo Luiz",2018,modelled,mean,0.0001,in situ,surface,0,1,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,0,0,,6
+59,"Status of Water Quality in King Talal Reservoir Dam, Jordan","Al-Taani, Ahmed A.; El-Radaideh, Nazem M.; Al Khateeb, Wesam M.",2018,undescribed,mean,0.00001,in situ,integrated,0 to 28,3,120,40,integrated,1,once,NA,NA,NA,NA,NA,NA,0,14,28,1
+65,Application of feature selection and regression models for chlorophyll-a prediction in a shallow lake,"Li, Xue; Sha, Jian; Wang, Zhong-Liang",2018,undescribed,mean,0.00001,in situ,surface,0,1,64,8,integrated,8,monthly,1,5,2006,1,12,2010,0,0,,1
+70,Spatial statistics of hydrography and water chemistry in a eutrophic boreal lake based on sounding and water samples,"Lepparanta, Matti; Lewis, John E.; Heini, Anniina; Arvola, Lauri",2018,spectrophotometer,median,0.0001,in situ,surface,0,1,64,16,integrated,4,seasonally,18,3,2009,26,10,2010,0,0,,4
+72,Lake Caviahue: an extreme environment as a potential sentinel for nutrient deposition in Patagonia,"Baffico, Gustavo; Diaz, Monica; Beamud, Guadalupe; Schultz, Sabina; Temporetti, Pedro; Pedrozo, Fernando",2018,spectrophotometer,mean,0.00001,in situ,integrated,0 to 80,10,620,2,center,31,seasonally,1,1,2000,12,12,2015,0,40,80,33
+74,The Role of Confluence in Shaping Water Quality Parameters on Example of the Flow-Through Lake Bikcze (Eastern Poland),"Ferencz, Beata; Dawidek, Jaroslaw",2018,fluorometer,mean,0.001,in situ,integrated,0 to 2.5,5,360,72,integrated,1,once,1,5,2016,1,5,2016,0,1.25,2.5,21
+78,An analysis of satellite-derived chlorophyll and algal bloom indices on Lake Winnipeg,"Binding, C. E.; Greenberg, T. A.; McCullough, G.; Watson, S. B.; Page, E.",2018,modelled,mean,0.0001,satellite/modelled,surface,0,NA,NA,NA,,NA,seasonally,1,6,2002,1,10,2011,0,0,,4
+79,Phytoplankton and benthic algal response to ecosystem engineers and multiple stressors in the nearshore of Lake Huron,"Stefanoff, Samantha; Vogt, Richard J.; Howell, Todd; Sharma, Sapna",2018,undescribed,mean,0.00001,in situ,undescribed,,1,18,3,integrated,6,seasonally,12,5,2010,30,9,2010,undescribed,,,6
+82,Evaluating the portability of satellite derived chlorophyll-a algorithms for temperate inland lakes using airborne hyperspectral imagery and dense surface observations,"Johansen, Richard; Beck, Richard; Nowosad, Jakub; Nietch, Christopher; Xu, Min; Shu, Song; Yang, Bo; Liu, Hongxing; Emery, Erich; Reif, Molly; Harwood, Joseph; Young, Jade; Macke, Dana; Martin, Mark; Stillings, Garrett; Stumpf, Richard; Su, Haibin",2018,modelled,mean,0.0001,satellite/modelled,surface,,1,114,114,integrated,1,once,18,6,2014,18,6,2014,undescribed,,,2
+89,"When and where to reduce nutrient for controlling harmful algal blooms in large eutrophic lake Chaohu, China?","Huang, Jiacong; Zhang, Yinjun; Huang, Qi; Gao, Junfeng",2018,modelled,mean,0.0001,in situ,undescribed,,1,840,14,integrated ,60,monthly,1,1,2010,1,1,2014,undescribed,,,5
+93,Evaluation of Unified Algorithms for Remote Sensing of Chlorophyll-a and Turbidity in Lake Shinji and Lake Nakaumi of Japan and the Vaal Dam Reservoir of South Africa under Eutrophic and Ultra-Turbid Conditions,"Sakuno, Yuji; Yajima, Hiroshi; Yoshioka, Yumi; Sugahara, Shogo; Abd Elbasit, Mohamed A. M.; Adam, Elhadi; Chirima, Johannes George",2018,multiparameter probe,mean,0.0001,in situ,undescribed,,1,36,36,integrated,1,once,15,7,2016,27,3,2017,undescribed,,,2
+104,Importance of sediment organic matter to methane ebullition in a sub-tropical freshwater reservoir,"Grinham, Alistair; Dunbabin, Matthew; Albert, Simon",2018,spectrophotometer,mean,0.0001,in situ,integrated,0 to 3,7,336,4,integrated,12,monthly,1,1,2016,31,12,2016,0,1.5,3,1
+108,"Spatio-temporal variation of microcystins and its relationship to biotic and abiotic factors in Hongze Lake, China","Xue, Qingju; Rediske, Richard R.; Gong, Zhijun; Su, Xiaomei; Xu, Hao; Cai, Yongjiu; Zhao, Yanyan; Xie, Liqiang",2018,undescribed,mean,0.00001,undescribed,surface,0.5,1,40,10,integrated,4,monthly,1,8,2013,1,11,2013,0.5,0.5,,3
+116,"Assessing Eutrophication Potential of a Freshwater Lake by Relating Its Bioproductivity and Biodiversity: A Case Study of Lake Wilson on Central Oahu, Hawaii","Lee, Tsu-Chuan; Liu, Clark C. K.",2018,spectrophotometer,mean,0.0001,in situ,surface,0,1,2,2,integrated,1,once,12,4,2011,12,4,2011,0,0,,2
+118,ONLINE MEASUREMENT METHOD OF WATER QUALITY IN THE SULEJOW RESERVOIR,"Zieminska-Stolarska, Aleksandra; Adamiec, Janusz; Imbierowicz, Miroslaw; Imbierowicz, Ewa; Jaskulski, Marcin; Szmidt, Aleksander; Zbicinski, Ireneusz",2018,multiparameter probe,mean,0.0001,in situ,undescribed,1.5,1,17,17,integrated,1,once,NA,NA,NA,NA,NA,NA,1.5,1.5,,1
+119,Remote sensing of water quality based on HJ-1A HSI imagery with modified discrete binary particle swarm optimization-partial least squares (MDBPSO-PLS) in inland waters: A case in Weishan Lake,"Cao, Yin; Ye, Yuntao; Zhao, Hongli; Jiang, Yunzhong; Wang, Hao; Shang, Yizi; Wang, Junfeng",2018,spectophotometer,mean,0.0001,in situ,surface,0.5,1,23,23,integrated,1,once,16,10,2015,17,10,2015,0.5,0.5,,1
+120,Assessment of temporal and spatial eutrophication index in a water dam reservoir,"Esfandi, F.; Mahvi, A. H.; Mosaferi, M.; Armanfar, F.; Hejazi, M. A.; Maleki, S.",2018,spectrophotometer,mean,0.001,in situ,surface,0.5,1,30,5,integrated,6,seasonally,1,7,2015,1,12,2015,0.5,0.5,,1
+122,Predicting chlorophyll-a concentrations in two temperate reservoirs with different trophic states using Principal Component Regression (PCR),"Celik, Kemal",2018,trichromatic method,mean,NA,in situ,undescribed,undescribed,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,2
+127,Potential contributions of dissolved organic matter to monomethylmercury distributions in temperate reservoirs as revealed by fluorescence spectroscopy,"Noh, Seam; Kim, Jihee; Hur, Jin; Hong, Yongseok; Han, Seunghee",2018,spectrophotometer,mean,0.00001,in situ,surface,surface water sample ,5,80,3,integrated,2,seasonally,1,7,2013,1,9,2015,surface water sample ,,,18
+133,Global Sensitivity Analysis of a Water Quality Model in the Three Gorges Reservoir,"Cheng, Yao; Li, Yajun; Ji, Fei; Wang, Yuchun",2018,modelled,mean,0.00001,satellite/modelled,undescribed,undescribed,1,2000,NA,integrated,12,monthly,1,1,2014,31,12,2014,undescribed,,,1
+140,Multi-sensor satellite and in situ monitoring of phytoplankton development in a eutrophic-mesotrophic lake,"Doernhoefer, Katja; Klinger, Philip; Heege, Thomas; Oppelt, Natascha",2018,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,153,2,integrated,15,twice-monthly,5,6,2015,30,9,2015,surface water sample ,,,1
+146,Planktonic-based assessment of the landside-dammed lake (Erzurum-Turkey),"Fakioglu, O.; Kokturk, M.; Uzundumlu, A. S.; Arslan, H.; Atamanalp, M.",2018,spectrophotometer,mean,0.01,in situ,undescribed,undescribed,NA,NA,3,integrated,12,monthly,1,6,2012,1,5,2014,undescribed,,,3
+147,"EVALUATION OF THE PHYSICOCHEMICAL CHARACTERISTICS AND CHLOROPHYLL-A CONTENT OF LAKE YENICAGA, BOLU","Kilic, Savas; Becer, Z. Arzu",2018,spectrophotometer,mean,0.0001,in situ,specific depth,epilimnion ,2,120,5,integrated,12,monthly,1,8,2009,1,7,2010,epilimnion ,,,1
+148,Bioremediation of South Africa's hypertrophic Hartbeespoort Dam: evaluating its effects by comparative analysis of a decade of MERIS satellite data in six control reservoirs,"Hart, R. C.; Matthews, M. W.",2018,satellite,mean,0.00001,satellite/modelled,undescribed,undescribed,NA,NA,NA,integrated,NA,monthly,30,11,2002,30,4,2012,undescribed,,,7
+149,USE OF THE EPIPHYTIC DIATOMS TO ESTIMATE THE ECOLOGICAL STATUS OF LAKE MOGAN,"Sanal, M.; Demir, N.",2018,spectrophotometer,mean,0.00001,in situ,surface,surface water sample ,2,44,2,integrated,11,monthly,1,1,2012,1,12,2012,surface water sample ,,,1
+155,Vertical Distribution of Chlorophyll in the Upper Volga Reservoirs,"Mineeva, N. M.; Mukhutdinov, V. F.",2018,fluorometer,mean,0.00001,in situ,undescribed,Not described,5,125,25,,1,monthly,1,8,2015,31,8,2015,undescribed,,,3
+156,"Hydrological perturbations drive rapid shifts in phytoplankton biodiversity and population dynamics in Butte Lake (Lassen Volcanic National Park, California)","Howard, Kerry; Noble, Paula",2018,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,3,14,1,integrated,5,seasonally,8,8,2012,27,9,2014,integrated water sample,,,5
+165,"The potential of Earth Observation in modelling nutrient loading and water quality in lakes of southern Quebec, Canada","Politi, Eirini; Prairie, Yves T.",2018,spectrophotometer,mean,NA,undescribed,undescribed,undescribed,NA,198,22,integrated,9,seasonally,1,5,2003,1,10,2005,undescribed,,,1
+176,Cyanobacteria blooms before and during the restoration process of a shallow urban lake,"Rosinska, Joanna; Kozak, Anna; Dondajewska, Renata; Goldyn, Ryszard",2017,undescribed,mean,0.0001,undescribed,undescribed,undescribed,5,44,1,center,10,monthly,1,3,2011,1,12,2014,undescribed,,,40
+181,Nitrogen and phosphorus colimitation of phytoplankton in Lake Baikal: Insights from a spatial survey and nutrient enrichment experiments,"O'Donnell, Daniel R.; Wilburn, Paul; Silow, Eugene A.; Yampolsky, Lev Y.; Litchman, Elena",2017,fluorometer,median,0.00001,in situ,surface,surface water sample ,1,312,26,,12,daily,1,8,2013,12,8,2013,surface water sample ,,,1
+183,"Limnology and trophic status of glacial lakes in the tropical Andes (Cajas National Park, Ecuador)","Van Colen, Willem R.; Mosquera, Pablo; Vanderstukken, Maarten; Goiris, Koen; Carrasco, Maria-Cecilia; Decaestecker, Ellen; Alonso, Miguel; Leon-Tamariz, Fabian; Muylaert, Koenraad",2017,HPLC,mean,0.0001,in situ,integrated,,2,62,31,integrated,1,once,1,8,2011,12,12,2013,undescribed,,,31
+195,Changes in CO2 dynamics related to rainfall and water level variations in a subtropical lake,"Tonetta, Denise; Staehr, Peter Anton; Petrucio, Mauricio Mello",2017,spectrophotometer,mean,0.001,in situ,integrated,0.2 to 5.3,4,448,1,center,112,monthly,1,3,2007,30,6,2016,0.2,2.75,5.3,10
+199,Restoration of Eutrophic Lakes with Fluctuating Water Levels: A 20-Year Monitoring Study of Two Inter-Connected Lakes,"Beklioglu, Meryem; Bucak, Tuba; Coppens, Jan; Bezirci, Gizem; Tavsanoglu, U. Nihan; Cakiroglu, A. Idil; Levi, Eti E.; Erdogan, Seyda; Filiz, Nur; Ozkan, Korhan; Ozen, Arda",2017,spectophotometer,mean,0.0001,in situ,undescribed,,NA,NA,2,,NA,monthly,1,1,1995,31,12,2013,undescribed,,,1
+205,"Remote estimation of cyanobacterial blooms using the risky grade index (RGI) and coverage area index (CAI): a case study in the Three Gorges Reservoir, China","Zhou, Botian; Shang, Mingsheng; Wang, Guoyin; Feng, Li; Shan, Kun; Liu, Xiangnan; Wu, Ling; Zhang, Xuerui",2017,YSI,mean,0.0001,in situ,surface,,NA,NA,2,,NA,hourly,1,8,2014,31,7,2016,undescribed,,,2
+212,"Using fuzzy theory and variable weights for water quality evaluation in Poyang Lake, China",Li Bing; Yang Guishan; Wan Rongrong; Zhang Lu; Zhang Yanhui; Dai Xue,2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,15,,12,seasonally,1,1,2009,31,10,2012,undescribed,,,4
+218,"Trophic state assessment of Bhindawas Lake, Haryana, India","Saluja, Ridhi; Garg, J. K.",2017,spectrophotometer,mean,0.0001,in situ,undescribed,,1,54,18,integrated,3,seasonally,1,4,2014,31,12,2014,undescribed,,,1
+223,"Influence of invasive quagga mussels, phosphorus loads, and climate on spatial and temporal patterns of productivity in Lake Michigan: A biophysical modeling study","Rowe, Mark D.; Anderson, Eric J.; Vanderploeg, Henry A.; Pothoven, Steven A.; Elgin, Ashley K.; Wang, Jia; Yousef, Foad",2017,modelled,mean,0.0001,satellite/modelled,undescribed,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,3
+225,"Consequences of eutrophication in the management of water resources in Mediterranean reservoirs: A case study of Lake Cedrino (Sardinia, Italy)","Padedda, Bachisio Mario; Sechi, Nicola; Lai, Giuseppina Grazia; Mariani, Maria Antonietta; Pulina, Silvia; Sarria, Marco; Satta, Cecilia Teodora; Virdis, Tomasa; Buscarinu, Paola; Luglie, Antonella",2017,YSI,mean,0.001,in situ,integrated,0 to 30,9,99,1,integrated,11,seasonally,1,9,2010,31,8,2011,0,15,30,1
+226,Top-down effects of an invasive omnivore: detection in long-term monitoring of large-river reservoir chlorophyll-a,"Tumolo, Benjamin B.; Flinn, Michael B.",2017,pigment extraction,mean,0.0001,in situ,surface,,1,2100,14,integrated,6,once,1,4,1989,30,6,2013,undescribed,,,1
+227,Concentration and biochemical gradients of seston in Lake Ontario,"Kelly, Patrick T.; Weidel, Brian C.; Paufve, Matthew R.; O'Malley, Brian P.; Watkins, James M.; Rudstam, Lars G.; Jones, Stuart E.",2017,fluorometer,mean,0.0001,in situ,integrated,5 to 200,5,175,5,integrated ,7,monthly,1,4,2013,31,10,2013,5,102.5,200,8
+228,Chronic nutrient loading from Lake Erie affecting water quality and nuisance algae on the St. Catharines shores of Lake Ontario,"Howell, E. Todd; Dove, Alice",2017,undescribed,mean,0.0001,undescribed,specific depth,,NA,NA,NA,,4,,1,5,2013,31,10,2013,undescribed,,,1
+229,Integrating multisensor satellite data merging and image reconstruction in support of machine learning for better water quality management,"Chang, Ni-Bin; Bai, Kaixu; Chen, Chi-Farn",2017,satellite,mean,0.0001,satellite/modelled,surface,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,5
+235,"Optical properties and spatial distribution of chromophoric dissolved organic matter (CDOM) in Poyang Lake, China","Xu, Jian; Wang, Yeqiao; Gao, Dan; Yan, Zheren; Gao, Chen; Wang, Lili",2017,spectrophotometer,mean,0.0001,in situ,surface,0 to 0.5,1,16,4,integrated,4,seasonally,14,4,2015,5,8,2015,0,0.25,0.5,1
+239,"Nutrients and Phytoplankton in a Shallow, Hypereutrophic Urban Lake: Prospects for Restoration","Norris, Brianne; Laws, Edward A.",2017,HPLC,mean,0.001,in situ,surface,0.3,1,156,3,integrated,52,weekly,23,2,2011,15,2,2012,0.3,0.3,,1
+240,The influence of environmental factors on the carbon dioxide flux across the water-air interface of reservoirs in south-eastern Poland,"Gruca-Rokosz, Renata; Bartoszek, Lilianna; Koszelnik, Piotr",2017,spectrophotometer,mean,0.0001,in situ,surface,0.5 to 1,1,NA,12,integrated,NA,,1,9,2009,31,12,2011,0.5,0.75,1,6
+241,"Variations in Spectral Absorption Properties of Phytoplankton, Non-Algal Particles and Chromophoric Dissolved Organic Matter in Lake Qiandaohu","Shi, Liangliang; Mao, Zhihua; Wu, Jiaping; Liu, Mingliang; Zhang, Yiwei; Wang, Zheng",2017,fluorometer,mean,0.001,in situ,undescribed,,NA,NA,90,integrated,4,seasonally,1,8,2015,31,3,2016,undescribed,,,1
+254,Microbial - Planktonic foodweb dynamics of a eutrophic Area of Concern: Hamilton Harbour,"Munawar, M.; Fitzpatrick, M.",2017,pigment extraction,mean,0.0001,in situ,specific depth,24,NA,NA,1,integrated,144,twice-monthly,1,5,2004,31,10,2006,24,24,,2
+255,"Relationships among cyanobacteria, zooplankton and fish in sub-bloom conditions in the Sulejow Reservoir","Kaczkowski, Zbigniew; Wojtal-Frankiewicz, Adrianna; Gagala, Ilona; Mankiewicz-Boczek, Joanna; Jaskulska, Aleksandra; Frankiewicz, Piotr; Izydorczyk, Katarzyna; Jurczak, Tomasz; Godlewska, Malgorzata",2017,fluorometer,mean,0.0001,in situ,undescribed,,NA,NA,14,integrated,4,seasonally,16,7,2013,25,9,2013,undescribed,,,1
+265,Uptake rates of ammonium and nitrate by phytoplankton communities in two eutrophic tropical reservoirs,"Fernandes Cunha, Davi Gasparini; de Melo Lima, Vitoria Fernandes; Neri, Amanda Menegante; Marafao, Gabriela Albino; Poli Miwa, Adriana Cristina; Calijuri, Maria do Carmo; Bendassoli, Jose Albertino; Tromboni, Flavia; Maranger, Roxane",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,2,integrated,8,monthly,1,10,2013,31,7,2015,undescribed,,,2
+266,Where's the Grass? Disappearing Submerged Aquatic Vegetation and Declining Water Quality in Lake Mattamuskeet,"Moorman, Michelle C.; Augspurger, Tom; Stanton, John D.; Smith, Adam",2017,fluorometer,mean,0.0001,in situ,surface,0.15,NA,NA,2,integrated,8,once,1,1,1981,31,12,2012,0.15,0.15,,37
+279,"Applying trait-based method to investigate the relationship between macrophyte communities and environmental conditions in a eutrophic freshwater lake, China","Pan, Yingji; Zhang, Xijin; Song, Kun; Da, Liangjun",2017,undescribed,mean,0.0001,in situ,surface,,1,90,30,integrated,3,seasonally,1,5,2009,30,9,2009,undescribed,,,1
+290,A decline in benthic algal production may explain recent hypoxic events in Lake Erie's central basin,"Brothers, Soren; Vadeboncoeur, Yvonne; Sibley, Paul",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,NA,,NA,,1,4,1970,31,7,2009,undescribed,,,4
+292,Virus morphological diversity and relationship to bacteria and chlorophyll across a freshwater trophic gradient in the Lake Michigan watershed,"Hanson, Alicia M.; Berges, John A.; Young, Erica B.",2017,spectrophotometer,mean,0.0001,in situ,surface,1,1,51,3,integrated,17,monthly,1,1,2008,31,5,2009,1,1,,2
+306,Characterizations of calcite particles and evaluations of their light scattering effects in lacustrine systems,"Peng, Feng; Effler, Steven W.",2017,fluorometer,mean,0.0001,in situ,surface,2,1,NA,12,integrated,9,seasonally,15,7,1999,3,9,2013,2,2,,14
+318,Eutrophication research of Dongting Lake: an integrated ML-SEM with neural network approach,"Li, Xiaodong; Gao, Zhihua; Chen, Zuo; Zeng, Guangming; Leon, Tomas; Liang, Jie; Li, Fei; Liu, Wu; Wu, Haipeng; Du, Chungyan; Chen, Ren",2017,undescribed,mean,NA,undescribed,undescribed,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,1
+320,Zooplankton communities and Bythotrephes longimanus in lakes of the montane region of the northern Alps,"Horvath, Zsofia; Vad, Csaba F.; Preiler, Christian; Birtel, Julia; Matthews, Blake; Ptacnikova, Radka; Ptacnik, Robert",2017,spectophotometer,mean,0.0001,in situ,surface,1,NA,NA,54,integrated,NA,seasonally,1,1,2011,31,12,2012,1,1,,49
+323,Dynamics of Chlorophyll a Concentration in the South Baikal Pelagic during the Direct Temperature Stratification Period,"Shimaraeva, S. V.; Pislegina, E. V.; Krashchuk, L. S.; Shchapov, K. S.; Silow, E. A.",2017,spectrophotometer,mean,0.0001,in situ,integrated,0 to 250,9,576,1,integrated,64,weekly,1,7,2009,31,10,2011,0,125,250,3
+326,Association of a Specific Algal Group with Methylmercury Accumulation in Periphyton of a Tropical High-Altitude Andean Lake,"Lanza, William G.; Acha, Dario; Point, David; Masbou, Jeremy; Alanoca, Lucia; Amouroux, David; Lazzaro, Xavier",2017,spectrophotometer,mean,0.0001,in situ,undescribed,,NA,NA,3,integrated,NA,,1,5,2011,31,5,2011,undescribed,,,1
+327,Multi-wavelength Pulse Amplitude Modulated fluorometry (Phyto-PAM) reveals differential effects of ultraviolet radiation on the photosynthetic physiology of phytoplankton pigment groups,"Beecraft, Laura; Watson, Sue B.; Smith, Ralph E. H.",2017,fluorometer,mean,0.0001,in situ,surface,1,1,8,1,center,8,monthly,1,4,2012,31,10,2013,1,1,,2
+329,"Trophic Status Assessment of Saguling Reservoir, Upper Citarum Basin, Indonesia","Marselina, Mariana; Burhanudin, Muhamad",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,11,integrated,16,seasonally,1,1,1999,31,12,2013,undescribed,,,15
+331,Occurrence and seasonal dynamics of metalimnetic Deep Chlorophyll Maximum (DCM) in a stratified meromictic tropical lake and its implications for zooplankton community distribution,"Sanful, Peter O.; Otu, Megan K.; Kling, Hedy; Hecky, Robert. E.",2017,fluorometer,mean,0.0001,in situ,integrated,0 to 15,8,896,1,integrated,112,twice-monthly,1,4,2005,31,7,2006,0,7.5,15,2
+336,Molecular and ecological characterization of toxic cyanobacteria from the Bay of Quinte (Lake Ontario) and Maumee Bay (Lake Erie),"Mueller, Kirsten M.; Chhun, Aline; Guildford, Stephanie J.; Yakobowski, Sarah J.; Jonlija, Miroslava",2017,fluorometer,mean,0.0001,in situ,integrated,0 to 2,4,48,2,integrated,6,twice,4,7,2006,22,9,2006,0,1,2,1
+342,"Effect of organic and inorganic turbidity on the zooplankton community structure of a shallow waterbody in Central Mexico (Lake Xochimilco, Mexico)","Gayosso-Moralesl, M. A.; Nandini, S.; Martinez-Jeronimo, F. F.; Sarma, S. S. S.",2017,spectrophotometer,mean,NA,in situ,surface,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,1
+344,"The identification of nutrient limitations on eutrophication in Dianchi Lake, China","Liu, Xujun",2017,undescribed,mean,0.0001,in situ,specific depth,1.5m,1,1195,10,integrated,NA,monthly,1,1,1999,31,12,2012,1.5,1.5,,1
+345,"Seasonal variations of rotifers from a high altitude urban shallow water body, La Cantera Oriente (Mexico City, Mexico)","Gonzalez Gutierrez, Sergio; Sarma, S. S. S.; Nandini, S.",2017,undescribed,mean,0.0001,in situ,surface,,1,60,5,integrated,12,monthly,1,9,2013,31,8,2014,undescribed,,,1
+351,Developing a two-step method for retrieving cyanobacteria abundance from inland eutrophic lakes using MERIS data,"Jin, Qi; Lyu, Heng; Shi, Lei; Miao, Song; Wu, Zhiming; Li, Yunmei; Wang, Qiao",2017,fluorometer,mean,0.0001,in situ,surface,,NA,129,NA,,NA,,1,5,2013,31,8,2016,undescribed,,,2
+352,Trophic state indicators are a better predictor of Florida bass condition compared to temperature in Florida's freshwater bodies,"Boucek, Ross; Barrientos, Christian; Bush, Michael R.; Gandy, David A.; Wilson, Kyle L.; Young, Joy M.",2017,metadata,mean,0.0001,in situ,undescribed,,NA,NA,23,,NA,,1,1,2010,31,12,2012,undescribed,,,19
+353,Characteristics of phosphorus components in surface sediments from a Chinese shallow eutrophic lake (Lake Taihu): new insights from chemical extraction and P-31 NMR spectroscopy,"Zhang, Runyu; Chen, Jingan; Wang, Liying; Wu, Fengchang",2017,YSI,mean,0.001,in situ,surface,0.5,1,11,11,integrated,1,once,1,8,2014,31,8,2014,0.5,0.5,,1
+357,"Phytoplankton dynamics in relation to physicochemical conditions in large, stratified Lake Charzykowskie (Northern Poland)","Wisniewska, Marzenna; Dembowska, Ewa A.",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,NA,,NA,,1,1,1987,31,12,2005,undescribed,,,2
+359,Effects of Climate Change on Lake Thermal Structure and Biotic Response in Northern Wilderness Lakes,"Edlund, Mark B.; Almendinger, James E.; Fang, Xing; Hobbs, Joy M. Ramstack; VanderMeulen, David D.; Key, Rebecca L.; Engstrom, Daniel R.",2017,fluorometer,mean,0.0001,in situ,undescribed,,NA,NA,8,integrated,18,seasonally,1,1,2006,31,12,2011,undescribed,,,8
+362,Understanding Abiotic and Biotic Conditions in Post-Mining Pit Lakes for Efficient Management: A Case Study (Poland),"Marszelewski, Wlodzimierz; Dembowska, Ewa A.; Napiorkowski, Pawel; Solarczyk, Adam",2017,spectrophotometer,mean,0.001,in situ,integrated,,NA,NA,3,deepest,4,seasonally,15,8,2011,30,4,2012,undescribed,,,3
+370,Content of total free nucleotides in the plankton of the Rybinsk reservoir (Upper Volga),"Mineeva, N. M.; Andreeva, A. M.; Ryabtseva, I. P.; Kopylov, A. I.; Sokolova, E. A.; Mitropol'skaya, I. V.",2017,spectrophotometer,mean,0.0001,in situ,integrated,0 to bottom,NA,NA,14,integrated,3,,1,5,2006,31,10,2006,0,,bottom,1
+385,Heterotrophic Activity of Bacterioplankton along the Gradients of the Chlorophyll a Concentration and Water Temperature in Marine and Limnetic Ecosystems,"Boulion, V. V.",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,33,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,27
+388,"Trophic state categorisation and assessment of water quality in Manjirenji Dam, Zimbabwe, a shallow reservoir with designated multi-purpose water uses","Utete, Beaven; Tsamba, Joshua",2017,YSI,mean,0.0001,in situ,integrated,1 to 3,2,918,17,integrated,27,monthly,1,8,2013,30,4,2014,1,2,3,1
+394,Optical response associated with changing summer biogeochemical conditions in a turbid lake,"Cherukuru, Nagur; Malthus, Tim J.; Sherman, Brad S.; Hestir, Erin L.; Devilla, Rosangela A.",2017,HPLC,mean,0.0001,in situ,surface,,1,15,5,integrated,3,three ,7,1,2010,4,3,2010,undescribed,,,1
+401,Structure and distribution of ciliate epibiont communities in a tropical floodplain,"Cabral, Adalgisa Fernanda; Pinto Utz, Laura Roberta; Machado Velho, Luiz Felipe",2017,undescribed,mean,0.0001,in situ,surface,,1,120,30,integrated,4,twice,1,12,2010,1,6,2011,undescribed,,,2
+411,Spatial distribution of crustacean zooplankton in a large river-connected lake related to trophic status and fish,"Wei, Wenzhi; Chen, Riming; Wang, Liufu; Fu, Lixia",2017,undescribed,mean,0.0001,in situ,surface,0.5,1,20,5,,4,seasonally,1,4,2013,1,1,2014,0.5,0.5,,1
+412,"Diversity of Intestinal Microbiota in Coilia ectenes from Lake Taihu, China","Duan, Jinrong; Xu, Dongpo; Liu, Kai; Zhou, Yanfeng; Xu, Pao",2017,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,5,integrated,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,1
+417,"Assessment of long-term trends for management of Candlewood Lake, Connecticut, USA","Kohli, P.; Siver, P. A.; Marsicano, L. J.; Hamer, J. S.; Coffin, A. M.",2017,spectophotometer,mean,0.0001,in situ,integrated,0 to bottom,3,1680,4,integrated,140,monthly,1,5,1985,31,10,2012,0,,bottom,1
+425,Autotrophic picoplankton assemblages in subtropical reservoir: temporal and vertical dynamics in abundance and biomass,"Pantoja-Agreda, Fernando; Otero-Morales, Ernesto",2017,fluorometer,mean,0.0001,in situ,integrated,0 to 25,NA,NA,1,center,12,monthly,1,1,2013,31,12,2013,0,12.5,25,1
+446,Spatial and seasonal changes of arsenic species in Lake Taihu in relation to eutrophication,"Yan, Changzhou; Che, Feifei; Zeng, Liqing; Wang, Zaosheng; Du, Miaomiao; Wei, Qunshan; Wang, Zhenhong; Wang, Dapeng; Zhen, Zhuo",2016,spectrophotometer,mean,0.0001,in situ,surface,0.2,1,432,36,integrated,12,seasonally,18,9,2013,8,5,2015,0.2,0.2,,1
+457,"Using time scales to characterize phytoplankton assemblages in a deep subalpine lake during the thermal stratification period: Lake Iseo, Italy","Marti, Clelia Luisa; Imberger, Joerg; Garibaldi, Letizia; Leoni, Barbara",2016,undescribed,mean,0.0001,in situ,integrated,0 to 19,3,21,7,integrated,1,once,13,7,2010,27,7,2010,0,9.5,19,1
+475,The potential of high-frequency profiling to assess vertical and seasonal patterns of phytoplankton dynamics in lakes: an extension of the Plankton Ecology Group (PEG) model,"Brentrup, Jennifer A.; Williamson, Craig E.; Colom-Montero, William; Eckert, Werner; de Eyto, Elvira; Grossart, Hans-Peter; Huot, Yannick; Isles, Peter D. F.; Knoll, Lesley B.; Leach, Taylor H.; McBride, Chris G.; Pierson, Don; Pomati, Francesco; Read, Jordan S.; Rose, Kevin C.; Samal, Nihar R.; Staehr, Peter A.; Winslow, Luke A.",2016,fluorometer,mean,0.0001,in situ,surface,0 to 39,NA,NA,11,integrated,NA,seasonally,1,6,2010,31,12,2014,0,19.5,39,11
+478,"Advancing two-component partitioning of light scattering in Cayuga Lake, New York","Peng, Feng; Effler, Steven W.",2016,fluorometer,mean,0.0001,in situ,surface,0.5,NA,151,5,integrated,NA,twice-monthly,1,4,2013,31,10,2013,0.5,0.5,,1
+481,Massive fish mortality and Cylindrospermopsis raciborskii bloom in Aleksandrovac Lake,"Svircev, Zorica; Obradovic, Vesna; Codd, Geoffrey A.; Marjanovic, Prvoslav; Spoof, Lisa; Drobac, Damjana; Tokodi, Nada; Petkovic, Andelka; Nenin, Tanja; Simeunovic, Jelica; Vazic, Tamara; Meriluoto, Jussi",2016,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,3,integrated,NA,,1,1,2012,31,12,2013,undescribed,,,1
+491,"Impact of particulate and dissolved material on light absorption properties in a High-Altitude Lake in Tibet, China","Nima, Ciren; Hamre, Borge; Frette, Oyvind; Erga, Svein Rune; Chen, Yi-Chun; Zhao, Lu; Sorensen, Kai; Norli, Marit; Lu, Da-Ren; Xing, Qian-Guo; Ma, Yao-Ming; Gelsor, Norsang; Stamnes, Jakob J.",2016,spectophotometer,mean,0.0001,in situ,surface,,1,15,15,integrated,1,once,14,8,2012,16,8,2014,undescribed,,,1
+496,"The influence of a severe reservoir drawdown on springtime zooplankton and larval fish assemblages in Red Willow Reservoir, Nebraska","DeBoer, Jason A.; Webber, Christa M.; Dixon, Taylor A.; Pope, Kevin L.",2016,undescribed,mean,0.0001,in situ,integrated,0 to 2,NA,NA,NA,integrated,18,weekly,1,1,2008,31,12,2011,0,1,2,1
+501,"Carbon, nitrogen, phosphorus, and sediment sources and retention in a small eutrophic tropical reservoir","Nemery, J.; Gratiot, N.; Doan, P. T. K.; Duvert, C.; Alvarado-Villanueva, R.; Duwig, C.",2016,undescribed,mean,0.01,in situ,integrated,0.1 to 20,NA,NA,15,integrated,NA,,1,1,2009,31,12,2009,0.1,10.05,20,14
+507,Ciliate community structure and interactions within the planktonic food web in two alpine lakes of contrasting transparency,"Kammerlander, Barbara; Koinig, Karin A.; Rott, Eugen; Sommaruga, Ruben; Tartarotti, Barbara; Trattner, Florian; Sonntag, Bettina",2016,spectrophotometer,mean,0.0001,in situ,integrated,0 to 14,9,234,6,integrated,6,monthly,1,7,2010,31,8,2011,0,7,14,4
+514,Thermal stratification in small arctic lakes of southwest Greenland affected by water transparency and epilimnetic temperatures,"Saros, Jasmine E.; Northington, Robert M.; Osburn, Christopher L.; Burpee, Benjamin T.; Anderson, Nicholas John",2016,spectophotometer,mean,0.001,in situ,integrated,0 to bottom,NA,NA,22,integrated,NA,,10,6,2013,30,7,2014,0,,bottom,21
+519,"Water quality in the St. Louis River Area of Concern, Lake Superior: Historical and current conditions and delisting implications","Bellinger, Brent J.; Hoffman, Joel C.; Angradi, Theodore R.; Bolgrien, David W.; Starry, Matthew; Elonen, Colleen; Jicha, Terri M.; Lehto, LaRae P.; Seifert-Monson, Lindsey R.; Pearson, Mark S.; Anderson, Leroy; Hill, Brian H.",2016,fluorometer,mean,0.001,in situ,surface,,NA,150,NA,integrated,NA,,1,5,2012,30,9,2013,undescribed,,,2
+521,Risk Assessment of Urban Lake Water Quality Based on in-situ Cyanobacterial and Total Chlorophyll-a Monitoring,"Kalaji, Hazem Mohamed; Sytar, Oksana; Brestic, Marian; Samborska, Izabela Anna; Cetner, Magdalena Danuta; Carpentier, Corina",2016,fluorometer,mean,0.0001,in situ,surface,0.2,1,200,20,integrated,10,weekly,1,5,2012,31,7,2012,0.2,0.2,,1
+524,Sensitivity of plankton indices to lake trophic conditions,"Ochocka, A.; Pasztaleniec, A.",2016,spectrophotometer,mean,0.0001,in situ,surface,,1,20,10,integrated,2,twice,1,7,2012,31,8,2013,undescribed,,,20
+527,Critical nutrient thresholds needed to control eutrophication and synergistic interactions between phosphorus and different nitrogen sources,"Zeng, Qinghui; Qin, Lihuan; Bao, Linlin; Li, Yayong; Li, Xuyong",2016,spectrophotometer,mean,0.0001,in situ,surface,0.2,1,56,7,integrated,8,monthly,1,4,2015,30,11,2015,0.2,0.2,,1
+530,"Morphological plasticity in Zostera muelleri across light, sediment, and nutrient gradients in Australian temperate coastal lakes","Ferguson, Angus J. P.; Gruber, Renee K.; Orr, Michael; Scanes, Peter",2016,undescribed,mean,NA,undescribed,undescribed,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,2
+535,Macrozoobenthic community structure in a large shallow lake: Disentangling the effect of eutrophication and wind-wave disturbance,"Cai, Yongjiu; Lu, Yongjiu; Liu, Jingsong; Dai, Xiaoling; Xu, Hao; Lu, Yan; Gong, Zhijun",2016,undescribed,mean,0.0001,in situ,surface,,1,120,10,integrated,12,monthly,1,12,2012,30,11,2013,undescribed,,,1
+537,"Temporal dynamics of microcystins in Limnodrilus hoffmeisteri, a dominant oligochaete of hypereutrophic Lake Taihu, China","Xue, Qingju; Steinman, Alan D.; Su, Xiaomei; Zhao, Yanyan; Xie, Liqiang",2016,undescribed,mean,0.001,in situ,surface,0 to 0.5,1,12,1,integrated,12,monthly,1,7,2013,31,6,2014,0,0.25,0.5,1
+558,Restoration of Shallow Lakes in Subtropical and Tropical China: Response of Nutrients and Water Clarity to Biomanipulation by Fish Removal and Submerged Plant Transplantation,"Yu, Jinlei; Liu, Zhengwen; Li, Kuanyi; Chen, Feizhou; Guan, Baohua; Hu, Yaohui; Zhong, Ping; Tang, Yali; Zhao, Xuefeng; He, Hu; Zeng, Haiyi; Jeppesen, Erik",2016,spectrophotometer,mean,0.001,in situ,integrated,0.5 to 1.5,3,NA,3,integrated ,NA,monthly,1,4,2010,30,2,2014,0.5,1,1.5,3
+560,Comparing microscopic counts and pigment analyses in 46 phytoplankton communities from lakes of different trophic state,"Schluter, Louise; Behl, Stephan; Striebel, Maren; Stibor, Herwig",2016,HPLC,mean,0.001,in situ,surface,0.5 m,1,46,42,integrated,NA,,1,9,2005,30,9,2005,0.5,0.5,,43
+568,Unexpected predominance of photosynthetic picoeukaryotes in shallow eutrophic lakes,"Li, Shengnan; Shi, Xiaoli; Lepere, Cecile; Liu, Mixue; Wang, Xiujuan; Kong, Fanxiang",2016,spectrophotometer,mean,0.0001,in situ,undescribed,,NA,NA,17,,12,monthly,1,8,2014,30,7,2015,undescribed,,,2
+569,Spatiotemporal Variability in the Water Quality of Poyang Lake and Its Associated Responses to Hydrological Conditions,"Li, Bing; Yang, Guishan; Wan, Rongrong; Zhang, Yanhui; Dai, Xue; Chen, Yuwei",2016,spectrophotometer,mean,0.0001,in situ,surface,0 to 0.5,1,360,15,,24,seasonally,1,1,2009,31,12,2014,0,0.25,0.5,1
+570,Applications of Geographic Information System (GIS) analysis of Lake Uluabat,"Hacisalihoglu, Saadet; Karaer, Feza; Katip, Aslihan",2016,undescribed,mean,0.0001,in situ,surface,0.5,1,96,8,integrated,12,monthly,1,6,2008,31,5,2009,0.5,0.5,,1
+577,Multivariate approach for chlorophyll-a and suspended matter retrievals in Case II type waters using hyperspectral data,"Ali, Khalid A.; Ortiz, Joseph D.",2016,spectophotometer,mean,0.0001,in situ,surface,0.5,1,90,18,integrated,5,,1,6,2012,31,7,2012,0.5,0.5,,1
+582,Response of boreal lakes to episodic weather-induced events,"Kuha, Jonna; Arvola, Lauri; Hanson, Paul C.; Huotari, Jussi; Huttula, Timo; Juntunen, Janne; Jarvinen, Marko; Kallio, Kari; Ketola, Mirva; Kuoppamaki, Kirsi; Lepisto, Ahti; Lohila, Annalea; Paavola, Riku; Vuorenmaa, Jussi; Winslow, Luke; Karjalainen, Juha",2016,fluorometer,mean,0.001,in situ,integrated,1 to 1.5,NA,NA,8,integrated,NA,monthly,9,6,2009,8,8,2014,1,1.25,1.5,8
+591,"ACCUMULATION OF METALS IN ZOOPLANKTON FROM KARST PLATEAU RESERVOIRS WITH DIFFERENT EUTROPHIC STATUS IN GUIZHOU PROVINCE, P. R. CHINA","Long, Sheng Xing; Yang, Yang; Xia, Ping Hua; Chen, Chuan; Liu, Zhi Wei; Ma, Jian Rong; Dong, Xian; He, Tian Rogn; Yun, Guo",2016,spectrophotometer,mean,0.0001,in situ,surface,0 to bottom,NA,NA,12,integrated,4,seasonally,1,4,2014,31,1,2014,0,,bottom,12
+600,Phosphorus partitioning in sediments from a tropical reservoir during a strong period of drought,"dos Santos, Janaina Andrade; de Oliveira, Karen Figueiredo; da Silva Araujo, Isabel Cristina; Ferreira Avelino, Izaura Izadora; de Sousa Cajui, Karla Nayara; de Lacerda, Luiz Drude; Marins, Rozane Valente",2016,spectophotometer,mean,0.0001,in situ,integrated,0.1 to bottom,NA,NA,5,integrated,NA,,1,1,2013,31,8,2014,0.1,,bottom,2
+608,"Monitoring Eutrophication Trends in Bolgoda North Lake, Sri Lanka by Satellite Remote Sensing","Dahanayaka, Dahanayakage Don Gihan Lakmal; Perera, Bdc; Wijeyaratne, Mudiyanselage Jayantha Sisirakumara; Tonooka, Hideyuki",2016,spectophotometer,mean,0.0001,in situ,surface,,1,105,5,integrated,21,monthly,1,4,2013,31,10,2013,undescribed,,,1
+614,Modelling Primary Producers in Some Shallow Spanish Lakes,"Blanco, Saul; Romo, Susana; Cejudo-Figueiras, Cristina; Goma, Joan; Fernandez-Alaez, Camino; Fernandez-Alaez, Margarita",2016,spectrophotometer,mean,0.001,in situ,integrated,,NA,NA,31,,NA,once,1,7,2003,31,7,2003,undescribed,,,30
+621,"Associating spatial patterns of zooplankton abundance with water temperature, depth, planktivorous fish and chlorophyll","Voutilainen, Ari; Jurvelius, Juha; Lilja, Juha; Viljanen, Markku; Rahkola-Sorsa, Minna",2016,undescribed,mean,0.0001,in situ,integrated,0 to bottom,6,162,9,integrated,3,,27,7,2010,2,8,2010,0,,bottom,8
+630,Epipelon dynamics in a shallow lake through a turbid-and a clear- water regime,"Cano, Maria G.; Casco, Maria A.; Claps, Maria C.",2016,undescribed,mean,0.0001,in situ,integrated,0.1 to bottom,5,240,4,integrated,12,monthly,1,7,2001,30,6,2002,0.1,,bottom,1
+637,"Influence of a carp invasion on the zooplankton community in Laguna Medina, a Mediterranean shallow lake","Florian, Norbert; Lopez-Luque, Raquel; Ospina-Alvarez, Natalia; Hufnagel, Levente; Green, Andy J.",2016,spectrophotometer,mean,0.001,in situ,integrated,,NA,NA,8,integrated,19,monthly,1,1,2008,31,12,2012,undescribed,,,2
+646,"Phytoplankton Variation in Four Shallow High-elevation Lakes in the Upper North Fork Nooksack River Watershed of the North Cascades, Washington (USA)","Wong, Siana W.; Matthews, Robin A.; Bruun, Karl",2016,undescribed,mean,NA,undescribed,undescribed,,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,9
+649,"The effects of physicochemical parameters on fish distribution in Egirdir Lake, Turkey","Yagci, A.; Yagci, Apaydin M.; Bilgin, F.; Erbatur, I",2016,spectrophotometer,mean,0.001,in situ,surface,,1,NA,4,integrated,12,monthly,1,1,2010,31,12,2010,undescribed,,,12
+654,"Interannual and long-term changes in the trophic state of a multibasin lake: effects of morphology, climate, winter aeration, and beaver activity","Robertson, Dale M.; Rose, William J.; Reneau, Paul C.",2016,undescribed,mean,0.0001,in situ,surface,,1,552,6,integrated,92,once,1,5,1991,31,8,2013,undescribed,,,20
+669,Long-term trends of nutrients and trophic response variables for the Great Lakes,"Dove, Alice; Chapra, Steven C.",2015,undescribed,mean,0.001,in situ,integrated,0 to bottom,NA,NA,NA,,NA,once,1,1,1966,31,12,2013,0,,bottom,51
+671,"Development of early-warning protocol for predicting chlorophyll-a concentration using machine learning models in freshwater and estuarine reservoirs, Korea","Park, Yongeun; Cho, Kyung Hwa; Park, Jihwan; Cha, Sung Min; Kim, Joon Ha",2015,undescribed,mean,0.0001,in situ,surface,,1,728,2,integrated,364,weekly,1,1,2006,31,12,2012,undescribed,,,2
+682,Bioaccumulation and biomagnification of mercury in African lakes: The importance of trophic status,"Poste, Amanda E.; Muir, Derek C. G.; Guildford, Stephanie J.; Hecky, Robert E.",2015,fluorometer,mean,0.01,in situ,integrated,0.15 to bottom,NA,NA,9,integrated,NA,monthly,1,4,2007,30,2,2009,0.15,,bottom,6
+688,Application of remote sensing for the optimization of in-situ sampling for monitoring of phytoplankton abundance in a large lake,"Kiefer, Isabel; Odermatt, Daniel; Anneville, Orlane; Wueest, Alfred; Bouffard, Damien",2015,spectrophotometer,mean,0.0001,in situ,surface,,1,240,2,integrated,120,monthly,1,1,2002,31,12,2012,undescribed,,,3
+690,Integrated satellite data fusion and mining for monitoring lake water quality status of the Albufera de Valencia in Spain,"Dona, Carolina; Chang, Ni-Bin; Caselles, Vicente; Sanchez, Juan M.; Camacho, Antonio; Delegido, Jesus; Vannah, Benjamin W.",2015,spectophotometer,mean,0.1,in situ,surface,,1,6,1,integrated,6,,1,7,2006,30,4,2011,undescribed,,,2
+702,Role of terrestrial carbon in aquatic UV exposure and photoprotective pigmentation of meiofauna in subarctic lakes,"Nevalainen, Liisa; Luoto, Tomi P.; Rantala, Marttiina V.; Galkin, Annukka; Rautio, Milla",2015,spectrophotometer,mean,0.001,in situ,surface,,NA,NA,25,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,25
+718,Assessing Potential Algal Blooms in a Shallow Fluvial Lake by Combining Hydrodynamic Modelling and Remote-Sensed Images,"Pinardi, Monica; Fenocchi, Andrea; Giardino, Claudia; Sibilla, Stefano; Bartoli, Marco; Bresciani, Mariano",2015,modelled,mean,0.01,satellite/modelled,surface,,NA,NA,NA,,4,,29,6,2008,21,9,2011,undescribed,,,3
+740,"The role of periphyton in phosphorus retention in shallow lakes with different trophic status, China","Pei, Guofeng; Wang, Qing; Liu, Guoxiang",2015,spectrophotometer,mean,0.1,in situ,surface,,1,24,4,integrated,6,weekly,1,2,2012,31,3,2012,undescribed,,,4
+761,Phytoplankton productivity and size composition in Lake Simcoe: The nearshore shunt and the importance of autumnal production,"Kim, T. Y.; North, R. L.; Guildford, S. J.; Dillon, P.; Smith, R. E. H.",2015,fluorometer,mean,0.001,in situ,integrated,1,1,104,8,integrated,13,monthly,1,8,2010,31,8,2011,1,1,,4
+771,"Diel patterns of total suspended solids, turbidity, and water transparency in a highly turbid, shallow lake (Laguna ChascomA(0)s, Argentina)","Lagomarsino, Leonardo; Diovisalvi, Nadia; Bustingorry, Jose; Escaray, Roberto; Zagarese, Horacio E.",2015,undescribed,mean,0.001,in situ,surface,,1,51,1,center,51,daily,12,2,2012,28,2,2012,undescribed,,,1
+773,Online forecasting chlorophyll a concentrations by an auto-regressive integrated moving average model: Feasibilities and potentials,"Chen, Qiuwen; Guan, Tiesheng; Yun, Liu; Li, Ruonan; Recknagel, Friedrich",2015,undescribed,mean,0.0001,in situ,undescribed,,NA,NA,4,integrated,NA,1-3 days,6,4,2010,7,3,2011,undescribed,,,1
+774,Lake Michigan: Nearshore variability and a nearshore-offshore distinction in water quality,"Yurista, Peder M.; Kelly, John R.; Cotter, Anne M.; Miller, Samuel E.; Van Alstine, Jon D.",2015,fluorometer,mean,0.0001,in situ,integrated,2 to 25,NA,NA,15,integrated,NA,,9,9,2015,15,9,2010,2,13.5,25,1
+776,"A coupled modeling approach to predict water quality in Lake Taihu, China: linkage to climate change projections","Tang, Chunyan; Li, Yiping; Jiang, Peng; Yu, Zhongbo; Acharya, Kumud",2015,undescribed,mean,0.0001,in situ,surface,0.5,1,720,30,integrated,24,monthly,15,1,2004,31,12,2005,0.5,0.5,,1
+777,A dramatic recovery of Lake Spokane water quality following wastewater phosphorus reduction,"Welch, E. B.; Brattebo, S. K.; Gibbons, H. L.; Plotnikoff, R. W.",2015,undescribed,mean,0.0001,in situ,integrated,0 to 9,NA,NA,6,,NA,seasonally,1,6,1972,31,10,2014,0,4.5,9,17
+780,Rapid field estimation of biochemical oxygen demand in a subtropical eutrophic urban lake with chlorophyll a fluorescence,"Xu, Zhen; Xu, Y. Jun",2015,fluorometer,mean,0.0001,in situ,surface,0.3,1,120,6,integrated,20,twice-monthly,26,10,2012,29,9,2013,0.3,0.3,,1
+781,Predicting productivity in tropical reservoirs: The roles of phytoplankton taxonomic and functional diversity,"Santos, Ana M. C.; Carneiro, Fernanda M.; Cianciaruso, Marcus V.",2015,spectrophotometer,mean,0.0001,in situ,surface,0.4,1,66,19,integrated,NA,once,1,7,2009,31,7,2009,0.4,0.4,,10
+782,Long-Term Agroecosystem Research in the Central Mississippi River Basin: Hyperspectral Remote Sensing of Reservoir Water Quality,"Sudduth, Kenneth A.; Jang, Gab-Sue; Lerch, Robert N.; Sadler, E. John",2015,undescribed,mean,0.0001,in situ,surface,0.15 to 0.3,1,NA,51,,NA,,30,8,2004,5,5,2008,0.15,0.225,0.3,5
+787,A relationship between accumulation of heavy metals and microbiological parameters in the surface microlayer and subsurface water of a coastal Baltic lake,"Antonowicz, Jozef Piotr; Mudryk, Zbigniew; Zdanowicz, Marta",2015,spectrophotometer,mean,0.0001,in situ,surface,0.15,1,9,1,integrated,9,seasonally,1,10,2005,31,7,2012,0.15,0.15,,1
+793,Water quality monitoring of Al-Habbaniyah Lake using remote sensing and in situ measurements,"Al-Fahdawi, Ahmed A. H.; Rabee, Adel M.; Al-Hirmizy, Shaheen M.",2015,undescribed,mean,0.0001,in situ,surface,,1,20,5,integrated,4,seasonally,1,11,2013,31,7,2013,undescribed,,,1
+797,Spectral characterization of colored dissolved organic matter for productive inland waters and its source analysis,"Song Kaishan; Li Lin; Tedesco, Lenore; Clercin, Nicolas; Li Linhai; Shi Kun",2015,fluorometer,mean,0.01,in situ,surface,0.25 to 1,3,90,3,integrated,10,,12,4,2010,21,10,2010,0.25,0.625,1,3
+805,Long-term changes in Lake Ontario rotifer abundance and composition: A response to Cercopagis predation?,"Makarewicz, Joseph C.; Lewis, Theodore W.",2015,fluorometer,mean,0.0001,in situ,specific depth,3,1,88,8,integrated,11,seasonally,1,1,1984,31,12,2013,3,3,,6
+809,Managing internal phosphorus loading and vertical entrainment in a weakly stratified eutrophic lake,"James, William F.; Sorge, Patrick W.; Garrison, Paul J.",2015,fluorometer,mean,0.0001,in situ,integrated,0.5 to bottom,NA,NA,1,center,24,weekly,1,5,2009,31,10,2009,0.5,0.5,bottom,6
+811,Lake stratification in the Carpathian basin and its interesting biological consequences,"Borics, Gabor; Abonyi, Andras; Varbiro, Gabor; Padisak, Judit; T-Krasznai, Eniko",2015,undescribed,mean,0.001,in situ,integrated,0 to bottom,NA,NA,13,integrated,NA,monthly,18,8,2007,4,9,2007,0,,bottom,1
+814,"Preliminary Assessment of Cyanobacteria Diversity and Toxic Potential in Ten Freshwater Lakes in Selangor, Malaysia","Sinang, Som Cit; Poh, Keong Bun; Shamsudin, Syakirah; Sinden, Ann",2015,spectophotometer,mean,0.0001,in situ,surface,0.15,1,10,10,integrated ,1,once,1,1,2013,30,2,2013,0.15,0.15,,6
+815,Microcystins contamination of surface water supply sources in Zaria-Nigeria,"Chia, Mathias Ahii; Kwaghe, Mndepawe Jonah",2015,spectrophotometer,mean,0.001,in situ,surface,,1,24,12,integrated,2,twice,1,3,2013,31,5,2013,undescribed,,,5
+821,Seasonal patterns and responses to an extreme climate event of rotifers community in a shallow eutrophic Pampean lake,"Diovisalvi, Nadia; Salcedo Echeverry, Gladys E.; Lagomarsino, Leonardo; Zagarese, Horacio E.",2015,undescribed,mean,0.0001,in situ,surface,,1,520,1,integrated,NA,twice-monthly,1,6,2005,31,5,2009,undescribed,,,1
+823,"Spatial gradient and seasonal variation of trophic status in a large water supply reservoir for the South-to-North Water Diversion Project, China","Shen, Henglun; Cai, Qinghua; Zhang, Min",2015,spectrophotometer,mean,0.001,in situ,surface,0.5,1,36,9,integrated,4,seasonally,1,7,2009,31,5,2008,0.5,0.5,,4
+828,"Incidence of microcystin-producing cyanobacteria in Lake Tana, the largest waterbody in Ethiopia","Mankiewicz-Boczek, Joanna; Gagala, Ilona; Jurczak, Tomasz; Urbaniak, Magdalena; Negussie, Yohannes Zerihun; Zalewski, Maciej",2015,spectrophotometer,mean,0.0001,in situ,surface,0.5,1,9,1,integrated,9,monthly,1,11,2010,30,11,2012,0.5,0.5,,12
+829,"Variations in Optical Scattering and Backscattering by Organic and Inorganic Particulates in Chinese Lakes of Taihu, Chaohu and Dianchi",Lyu Heng; Wang Qiao; Wu Chuanqing; Zhu Li; Li Yunmei; Huang Jiazhu,2015,spectrophotometer,mean,0.0001,in situ,surface,,1,119,3,integrated,NA,,10,11,2008,20,8,2009,undescribed,,,3
+831,Pressure from top and bottom: Lower food web responses to changes in nutrient cycling and invasive species in western Lake Michigan,"Engevold, Paul M.; Young, Erica B.; Sandgren, Craig D.; Berges, John A.",2015,fluorometer,mean,0.001,in situ,integrated,integrated water sample,6,156,1,,26,annually,1,6,1988,31,8,2009,integrated water sample,,,5
+844,Periphytic and planktonic bacterial community structure in turbid and clear shallow lakes of the Pampean Plain (Argentina): a CARD-FISH approach,"Maria Sanchez, Laura; Romina Schiaffino, Maria; Pizarro, Haydee; Izaguirre, Irina",2015,spectrophotometer,mean,NA,in situ,undescribed,Not described,2,NA,3,,4,,NA,NA,NA,NA,NA,NA,undescribed,,,6
+847,"Phytoplankton composition and microcystin concentrations in open and closed bays of Lake Victoria, Tanzania","Mbonde, Athanasio S.; Sitoki, Lewis; Kurmayer, Rainer",2015,undescribed,mean,0.0001,undescribed,integrated,integrated water sample,1,32,16,integrated,2,monthly,1,11,2009,31,12,2009,integrated water sample,,,2
+856,"Water quality and trophic state of a tropical urban reservoir for drinking water supply (Juiz de Fora, Brazil)","Heidenreich Silva Bucci, Maria Magaly; da Fonseca Delgado, Francisco Eduardo; Cappa de Oliveira, Luiz Fernando",2015,Standard Methods for the Examination of Water and Wastewater (APHA 1998),mean,0.001,in situ,undescribed,undescribed,3,120,5,integrated,8,seasonally,27,7,2011,14,3,2013,undescribed,,,5
+858,Distribution of dissolved acidic polysaccharides (dAPS) during cyanobacteria blooms in northern Lake Taihu,"Liu, Lizhen; Qin, Boqiang; Zhu, Guangwei; Zhang, Yunlin; Gao, Guang; Gong, Zhijun; Huang, Qi",2015,spectrophotometer,mean,0.0001,in situ,specific depth,2m,1,40,8,integrated,5,monthly,1,7,2012,31,10,2012,2,2,,1
+860,Temporal variation of phytophilous Chironomidae over a 11-year period in a shallow Neotropical lake in southern Brazil,"Silva, Juliana Souza da; Albertoni, Edelti Faria; Palma-Silva, Cleber",2015,undescribed,mean,0.00001,undescribed,undescribed,undescribed,1,166,3,,10,annually,20,NA,2000,20,NA,2010,undescribed,,,10
+876,Nutrient dynamics and phytoplankton resource limitation in a deep tropical mountain lake,"Corman, Jessica R.; Carlson, Emily; Dix, Margaret; Giron, Nancy; Roegner, Amber; Vesela, Jana; Chandra, Sudeep; Elser, James J.; Rejmankova, Eliska",2015,spectrophotometer,mean,0.001,in situ,integrated,integrated water sample,18,232,5,integrated,4,seasonally,1,4,2010,31,12,2010,integrated water sample,,,9
+888,Survey of cyanomyovirus abundance in Shantou coastal waters by g20,Li Chuanbiao; Ding Jun; Zhou Lizhen; Zhang Zhao; Li Shengkang; Liu Wenhua; Wen Xiaobo,2015,spectrophotometer,mean,0.00001,in situ,undescribed,Not described,2,24,4,integrated,1,once,16,6,2012,21,6,2012,undescribed,,,1
+947,The relative importance of viral lysis and nanoflagellate grazing for prokaryote mortality in temperate lakes,"Ram, Angia Sriram Pradeep; Palesse, Stephanie; Colombet, Jonathan; Thouvenot, Antoine; Sime-Ngando, Telesphore",2014,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,9,19,center,3,monthly,1,6,2010,31,8,2010,surface water sample ,,,19
+952,"Taxonomic assessment of a toxic cyanobacteria shift in hypereutrophic Grand Lake St. Marys (Ohio, USA)","Steffen, Morgan M.; Zhu, Zhi; McKay, Robert Michael L.; Wilhelm, Steven W.; Bullerjahn, George S.",2014,fluorometer,mean,0.1,in situ,undescribed,undescribed,3,33,1,,11,seasonally,1,4,2010,31,11,2010,undescribed,,,2
+960,Partitioning the contributions of minerogenic particles and bioseston to particulate phosphorus and turbidity,"Effler, Steven W.; Prestigiacomo, Anthony R.; Peng, Feng; Gelda, Rakesh; Matthews, David A.",2014,undescribed,mean,NA,undescribed,surface,surface water sample ,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,surface water sample ,,,9
+974,"Environmental monitoring of Micro Prespa Lake basin (Western Macedonia, Greece): hydrogeochemical characteristics of water resources and quality trends","Tziritis, Evangelos P.",2014,undescribed,mean,0.0001,undescribed,specific depth,1.5m,1,12,1,integrated,12,daily,1,1,2012,31,10,2013,1.5,1.5,,1
+979,"Phytoplankton chlorophyll a in Lake Poyang and its tributaries during dry, mid-dry and wet seasons: a 4-year study","Wu, Z.; Lai, X.; Zhang, L.; Cai, Y.; Chen, Y.",2014,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,1,277,24,integrated,6,seasonally,1,1,2009,31,1,2013,integrated water sample,,,1
+983,Impacts of meteorological variations on urban lake water quality: a sensitivity analysis for 12 urban lakes with different trophic states,"Wu, Qiong; Xia, Xinghui; Li, Xiaohan; Mou, Xinli",2014,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,27,12,center,27,monthly,1,1,2009,31,12,2011,surface water sample ,,,21
+989,Phytoplankton functional groups provide a quality assessment method by the Q assemblage index in Lake Mogan (Turkey),"Demir, Ayse Nilsun; Fakioglu, Ozden; Dural, Berrin",2014,spectrophotometer,mean,0.00001,in situ,integrated,integrated water sample,1,36,3,integrated,12,monthly,1,2,2008,31,1,2009,integrated water sample,,,1
+1009,A floodplain-scale lake classification based on characteristics of macroinvertebrate assemblages and corresponding environmental properties,"Pan, Baozhu; Wang, Hongzhu; Wang, Haijun",2014,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,2,8,31,integrated,4,seasonally,1,4,2004,31,1,2005,integrated water sample,,,24
+1044,"Urgency for sustainable development in coastal urban areas with reference to weather pattern, land use, and water quality","Sheela, A. M.; Letha, J.; Swarnalatha, K.; Baiju, K. V.; Sankar, Divya",2014,undescribed,mean,0.01,undescribed,undescribed,sampling station,1,196,7,integrated,28,seasonally,1,6,2008,30,10,2012,sampling station,,,4
+1047,"Natural dimictic and polymictic lakes: similarities and differences in relationships among chlorophyll, nutrients, Secchi depth, and aquatic macrophytes","Grzybowski, Miroslaw",2014,spectrophotometer,mean,0.00001,in situ,specific depth,1 m,3,60,14,center,20,once,NA,NA,2000,NA,NA,2010,1,1,,11
+1061,Impact of epilimnetic phosphorus supply and food web structure on phosphorus binding forms in settling material and sediments in a thermally stratified lake,"Rychla, Anna; Gonsiorczyk, Thomas; Hupfer, Michael; Kasprzak, Peter",2014,undescribed,mean,0.001,undescribed,surface,surface water sample ,1,11,4,center,15,annually,1,6,1993,31,8,2007,surface water sample ,,,1
+1079,"Temporal and Spatial Dynamics of Ice-Covered Upper Dumbell Lake (Ellesmere Island, Arctic Canada) during the Summer of 1959","Apollonio, Spencer; Saros, Jasmine E.",2014,spectrophotometer,raw,0.00005,in situ,specific depth,1 to 2m (epilimnion,6,126,1,center,21,weekly,4,7,1995,2,9,1995,1,1.5,2,1
+1147,Eutrophication development and its key regulating factors in a water-supply reservoir in North China,"Wang, Liping; Liu, Lusan; Zheng, Binghui",2013,spectrophotometer,mean,0.00001,in situ,undescribed,undescribed,1,96,4,integrated,24,twice-monthly,1,5,2010,31,10,2011,undescribed,,,1
+1159,"Occurrence of toxic cyanobacterial blooms for the first time in Lake Karaoun, Lebanon","Atoui, Ali; Hafez, Hala; Slim, Kamal",2013,spectrophotometer,raw,0.00001,in situ,specific depth,epilimnion ,1,13,1,center,13,monthly,1,6,2010,31,6,2011,epilimnion ,,,13
+1172,Influence of substrate type on periphyton biomass and nutrient state at contrasting high nutrient levels in a subtropical shallow lake,"Zhang, Na; Li, Hongjing; Jeppesen, Erik; Li, Wei",2013,undescribed,mean,0.1,undescribed,undescribed,Not described,1,10,5,shoreline,2,monthly,24,4,2007,18,5,2007,undescribed,,,2
+1220,Vertical distribution of epiphyton biomass and diversity in a shallow lake during contrasting ecosystem regimes,"Gabriela Cano, Maria; Adela Casco, Maria; Cristina Claps, Maria",2013,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,3,72,2,integrated,12,monthly,1,7,2001,31,6,2002,integrated water sample,,,3
+1224,Planktonic community metabolism in two stratified Mediterranean reservoirs with different trophic status,"Romero-Martinez, Leonardo; Morales-Pineda, Maria; Ubeda, Barbara; Loiselle, Steven A.; Cozar, Andres; Galvez, Jose A.",2013,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,1,24,2,integrated,24,twice-monthly,1,5,2009,31,10,2010,integrated water sample,,,4
+1231,The structure and species composition of the diatom communities in tropical volcanic lakes of eastern Mexico,"Vazquez, Gabriela; Caballero, Margarita",2013,spectrophotometer,mean,0.01,in situ,integrated,integrated water sample,2,2,6,integrated,1,once,1,6,2003,31,6,2003,integrated water sample,,,6
+1237,Growth of rainbow trout (Oncorhynchus mykiss) in warm-temperate lakes: implications for environmental change,"Blair, Jennifer M.; Ostrovsky, Ilia; Hicks, Brendan J.; Pitkethley, Robert J.; Scholes, Paul",2013,standard methods (Eaton and Franson 2005),mean,0.1,in situ,specific depth,epilimnion ,2,324,9,integrated,18,seasonally,1,5,2002,30,9,2010,epilimnion ,,,2576
+1243,Ecological similarities between two Mediterranean wetlands: Sidi Boughaba (North-West Morocco) and the Donana National Park (South-West Spain),"Elkhiati, Najat; Ramdani, Mohamed; Espinar, Jose L.; Fahd, Khalid; Serrano, Laura",2013,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,2,32,4,integrated,4,seasonally,1,4,2009,30,9,2009,surface water sample ,,,3
+1246,"Year-round patterns in bacterial production and biomass in Lake Simcoe, Ontario, Canada: are heterotrophic bacteria a significant contributor to low hypolimnetic oxygen?","Quinn, C. J.; North, R. L.; Dillon, P. J.",2013,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,220,11,integrated,20,monthly,1,6,2010,30,6,2011,surface water sample ,,,1
+1257,"Annual variation in biomass and the community structure of crustacean zooplankton over 5 years in Lake Toya, Japan","Ban, Syuhei; Makino, Wataru; Sakano, Hiroyuki; Haruna, Hiroyuki; Ueda, Hiroshi",2013,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,9,1620,1,,180,monthly,27,5,1992,29,5,1997,integrated water sample,,,5
+1261,Phytoplankton assemblages of two intermittently open and closed coastal lakes in SE Australia,"Liu, Dongyan; Morrison, R. John; West, Ronald J.",2013,spectrophotometer,mean,0.00001,in situ,undescribed,Not described,1,33,6,integrated,11,twice-monthly,1,4,2005,31,4,2007,undescribed,,,6
+1283,Current State of Heterotrophic Bacterioplankton in the Kosinskie Lakes,"Il'inskii, V. V.; Mosharova, I. V.; Akulova, A. Yu.; Mosharov, S. A.",2013,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,20,2,shoreline,10,monthly,9,12,2009,6,12,2010,surface water sample ,,,6
+1285,Spatial distribution of penetration depth in Taihu Lake (China) during spring and autumn,Zhao Qiaohua; Wei Yingzhu; Ouyang Xiaoran,2013,gravimeter ,raw,0.0001,in situ,surface,surface water sample ,1,50,25,integrated,2,seasonally,2,5,2010,6,10,2010,surface water sample ,,,25
+1287,"Effects of trophic levels (chlorophyll and phosphorous content) in three different water bodies (urban lake, reservoir and aquaculture facility) on gill morphology of Nile tilapia (Oreochromis niloticus)","Shimada Borges, J. C.; Salimbeni Vivai, A. B. B.; Branco, P. C.; Silva Oliveira, M.; Machado Cunha da Silva, J. R.",2013,undescribed,mean,0.00001,undescribed,surface,surface water sample ,3,NA,3,,NA,,NA,NA,NA,NA,NA,NA,surface water sample ,,,1
+1289,The relationship between shoreline development and resident fish communities in a southeastern US reservoir,"Purcell, Thomas R.; DeVries, Dennis R.; Wright, Russell A.",2013,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,240,15,integrated,16,twice-monthly,1,4,2009,31,7,2010,surface water sample ,,,2
+1297,Seasonal periodicity of plankton and benthic fauna community structure and diversity in a small North African reservoir,"Iskaros, Isaac A.; El-Otify, Ahmed M.",2013,procedures described by the American Public Health Association,mean,0.01,in situ,surface,surface water sample ,3,24,2,integrated,4,seasonally,20,4,2004,20,4,2004,surface water sample ,,,1
+1301,"Use of EO-1 Advanced Land Imager (ALI) multispectral image data and real-time field sampling for water quality mapping in the HirfanlA +/- Dam Lake, Turkey","Kavurmaci, Murat; Ekercin, Semih; Altas, Levent; Kurmac, Yakup",2013,modelled,mean,0.0001,satellite/modelled,surface,surface water sample ,1,20,20,integrated,NA,twice-monthly,NA,NA,NA,NA,NA,NA,surface water sample ,,,1
+1302,The status of the southernmost part (Lake Pihkva) of large Lake Peipsi: A purification pond or polluter?,"Haberman, Juta; Haldna, Marina; Laugaste, Reet",2013,undescribed,mean,0.1,undescribed,integrated,integrated water sample,3,120,15,integrated,8,annually,1,8,2003,31,8,2010,integrated water sample,,,294
+1314,"Algae community and trophic state of subtropical reservoirs in southeast Fujian, China","Yang, Jun; Yu, Xiaoqing; Liu, Lemian; Zhang, Wenjing; Guo, Peiyong",2012,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,33,11,integrated,3,seasonally,15,5,2010,15,10,2010,surface water sample ,,,11
+1315,An analysis of MODIS-derived algal and mineral turbidity in Lake Erie,"Binding, C. E.; Greenberg, T. A.; Bukata, R. P.",2012,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,119,39,integrated,6,seasonally,1,9,2004,31,6,2008,surface water sample ,,,1
+1319,A 200-year perspective on alternative stable state theory and lake management from a biomanipulated shallow lake,"Hobbs, William O.; Hobbs, Joy M. Ramstack; LaFrancois, Toben; Zimmer, Kyle D.; Theissen, Kevin M.; Edlund, Mark B.; Michelutti, Neal; Butler, Malcolm G.; Hanson, Mark A.; Carlson, Thomas J.",2012,undescribed,mean,0.00001,undescribed,specific depth,epilimnion ,1,912,7,integrated,168,monthly,21,4,1985,31,10,2009,epilimnion ,,,25
+1320,Physical and chemical characteristics of the nearshore zone of Lake Ontario,"Makarewicz, Joseph C.; Lewis, Theodore W.; Pennuto, Christopher M.; Atkinson, Joseph F.; Edwards, William J.; Boyer, Gregory L.; Howell, E. Todd; Thoma, George",2012,undescribed,mean,0.0001,undescribed,surface,surface water sample ,1,849,38,integrated,6,annually,1,5,2003,31,10,2009,surface water sample ,,,1
+1321,The Effect of an Extreme Rain Event on the Biogeochemistry and Ecosystem Metabolism of an Oligotrophic High-Elevation Lake,"Sadro, Steven; Melack, John M.",2012,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,4,20,1,integrated,5,monthly,1,6,2009,15,10,2009,integrated water sample,,,1
+1325,"Eutrophication in the Yunnan Plateau lakes: the influence of lake morphology, watershed land use, and socioeconomic factors","Liu, Wenzhi; Li, Siyue; Bu, Hongmei; Zhang, Quanfa; Liu, Guihua",2012,undescribed,mean,0.01,undescribed,undescribed,undescribed,NA,350,35,integrated,10,seasonally,1,1,2009,28,2,2011,undescribed,,,9
+1340,Patterns in water quality on Canadian shores of Lake Ontario: Correspondence with proximity to land and level of urbanization,"Howell, Edward T.; Chomicki, Krista M.; Kaltenecker, Georgina",2012,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,119,8,integrated,5,monthly,1,4,2008,31,11,2008,integrated water sample,,,1
+1342,Dreissena population status in nearshore Lake Ontario,"Pennuto, C. M.; Howell, E. T.; Lewis, T. W.; Makarewicz, J. C.",2012,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,4,56,7,integrated,2,seasonally,1,5,2008,31,8,2008,integrated water sample,,,1
+1346,Implications of nitrogen-rich glacial meltwater for phytoplankton diversity and productivity in alpine lakes,"Slemmons, Krista E. H.; Saros, Jasmine E.",2012,undescribed,mean,0.0001,undescribed,undescribed,Not described,3,NA,6,integrated,1,once,1,8,2010,31,8,2010,undescribed,,,6
+1350,A semi-analytical algorithm for remote estimation of phycocyanin in inland waters,"Li, Linhai; Li, Lin; Shi, Kun; Li, Zuchuan; Song, Kaishan",2012,modelled,mean,0.1,satellite/modelled,undescribed,Not described,1,151,3,integrated,10,once,NA,NA,2010,NA,NA,2010,undescribed,,,3
+1355,Distribution of seston and nutrient concentrations in the eastern basin of Lake Erie pre- and post-dreissenid mussel invasion,"North, Rebecca L.; Smith, Ralph E. H.; Hecky, Robert E.; Depew, David C.; Leon, Luis F.; Charlton, Murray N.; Guildford, Stephanie J.",2012,undescribed,mean,0.0001,undescribed,surface,surface water sample ,1,310,31,integrated,10,annually,NA,NA,1973,NA,NA,2003,surface water sample ,,,1
+1361,Iron plays a role in nitrate drawdown by phytoplankton in Lake Erie surface waters as observed in lake-wide assessments,"Havens, Sonya M.; Hassler, Christel S.; North, Rebecca L.; Guildford, Stephanie J.; Silsbe, Greg; Wilhelm, Steven W.; Twiss, Michael R.",2012,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,200,100,integrated,3,monthly,11,7,2005,20,9,2005,surface water sample ,,,1
+1365,Assessment of phytoplankton distribution in the nearshore zone using continuous in situ fluorometry,"Pavlac, Margaret M.; Smith, Travis T.; Thomas, Sean P.; Makarewicz, Joseph C.; Edwards, William J.; Pennuto, Christopher M.; Boyer, Gregory L.",2012,fluorometer,mean,0.00001,in situ,surface,surface water sample ,1,170,3,integrated,6,monthly,28,5,2001,15,8,2008,surface water sample ,,,9
+1373,Nutrient status of phytoplankton across a trophic gradient in Lake Erie: evidence from new fluorescence methods,"Rattan, Kim J.; Taylor, William D.; Smith, Ralph E. H.",2012,fluorometer,mean,0.0001,in situ,specific depth,2m,1,51,17,integrated,3,seasonally,1,5,2005,16,9,2005,2,2,,3
+1376,Quantification of microcystin-producing and non-microcystin producing Microcystis populations during the 2009 and 2010 blooms in Lake Taihu using quantitative real-time PCR,"Li, Daming; Kong, Fanxiang; Shi, Xiaoli; Ye, Linlin; Yu, Yang; Yang, Zhen",2012,spectrophotometer,raw,0.0001,in situ,integrated,integrated water sample,1,16,8,integrated,2,annually,1,8,2009,31,8,2009,integrated water sample,,,32
+1377,A novel support vector regression model to estimate the phycocyanin concentration in turbid inland waters from hyperspectral reflectance,"Sun, Deyong; Li, Yunmei; Wang, Qiao; Le, Chengfeng; Lv, Heng; Huang, Changchun; Gong, Shaoqi",2012,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,132,92,integrated,1,annually,1,6,2009,31,8,2010,surface water sample ,,,7
+1390,"Spatial heterogeneity of cyanobacterial communities and genetic variation of Microcystis populations within large, shallow eutrophic lakes (Lake Taihu and Lake Chaohu, China)","Cai, Yuanfeng; Kong, Fanxiang; Shi, Limei; Yu, Yang",2012,undescribed,raw,0.00001,undescribed,surface,surface water sample ,1,16,16,integrated,8,once,1,9,2010,30,9,2010,surface water sample ,,,6
+1391,Patterns in the limnology of lakes and ponds across multiple local and regional environmental gradients in the eastern Canadian Arctic,"Medeiros, A. S.; Biastoch, R. G.; Luszczek, C. E.; Wang, X. A.; Muir, D. C. G.; Quinlan, R.",2012,undescribed,raw,0.0001,undescribed,surface,0.5 m,1,565,113,integrated,5,annually,14,7,2006,15,8,2010,0.5,0.5,,106
+1403,Between-lake variation in the elemental composition of roach (Rutilus rutilus L.),"Boros, Gergely; Jyvasjarvi, Jussi; Takacs, Peter; Mozsar, Attila; Tatrai, Istvan; Sondergaard, Martin; Jones, Roger I.",2012,undescribed,mean,0.0001,undescribed,undescribed,Not described,1,NA,6,,NA,annually,1,5,2007,30,9,2009,undescribed,,,5
+1405,"Parameterization of chlorophyll a-specific absorption coefficients and effects of their variations in a highly eutrophic lake: a case study at Lake Kasumigaura, Japan","Yoshimura, Kazuya; Zaitsu, Nobuhiro; Sekimura, Yuta; Matsushita, Bunkei; Fukushima, Takehiko; Imai, Akio",2012,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,42,26,integrated,12,seasonally,1,9,2009,18,5,2010,surface water sample ,,,12
+1420,Deep underwater seismic explosion experiments and their possible ecological impact - The case of Lake Arenguade-Central Ethiopian highlands,"Girma, Misgina Belachew; Kifle, Demeke; Jebessa, Habte",2012,spectrophotometer,mean,0.001,in situ,undescribed,Not described,4,22,6,integrated,11,annually,NA,NA,1963,NA,NA,2007,undescribed,,,2
+1436,Grazing rates of crustacean zooplankton communities on intact phytoplankton communities in Canadian Subarctic lakes and ponds,"Symons, Celia C.; Arnott, Shelley E.; Sweetman, Jon N.",2012,undescribed,raw,0.00001,undescribed,surface,surface water sample ,1,12,12,integrated,1,once,25,7,2010,31,7,2010,surface water sample ,,,12
+1440,Nutrient and algal responses to winterkilled fish-derived nutrient subsidies in eutrophic lakes,"Schoenebeck, Casey W.; Brown, Michael L.; Chipps, Steven R.; German, David R.",2012,undescribed,mean,0.0001,undescribed,undescribed,Not described,1,41,4,center,41,monthly,1,1,1987,30,9,2001,undescribed,,,4
+1474,The current state of phytoplankton in Lake Ladoga (2005-2009),"Letanskaya, G. I.; Protopopova, E. V.",2012,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,6,280,105,integrated,4,annually,NA,NA,1992,NA,NA,2009,surface water sample ,,,16
+1476,SEASONAL VARIATIONS IN THE LENGTH OF ZOOPLANKTON RELATED TO CERTAIN PHYSICOCHEMICAL VARIABLES IN TWO FRESHWATER RESERVOIRS,"Bozkurt, Ahmet; Celik, Kemal; Sevindik, Tugba Ongun",2012,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,1,36,6,integrated,12,seasonally,1,2,2007,31,3,2008,integrated water sample,,,28
+1478,Can free-floating and emerged macrophytes influence the density and diversity of phytoplankton in subtropical reservoirs?,"Fernandes Cunha, Davi Gasparini; Bottino, Flavia; Calijuri, Maria do Carmo",2012,multiparameter probe,mean,0.0001,in situ,undescribed,undescribed,1,12,4,integrated,3,seasonally,1,8,2009,28,2,2010,undescribed,,,12
+1490,Reconstructing the various facets of dissolved organic carbon bioavailability in freshwater ecosystems,"Guillemette, Francois; del Giorgio, Paul A.",2011,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,54,18,integrated,3,monthly,1,6,2005,31,8,2005,surface water sample ,,,7
+1496,Carbon gas fluxes from a brown-water and a clear-water lake in the boreal zone during a summer with extreme rain events,"Ojala, Anne; Bellido, Jessica Lopez; Tulonen, Tiina; Kankaala, Paula; Huotari, Jussi",2011,spectrophotometer,mean,0.1,in situ,integrated,integrated water sample,5,120,1,integrated,24,weekly,1,5,2004,31,10,2004,integrated water sample,,,2
+1499,Application of a 3D hydrodynamic-biological model for seasonal and spatial dynamics of water quality and phytoplankton in Lake Erie,"Leon, Luis F.; Smith, Ralph E. H.; Hipsey, Matthew R.; Bocaniov, Serghei A.; Higgins, Scott N.; Hecky, Robert E.; Antenucci, Jason P.; Imberger, Jorg A.; Guildford, Stephanie J.",2011,undescribed,mean,0.1,undescribed,undescribed,undescribed,NA,48,16,,3,once,1,4,1973,8,8,2002,undescribed,,,1
+1501,An assessment of MERIS algal products during an intense bloom in Lake of the Woods,"Binding, C. E.; Greenberg, T. A.; Jerome, J. H.; Bukata, R. P.; Letourneau, G.",2011,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,28,28,integrated,1,once,15,9,2004,24,9,2004,surface water sample ,,,1
+1513,"Distribution of nuisance Cladophora in the lower Great Lakes: Patterns with land use, near shore water quality and dreissenid abundance","Depew, David C.; Houben, Adam J.; Guildford, Stephanie J.; Hecky, Robert E.",2011,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,3,71,20,integrated,28,annually,29,4,2002,8,8,2005,integrated water sample,,,2
+1540,"Cyanobacterial blooms in Lake Atitlan, Guatemala","Rejmankova, Eliska; Komarek, Jiri; Dix, Margaret; Komarkova, Jaroslava; Giron, Nancy",2011,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,3,31,31,integrated,5,irregular,1,3,2008,30,11,2009,surface water sample ,,,5
+1566,Development of optical criteria to discriminate various types of highly turbid lake waters,"Sun, Deyong; Li, Yunmei; Wang, Qiao; Le, Chengfeng; Huang, Changchun; Shi, Kun",2011,spectrophotometer,mean,0.1,in situ,surface,surface water sample ,1,30,124,integrated,4,monthly,1,4,2009,30,9,2009,surface water sample ,,,4
+1570,Water quality parameters of a Nebraska reservoir differ between drought and normal conditions,"Olds, Brett P.; Peterson, Brian C.; Koupal, Keith D.; Farnsworth-Hoback, Kerri M.; Schoenebeck, Casey W.; Hoback, W. Wyatt",2011,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,2,3540,15,integrated,118,twice-monthly,1,4,2003,31,10,2009,integrated water sample,,,7
+1575,"Increased abundance of the non-indigenous zooplanktivore, Bythotrephes longimanus, is strongly correlated with greater spring prey availability in Canadian Shield lakes","Young, Joelle D.; Strecker, Angela L.; Yan, Norman D.",2011,metadata,mean,0.00001,in situ,integrated,integrated water sample,1,9,9,integrated,1,annually,14,7,1994,14,7,2004,integrated water sample,,,18
+1577,"Contrasting Zooplankton Assemblages in Two Oxbow Lakes with Low Transparencies and Narrow Emergent Macrophyte Belts (Krapina River, Croatia)","Spoljar, Maria; Drazina, Tvrtko; Habdija, Ivan; Meseljevic, Matija; Grcic, Zlatko",2011,spectrophotometer,mean,0.01,in situ,undescribed,Not described,1,18,4,integrated,9,seasonally,1,4,2008,30,9,2008,undescribed,,,2
+1579,"The relative importance of autotrophic and heterotrophic microbial communities in the planktonic food web of the Bay of Quinte, Lake Ontario 2000-2007","Munawar, M.; Fitzpatrick, M.; Niblock, H.; Lorimer, J.",2011,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,192,2,integrated,96,twice-monthly,1,5,2000,31,10,2007,surface water sample ,,,8
+2232,"Nutrient bioassays of plankton biomass and metabolism in an urbanized drowned river-mouth lake (Mona Lake, Michigan)","Biddanda, Bopi; Steinman, Alan; Nemeth, Lori; Rediske, Richard; Hong, Ying; Kendall, Scott",2008,fluorometer,mean,0.0001,in situ,surface,surface water sample ,1,3,1,center,3,seasonally,1,5,2003,30,9,2003,surface water sample ,,,3
+2233,Limnological studies on the transboundary Turkish soda lake: Lake Aktas,"Ozbay, Hanife; Kilinc, Sabri",2008,spectrophotometer,mean,0.001,in situ,undescribed,undescribed,1,30,5,integrated,6,monthly,1,7,2004,30,6,2005,undescribed,,,6
+2256,Photosynthetic pigments of plankton in some karst lakes of central Russia,"Gusev, E. S.",2008,undescribed,mean,0.0001,undescribed,undescribed,Not described,1,9,7,center,9,annually,1,5,2004,31,10,2004,undescribed,,,14
+2258,Occurrence of aquatic macrophytes in a eutrophic subtropical lake in relation to toxic wastewater and fish overstocking,"Liu, Gui-hua; Li, En-hua; Yuan, Long-yi; Li, Wei",2008,spectophotometer,mean,0.00001,in situ,surface,0.5m below water surface,10,600,20,integrated,3,seasonally,1,9,2000,31,7,2004,0.5,0.5,,1
+2283,"A study of absorption characteristics of chromophoric dissolved organic matter and particles in Lake Taihu, China","Zhang, Yunlin; Zhang, Bing; Wang, Xin; Li, Junsheng; Feng, Sheng; Zhao, Qiaohua; Liu, Mingliang; Qin, Boqiang",2007,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,100,50,integrated,2,seasonally,7,1,2006,1,8,2006,surface water sample ,,,2
+2286,Zooplankton biodiversity and lake trophic state: Explanations invoking resource abundance and distribution,"Barnett, Allain; Beisner, Beatrdl E.",2007,fluorometer,mean,0.00001,in situ,specific depth,hypolimnion,1,3,18,center,3,monthly,1,6,2004,31,8,2004,hypolimnion,,,18
+2308,"Hatch dates, growth, survival, and overwinter mortality of age-0 alewives in Lake Michigan: Implications for habitat-specific recruitment success","Hook, Tomas O.; Rutherford, Edward S.; Mason, Doran M.; Carter, Glenn S.",2007,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,256,8,integrated,32,weekly,14,5,2001,31,10,2002,integrated water sample,,,1
+2309,Macroinvertebrate production and food web energetics in an industrially contaminated stream,"Runck, Clay",2007,undescribed,mean,0.01,undescribed,undescribed,undescribed,16,136,2,integrated,19,monthly,15,2,1995,21,2,1996,undescribed,,,1
+2312,Physical and chemical limnology of alpine lakes and pools in the Rwenzori Mountains (Uganda-DR Congo),"Eggermont, Hilde; Russell, James M.; Schettler, Georg; Van Damme, Kay; Bessems, Ilse; Verschuren, Dirk",2007,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,17,17,center,1,annually,1,7,2005,31,7,2005,surface water sample ,,,1
+2313,Meteorological influences on algal bloom potential in a nutrient-rich blackwater river,"Phlips, Edward J.; Hendrickson, John; Quinlan, Erin L.; Cichra, M.",2007,undescribed,mean,NA,undescribed,undescribed,undescribed,3,360,3,integrated,120,monthly,1,11,1993,31,10,2003,undescribed,,,1
+2329,Exploration of relationships between phytoplankton biomass and related environmental variables using multivariate statistic analysis in a eutrophic shallow lake: A 5-year study,Wang Xiao-long; Lu Yong-long; He Gui-zhen; Han Jing-yi; Wang Tie-yu,2007,freeze-thaw method ,mean,0.0001,in situ,surface,surface water sample ,1,240,4,integrated,60,monthly,1,1,1999,31,12,2003,surface water sample ,,,5
+2376,Spatial patterns of seston concentration and biochemical composition between nearshore and offshore waters of a Great Lake,"Smith, Ralph E. H.; Parrish, Christopher C.; Depew, David C.; Ghadouani, Anas",2007,fluorometer,mean,0.0001,in situ,integrated,integrated water sample,1,30,6,integrated,5,seasonally,30,4,2001,11,7,2002,integrated water sample,,,3
+2397,A catastrophe model for water bloom prediction: A case study of China's Lake Chaohu,Chen Yun-feng; Yin Fu-cai; Lu Gen-fa,2007,modelled,mean,0.1,satellite/modelled,undescribed,undescribed,NA,12,NA,,12,monthly,1,1,2004,31,12,2004,undescribed,,,12
+2412,Relationship between bacterial and primary production in a newly filled reservoir: temporal variability over 2 consecutive years,"Jugnia, Louis-B.; Sime-Ngando, T.; Devaux, J.",2007,spectrophotometer,mean,0.00001,in situ,specific depth,1 to 15m,4,132,1,center,33,twice-monthly,1,1,1996,31,9,1997,1,8,15,2
+2679,Estimate of the eutrophication process in the Gruza Reservoir (Serbia and Montenegro),"Ostojic, A; Curcic, S; Comic, L; Topuzovic, M",2005,spectrophotometer,mean,0.0001,in situ,specific depth,25 to 30m,1,78,3,integrated,26,monthly,1,10,1996,31,5,2001,25,27.5,30,24
+2692,"Trophic classification of non-perennial reservoirs utilized for the development of culture-based fisheries, Sri Lanka","Jayasinghe, UAD; Amarasinghe, US; De Silva, SS",2005,spectrophotometer,mean,0.01,in situ,surface,0.3 to 0.6 m,1,360,45,center,8,twice-monthly,1,11,2001,31,1,2004,0.3,0.45,0.6,41
+2775,Establishment of a metalimnetic oxygen refuge for zooplankton in a productive Lake Ontario embayment,"Klumb, RA; Bunch, KL; Mills, EL; Rudstam, LG; Brown, G; Knauf, C; Burton, R; Arrhenius, F",2004,spectrophotometer,mean,0.0001,in situ,surface,0.5m below water surface,3,117,1,integrated,39,weekly,5,6,1996,1,10,1997,0.5,0.5,,2
+2793,Distribution and dynamics of nitrogen and microbial plankton in southern Lake Michigan during spring transition 1999-2000,"Gardner, WS; Lavrentyev, PJ; Cavaletto, JF; McCarthy, MJ; Eadie, BJ; Johengen, TH; Cotner, JB",2004,fluorometer,mean,0.00001,in situ,undescribed,undescribed,1,35,10,integrated,4,seasonally,1,3,1999,20,5,2000,undescribed,,,4
+2815,"Distribution, abundance and life history of Mysis relicta (LOVEN) in the Feldberg Lake District, Germany","Scharf, J; Koschel, R",2004,spectrophotometer,mean,0.0005,in situ,specific depth,25m,3,51,17,integrated,17,monthly,1,7,2001,31,11,2002,25,25,,1
+2826,Some notes on water color in Keweenaw Bay (Lake Superior),"Gons, HJ; Auer, MT",2004,fluorometer,mean,0.01,in situ,surface,surface water sample ,2,12,12,integrated,1,once,14,8,2003,14,8,2003,surface water sample ,,,3
+2839,Geostatistical analysis of chlorophyll a in freshwater ecosystems,"Zhao, B; Cai, QH",2004,spectrophotometer,mean,NA,in situ,surface,surface water sample ,1,129,43,integrated,3,monthly,1,5,1997,31,6,1997,surface water sample ,,,3
+2950,"Responses of crustacean zooplankton to seasonal and tidal salinity changes in the coastal Lake Waihola, New Zealand","Hall, CJ; Burns, CW",2003,undescribed,mean,0.0001,undescribed,undescribed,undescribed,1,22,10,integrated,22,seasonally,1,6,1999,31,5,2001,undescribed,,,2
+2956,"Limnology of Lakes in Gates of the Arctic National Park and Preserve, Alaska","LaPerriere, JD; Jones, JR; Swanson, DK",2003,fluorometer,mean,0.0001,in situ,specific depth,2 m,1,NA,16,integrated,NA,seasonally,14,7,1992,8,7,1993,2,2,,16
+2960,"Lake Chapo: a baseline study of a deep, oligotrophic North Patagonian lake prior to its use for hydroelectricity generation: II. Biological properties","Villalobos, L; Woelfl, S; Parra, O; Campos, H",2003,spectrophotometer,mean,0.00001,in situ,specific depth,40m below water surface,8,96,1,center,12,monthly,1,9,1986,30,1,1987,40,40,,1
+2965,Monitoring chlorophyll-a as a measure of algae in Lake Texoma marinas,"An, YJ; Kampbell, DH",2003,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,2,19,5,integrated,NA,monthly,1,3,2000,21,10,2001,integrated water sample,,,1
+2979,Using abiotic and biotic factors to predict the range expansion of white perch in Lake Champlain,"Hawes, EJ; Parrish, DL",2003,spectrophotometer,mean,0.01,in situ,integrated,integrated water sample,2,224,8,integrated,14,monthly,1,6,1994,30,8,1995,integrated water sample,,,1
+2981,"Divergence of carbon dioxide fluxes in different trophic areas of Taihu Lake, China","Fan, CX; Ford, PW; Hu, WP; Qin, BQ",2003,undescribed,mean,NA,undescribed,surface,surface water sample ,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,surface water sample ,,,1
+2982,Comparative limnology of some lakes in Interior Alaska,"LaPerriere, JD; Simpson, TD; Jones, JR",2003,spectrophotometer,mean,0.0001,in situ,undescribed,Not described,1,3,15,integrated,3,monthly,15,5,1993,10,9,1994,undescribed,,,15
+2983,Factors affecting Iowa lake and reservoir water quality,"Hatch, LK",2003,spectrophotometer,mean,0.001,in situ,undescribed,Not described,2,198,22,,9,annually,1,5,1990,31,8,1992,undescribed,,,92
+2987,"Limnology of Harding Lake, Alaska: A deep, subarctic lake","LaPerriere, JD",2003,fluorometer,raw,0.1,in situ,undescribed,undescribed,1,18,1,center,18,monthly,1,4,1973,31,11,1975,undescribed,,,1
+2993,"The potential impact of water reallocation on retention and chlorophyll a in Weiss Lake, Alabama","Maceina, MJ; Bayne, DR",2003,undescribed,mean,0.0001,undescribed,integrated,integrated water sample,1,141,7,integrated,NA,irregular,1,4,1989,10,10,2000,integrated water sample,,,1
+2997,"Spatial and temporal variability of TOC concentrations in a shallow and eutrophicated lake ecosystem (Lake Jaroslawieckie, Wielkopolski National Park, Western Poland)","Pelechaty, M; Pelechata, A; Niedzielski, P",2003,spectrophotometer,mean,0.0001,in situ,surface,surface water sample ,1,55,11,integrated,5,seasonally,1,11,2000,31,7,2001,surface water sample ,,,1
+3005,Synchronous variation of dissolved organic carbon and color in lakes,"Pace, ML; Cole, JJ",2002,spectrophotometer,mean,0.01,in situ,surface,surface water sample ,1,480,20,,24,monthly,1,5,1995,31,8,2000,surface water sample ,,,16
+3029,"Particle transport, nutrient cycling, and algal community structure associated with a major winter-spring sediment resuspension event in Southern Lake Michigan","Eadie, BJ; Schwab, DJ; Johengen, TH; Lavrentyev, PJ; Miller, GS; Holland, RE; Leshkevich, GA; Lansing, MB; Morehead, NR; Robbins, JA; Hawley, N; Edgington, DN; Van Hoof, PL",2002,fluorometer,mean,0.0001,in situ,surface,surface water sample ,5,6,3,integrated,2,twice,25,3,1996,10,4,1996,surface water sample ,,,1
+3032,"Limnological characteristics of 38 lakes and ponds on Axel Heiberg Island, High Arctic Canada","Michelutti, N; Douglas, MSV; Muir, DCG; Wang, XW; Smol, JP",2002,undescribed,mean,0.0001,undescribed,undescribed,Not described,1,38,38,integrated,1,once,19,7,1998,23,7,1998,undescribed,,,38
+3041,Indirect influence of the summer monsoon on chlorophyll - total phosphorus models in reservoirs: a case study,"An, KG; Park, SS",2002,spectrophotometer,mean,0.001,in situ,surface,surface water sample ,1,456,19,integrated,24,twice-monthly,NA,NA,1993,NA,NA,1994,surface water sample ,,,1
+3042,"Determining trophic state in Lake Whatcom, Washington (USA), a soft water lake exhibiting seasonal nitrogen limitation","Matthews, R; Hilles, M; Pelletier, G",2002,multiparameter probe,mean,0.0001,in situ,specific depth,hypolimnion,1,480,4,integrated,120,monthly,NA,NA,1988,NA,NA,1998,hypolimnion,,,1
+3046,"The annual patterns of photosynthesis in two large, freshwater, ultra-oligotrophic Antarctic lakes","Henshaw, T; Laybourn-Parry, J",2002,spectrophotometer,mean,0.00001,in situ,integrated,integrated water sample,8,150,3,integrated,15,monthly,1,12,1998,1,2,2000,integrated water sample,,,2
+repo1,Ecology Under Lake Ice,Hampton et al. ,2016,metadata,mean,0.0001,in situ,undescribed,integrated water sample,1,2500,135,integrated,120,semi-annually,NA,NA,1940,NA,NA,2015,integrated water sample,,,1231
+repo10,Cascade Project at North Temperate Lakes LTER High Frequency Sonde Data from Food Web Resilience Experiment 2008 - 2011,"Stephen Carpenter, Mike Pace, Jon Cole, Ryan Batt, Cal Buelo, et al.",2012,metadata,mean,0.00001,in situ,undescribed,metadata,1,254527,5,integrated,50905,every five-minutes,13,5,2008,3,9,2011,metadata,,,8
+repo11,Lake Metabolism at North Temperate Lakes LTER 2000,"Darren Bade, Stephen Carpenter, and Paul Hanson",2003,metadata,mean,0.0001,in situ,undescribed,0.5 m,1,1,25,center,1,once,1,7,2000,31,8,2000,0.5,0.5,,24
+repo12,Landscape Position Project at North Temperate Lakes LTER: Chlorophyll 1998 - 2000,"Ben Greenfield, Thomas Hrabik, Timothy Kratz, David Lewis, Amina Pollard, et al.",2005,metadata,mean,0.0001,in situ,undescribed,integrated water sample,2,552,49,center,56,monthly,27,5,1998,21,7,2000,integrated water sample,,,52
+repo13,"Unpublished data, Massachusetts Department of Environment Protection, lake water chemistry data, 1995-2004",Thomas Dallaire,2017,metadata,mean,0.0001,in situ,undescribed,integrated water sample,2,1143,175,integrated,3,every five years,21,6,1995,14,9,2004,integrated water sample,,,112
+repo14,LAGOS-NE: a multi-scaled geospatial and temporal database of lake ecological context and water quality for thousands of US lakes,"Soranno, et al.",2017,metadata,raw,0.0001,in situ,undescribed,metadata,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,metadata,,,209732
+repo2,Limnological data and depth profile from Oneida Lake,"Rudstam, L",2017,fluorometer,mean,0.00001,in situ,integrated,integrated water sample,12,56988,13,integrated,1397,twice-monthly,28,5,1975,21,11,2017,integrated water sample,,,222
+repo3,"Transparency, geomorphology, and mixing regime explain variability in trends in lake temperature and stratification across northeastern North America",Richardson et al.,2017,metadata,median,0.0001,in situ,undescribed,metadata,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,metadata,,,219
+repo4,The European Multi-lake Survey (EMLS) Dataset,Mantzouki et al. ,2018,multiple methods,mean,0.00001,in situ,undescribed,integrated water sample,NA,NA,369,,1,once,9,6,2015,5,10,2015,integrated water sample,,,345
+repo5,Water Quality Portal Database,Multi-author,2019,metadata,mean,0.0001,in situ,undescribed,undescribed,NA,NA,NA,,NA,,NA,NA,NA,NA,NA,NA,undescribed,,,9568
+repo6,The Lake Inventory Program (formerly known as the Lake Survey Program),"Scott, R., MacMichael, C., Fenton, G., Hard, W., Boxall, J.",2007,metadata,mean,0.0001,in situ,undescribed,metadata,NA,NA,NA,,NA,,16,8,1942,31,7,1996,metadata,,,103
+repo7,National Aquatic Resource Surveys,Leech et al.,2018,metadata,mean,0.0001,in situ,undescribed,integrated water sample,9,1163,1059,integrated,2,twice,31,7,2007,18,10,2007,integrated water sample,,,1162
+repo8,McMurdo Dry Valleys Chlorophyll-A Concentrations in Lakes,"Priscu, J., Chiuchiolo, A., Welch, K., Inigo, S.G., Brown, R.",2014,spectrophotometer,mean,0.0001,in situ,integrated,integrated water sample,15,4900,9,integrated,25,annually,27,10,1993,8,1,2018,integrated water sample,,,102
+repo9,Lake Kasumigaura Database,Multi-author,2017,metadata,mean,0.00001,in situ,undescribed,0.5 m,1,2778,6,integrated,463,monthly,1,5,1977,1,12,2016,0.5,0.5,,476

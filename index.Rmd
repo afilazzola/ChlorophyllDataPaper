@@ -114,14 +114,15 @@ ggplot(data, aes(x=log(ChlValues))) + geom_density(fill="#9ACC7C") + xlab("Log t
 
 ### Check methods types
 ```{r warning=FALSE, message=FALSE}
-method <- read.csv("data//methodsDataV2.csv")
+method <- read.csv("data//methodsDataV2.csv", stringsAsFactors = F)
+
 
 ## merge methods file, chlorophyll, and survey information into one file
 methodID <- merge(data, method, by="StudyID", all.x=T)
 
-library(tidyverse)
+
 ## method for calculating Chl
-chlsurvey <- methodID %>% group_by(Survey.Type) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!Survey.Type %in% c("not described","undescribed")) 
+chlsurvey <- methodID %>% group_by(Survey.Type) %>% summarize(chl=mean(ChlValues), error=se(ChlValues)*1.96, n=length(ChlValues)) %>% filter(!Survey.Type %in% c("not described","undescribed","")) %>% filter(!is.na(Survey.Type))
 
 
 plot1 <- ggplot(chlsurvey, aes(x=Survey.Type, y=chl))+ geom_bar(stat="identity", fill="#9ACC7C", color="black") + geom_errorbar(aes(x=Survey.Type,  ymin=chl-error, ymax=chl+error), lwd=1, width=0.2)  + xlab("") + ylab("Chlorophyll a (mg / L)")+theme(axis.text=element_text(size=12),

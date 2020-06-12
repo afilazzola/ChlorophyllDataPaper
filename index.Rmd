@@ -181,25 +181,20 @@ data[,"CountryOfficial"] <- map.where(database="world", data$Lon, data$Lat)
 country <- gsub("?:.*", "", data$CountryOfficial)
 length(unique(country))
 
-## How many lakes are in Canada, and the USA? 
-length(unique(data[data$CountryOfficial=="Canada","uniquelake"])) ## Canada
-length(unique(data[data$CountryOfficial=="USA","uniquelake"])) ## USA
-
-
 ## water chem values
-sum(!is.na(data$TP))/nrow(data) ## amount of TP values
-sum(!is.na(data$TN))/nrow(data) ## amount of TN values
-sum(!is.na(data$DOC))/nrow(data) ## amount of DOC values
-sum(!is.na(data$DO))/nrow(data) ## amount of DO values
-
+data %>% filter(!is.na(TN))  %>%  summarize(low=min(TN), high=max(TN), avg=mean(TN), n=length(TN), prop=n/nrow(data)) ## amount of TN values
+data %>% filter(!is.na(TP))  %>%  summarize(low=min(TP), high=max(TP), avg=mean(TP), n=length(TP), prop=n/nrow(data))## amount of TP values
+data %>% filter(!is.na(DO))  %>%  summarize(low=min(DO), high=max(DO), avg=mean(DO), n=length(DO), prop=n/nrow(data))## amount of DO values
+data %>% filter(!is.na(DOC))  %>%  summarize(low=min(DOC), high=max(DOC), avg=mean(DOC), n=length(DOC), prop=n/nrow(data))## amount of DOC values
+data %>% filter(!is.na(pH))  %>%  summarize(low=min(pH), high=max(pH), avg=mean(pH), n=length(pH), prop=n/nrow(data)) ## amount of pH
+data %>% filter(!is.na(ChlValues))  %>%  summarize(low=min(ChlValues), high=max(ChlValues), avg=mean(ChlValues), n=length(ChlValues), prop=n/nrow(data))
 
 ## lake char values
-sum(!is.na(data$LakeVolume))/nrow(data) ## amount of volume values
-sum(!is.na(data$SurfaceArea))/nrow(data) ## amount of surface area values
-sum(!is.na(data$Depth.mean))/nrow(data) ## amount of mean depth values
-sum(!is.na(data$Depth.max))/nrow(data) ## amount of max depth values
-sum(!is.na(data$Secchi))/nrow(data) ## amount of secchi depth values
-sum(!is.na(data$pH))/nrow(data) ## amount of pH values
+data %>% filter(!is.na(Depth.max))  %>%  summarize(low=min(Depth.max), high=max(Depth.max), avg=mean(Depth.max), n=length(Depth.max), prop = n/nrow(data)) ## max lake depth
+data %>% filter(!is.na(Depth.mean))  %>%  summarize(low=min(Depth.mean), high=max(Depth.mean), avg=mean(Depth.mean), n=length(Depth.mean), prop = n/nrow(data))## mean lake depth
+data %>% filter(!is.na(Secchi))  %>%  summarize(low=min(Secchi), high=max(Secchi), avg=mean(Secchi), n=length(Secchi), prop = n/nrow(data)) ## Secchi depth
+data %>% filter(!is.na(SurfaceArea))  %>%  summarize(low=min(SurfaceArea), high=max(SurfaceArea), avg=mean(SurfaceArea), n=length(SurfaceArea), prop=n/nrow(data))  ## surface area
+data %>% filter(!is.na(LakeVolume))  %>%  summarize(low=min(LakeVolume), high=max(LakeVolume), avg=mean(LakeVolume), n=length(LakeVolume), prop=n/nrow(data))  ## surface area
 
 
 ```
@@ -227,3 +222,16 @@ repoData %>% group_by(StudyID) %>% summarize(n=length(unique(UniqueLakeName)))
 repoData %>% group_by(StudyID) %>% summarize(n=length(uniqueID))
 ## Timeframe
 repoData %>%  group_by(StudyID) %>% mutate(Year = as.numeric(as.character(Year))) %>%  summarize(first = min(Year), last = max(Year))
+```
+
+### Methods summary variables
+```{r}
+method <- read.csv("data//methodsDataV2.csv", stringsAsFactors = F)
+
+method %>% group_by(Survey.Type) %>% summarize(n=length(Survey.Type))
+method %>% group_by(DepthDetails) %>% summarize(n=length(DepthDetails))
+max(method$DepthDeep, na.rm=T) ## Lake Baikal
+method %>% group_by(DetectionLimits) %>% summarize(n=length(DetectionLimits))
+
+
+```

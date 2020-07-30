@@ -82,7 +82,7 @@ list.files(paste0(databasePath,"/data/"))
 ### Map of studies
 ```{r}
 
-data <- read.csv("data//ChlaDataV2.csv")
+data <- read.csv("data//ChlaData.csv")
 
 ## plot out global distribution of lake chl
 mp <- NULL

@@ -17,7 +17,7 @@ editor_options:
 
 ### A global database for chlorophyll and water chemistry in freshwater lakes 
 
-[Alessandro Filazzola](http://www.filazzola.info/), Carolyn Ewins, Octavia Mahdiyan, Arnab Shuvo, Tanzil Sadid, Luke Moslenko, [Derek Gray](http://graylaboratory.ca/), [Roberto Quinlan](http://www.yorku.ca/rquinlan/), [Catherine O’Reilly](https://my.ilstu.edu/~cmoreil/index.html)  & [Sapna Sharma](https://sharmalab.wordpress.com/)
+[Alessandro Filazzola](http://www.filazzola.info/), Octavia Mahdiyan, Kevin Blagrave, Carolyn Ewins,  Arnab Shuvo, Tanzil Sadid, Luke Moslenko, Mohammad Arshad, [Derek Gray](http://graylaboratory.ca/), [Roberto Quinlan](http://www.yorku.ca/rquinlan/), [Catherine O’Reilly](https://my.ilstu.edu/~cmoreil/index.html)  & [Sapna Sharma](https://sharmalab.wordpress.com/)
 
 Part of the York University [Aquatic Research Group](http://www.yorkaquaticresearch.ca/)
 

@@ -17,7 +17,7 @@ editor_options:
 
 ### A global database for chlorophyll and water chemistry in freshwater lakes 
 
-[Alessandro Filazzola](http://www.filazzola.info/), Carolyn Ewins, Octavia Mahdiyan, Arnab Shuvo, Tanzil Sadid, Luke Moslenko, & [Sapna Sharma](https://sharmalab.wordpress.com/)
+[Alessandro Filazzola](http://www.filazzola.info/), Carolyn Ewins, Octavia Mahdiyan, Arnab Shuvo, Tanzil Sadid, Luke Moslenko, [Derek Gray](http://graylaboratory.ca/), [Roberto Quinlan](http://www.yorku.ca/rquinlan/), [Catherine O’Reilly](https://my.ilstu.edu/~cmoreil/index.html)  & [Sapna Sharma](https://sharmalab.wordpress.com/)
 
 Part of the York University [Aquatic Research Group](http://www.yorkaquaticresearch.ca/)
 
@@ -26,9 +26,9 @@ Part of the York University [Aquatic Research Group](http://www.yorkaquaticresea
 
 ### Abstract
 
-Measures of chlorophyll represent the primary productivity in freshwater lakes that is often used by managers as proxy for water quality. However, the abundance of chlorophyll in lakes is dependent on many interacting factors such as spatial heterogeneity (within and among lakes), climate, and anthropogenic disturbance. Aquatic research examining water chemistry frequently include measures of chlorophyll values and this data is readily available in published manuscripts or online repositories. Thus, there is an opportunity to synthesize a global database on the water chemistry of lakes with focus on chlorophyll. The purpose of this project is to generate a database of freshwater lakes across the globe and through time. We intend to conduct a systematic review examining over 4000 published manuscripts that examined lake chlorophyll and supplement this data with online repositories such as KnB, Dryad, and Pangaea. Using the geospatial coordinates of the lakes we can relate measures of chlorophyll to climate patterns, anthropogenic disturbances, and other changes over time. This database will be used by researchers to improve our understanding of how chlorophyll responds to global change and assist aquatic managers responsible for maintaining water quality in lakes. 
+Measures of chlorophyll represent the primary productivity in freshwater lakes that is often used by managers as proxy for water quality. However, the abundance of chlorophyll in lakes is dependent on many interacting factors such as spatial heterogeneity (within and among lakes), climate, and anthropogenic disturbance. Aquatic research examining water chemistry frequently include measures of chlorophyll values and this data is readily available in published manuscripts or online repositories. Thus, there is an opportunity to synthesize a global database on the water chemistry of lakes with focus on chlorophyll. The purpose of this project is to generate a database of freshwater lakes across the globe and through time. We intend to conduct a systematic review examining over 3000 published manuscripts that examined lake chlorophyll and supplement this data with online repositories such as KnB, Dryad, and Pangaea. Using the geospatial coordinates of the lakes we can relate measures of chlorophyll to climate patterns, anthropogenic disturbances, and other changes over time. This database will be used by researchers to improve our understanding of how chlorophyll responds to global change and assist aquatic managers responsible for maintaining water quality in lakes. 
 
-### Literature Review - 1. Search
+### Literature Review
 
 A systematic literature search was conducted using Web of Science for all articles between 2000 and 2018. This time frame was chosen because it captures the majority of the literature that measured chlorophyll values. Papers were excluded that were not primary articles and were not relevant (e.g. virology, sociology, physics, etc)
 
@@ -37,8 +37,6 @@ Data was be extracted from papers or supplemental materials. Authors will be con
 `chlorophyll`
 **AND** 
 `lake*`
-
-These terms have returned 4131 results (as of Sept 2018) 
 
 
 ### Load Libraries

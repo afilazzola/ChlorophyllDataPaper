@@ -233,3 +233,13 @@ method %>% group_by(DetectionLimits) %>% summarize(n=length(DetectionLimits))
 
 
 ```
+
+### Identify country for lat-lon
+```{r}
+library(maps)
+data$UniqueLakeName <- as.character(data$UniqueLakeName)
+data[,"countries"] <- map.where(x = data$Lon, y = data$Lat)
+indiaLake <- data[data$countries=="India",]
+indiaLake <- indiaLake %>% dplyr::filter(countries != "NA")
+
+```

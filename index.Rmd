@@ -234,12 +234,32 @@ method %>% group_by(DetectionLimits) %>% summarize(n=length(DetectionLimits))
 
 ```
 
-### Identify country for lat-lon
+### Identify country or region using lat-lon
 ```{r}
 library(maps)
+library(raster)
 data$UniqueLakeName <- as.character(data$UniqueLakeName)
 data[,"countries"] <- map.where(x = data$Lon, y = data$Lat)
 indiaLake <- data[data$countries=="India",]
 indiaLake <- indiaLake %>% dplyr::filter(countries != "NA")
+
+## Get lakes for Ontario or any other region
+CanadaLake <- data[data$countries=="Canada",]
+CanadaLake <- CanadaLake %>% dplyr::filter(countries != "NA")
+OntLake <- CanadaLake %>% filter()
+
+## Get polygon for Region
+can <- raster::getData("GADM", country="CAN", level=1) ## use state bounds from gadm website:
+ont <- can[can$NAME_1 == "Ontario",]
+
+## Create spatial points for observations
+coordinates(OntLake) <- ~Lon+Lat
+crs(OntLake) <- crs(ont)
+
+## Mask region to identify specific observations
+regionOut <- OntLake[!is.na(over(OntLake,as(ont,"SpatialPolygons"))),]
+write.csv(as.data.frame(regionOut), "OntarioLakesData.csv", row.names=FALSE)
+
+
 
 ```
